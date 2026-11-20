@@ -1,0 +1,41 @@
+{
+  "cost": {
+    "planks": 0,
+    "stone": 0
+  },
+  "fixed": true,
+  "nations": {
+    "roman": {
+      "planks": 0,
+      "stone": 0
+    },
+    "viking": {
+      "planks": 0,
+      "stone": 0
+    },
+    "japanese": {
+      "planks": 0,
+      "stone": 0
+    },
+    "nubian": {
+      "planks": 0,
+      "stone": 0
+    },
+    "indigenous": {
+      "planks": 0,
+      "stone": 0
+    },
+    "chinese": {
+      "planks": 0,
+      "stone": 0
+    },
+    "persian": {
+      "planks": 0,
+      "stone": 0
+    },
+    "maya": {
+      "planks": 0,
+      "stone": 0
+    }
+  }
+}

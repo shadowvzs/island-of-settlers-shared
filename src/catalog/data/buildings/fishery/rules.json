@@ -1,0 +1,61 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "none",
+    "props": [
+      "net",
+      "barrels"
+    ],
+    "roof": "thatch",
+    "style": "cottage"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "limits": {
+    "colony": "conquered"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [],
+    "job": "settler:fisher",
+    "outdoor": "fish",
+    "outputs": [
+      "fish"
+    ],
+    "seconds": 12
+  },
+  "progressionTier": "small",
+  "role": {
+    "en": "Catches fish to feed miners",
+    "key": "content.building.fishery.role"
+  },
+  "structureHp": 6000,
+  "task": "fish",
+  "unlockLevel": 3,
+  "worker": "settler:fisher"
+}

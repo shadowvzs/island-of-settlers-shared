@@ -1,0 +1,345 @@
+[
+  {
+    "id": "sound:garrisonTrumpet",
+    "kind": "sound",
+    "key": "garrisonTrumpet",
+    "category": "sound.fanfare",
+    "family": "sound.fanfare",
+    "tags": [
+      "military"
+    ],
+    "text": {
+      "name": {
+        "key": "content.sound.garrisonTrumpet.name",
+        "en": "Garrison trumpet"
+      },
+      "description": {
+        "key": "content.sound.garrisonTrumpet.description",
+        "en": "The short trumpet phrase of a first garrison occupation."
+      }
+    },
+    "sound": {
+      "credits": {
+        "root": "clientAssets",
+        "path": "audio/LICENSE.txt"
+      },
+      "durationSeconds": 1.8,
+      "licence": "originalFluidR3",
+      "loop": false,
+      "type": "fanfare",
+      "source": {
+        "kind": "file",
+        "file": {
+          "root": "clientAssets",
+          "path": "audio/sfx/garrison-first-occupation.ogg"
+        }
+      }
+    }
+  },
+  {
+    "id": "sound:victoryFanfare",
+    "kind": "sound",
+    "key": "victoryFanfare",
+    "category": "sound.fanfare",
+    "family": "sound.fanfare",
+    "tags": [
+      "victory"
+    ],
+    "text": {
+      "name": {
+        "key": "content.sound.victoryFanfare.name",
+        "en": "Victory fanfare"
+      },
+      "description": {
+        "key": "content.sound.victoryFanfare.description",
+        "en": "The brass and timpani fanfare of a won map."
+      }
+    },
+    "sound": {
+      "credits": {
+        "root": "clientAssets",
+        "path": "audio/LICENSE.txt"
+      },
+      "durationSeconds": 3.4,
+      "licence": "originalSynthesis",
+      "loop": false,
+      "type": "fanfare",
+      "source": {
+        "kind": "cue",
+        "cue": "cue:fanfare.victory"
+      }
+    }
+  },
+  {
+    "id": "sound:thunder",
+    "kind": "sound",
+    "key": "thunder",
+    "category": "sound.nature",
+    "family": "sound.nature",
+    "tags": [
+      "weather"
+    ],
+    "text": {
+      "name": {
+        "key": "content.sound.thunder.name",
+        "en": "Thunder"
+      },
+      "description": {
+        "key": "content.sound.thunder.description",
+        "en": "A rolling thunderclap."
+      }
+    },
+    "sound": {
+      "credits": {
+        "root": "clientAssets",
+        "path": "audio/LICENSE.txt"
+      },
+      "durationSeconds": 2.2,
+      "licence": "originalSynthesis",
+      "loop": false,
+      "type": "ambient",
+      "source": {
+        "kind": "cue",
+        "cue": "cue:weather.thunder"
+      }
+    }
+  },
+  {
+    "id": "sound:crowCall",
+    "kind": "sound",
+    "key": "crowCall",
+    "category": "sound.nature",
+    "family": "sound.nature",
+    "tags": [
+      "bird"
+    ],
+    "text": {
+      "name": {
+        "key": "content.sound.crowCall.name",
+        "en": "Crow call"
+      },
+      "description": {
+        "key": "content.sound.crowCall.description",
+        "en": "A crow caws."
+      }
+    },
+    "sound": {
+      "credits": {
+        "root": "clientAssets",
+        "path": "audio/LICENSE.txt"
+      },
+      "durationSeconds": 1,
+      "licence": "originalSynthesis",
+      "loop": false,
+      "type": "ambient",
+      "source": {
+        "kind": "cue",
+        "cue": "cue:creature.crow"
+      }
+    }
+  },
+  {
+    "id": "sound:gullCall",
+    "kind": "sound",
+    "key": "gullCall",
+    "category": "sound.nature",
+    "family": "sound.nature",
+    "tags": [
+      "bird"
+    ],
+    "text": {
+      "name": {
+        "key": "content.sound.gullCall.name",
+        "en": "Gull call"
+      },
+      "description": {
+        "key": "content.sound.gullCall.description",
+        "en": "A gull cries."
+      }
+    },
+    "sound": {
+      "credits": {
+        "root": "clientAssets",
+        "path": "audio/LICENSE.txt"
+      },
+      "durationSeconds": 1,
+      "licence": "originalSynthesis",
+      "loop": false,
+      "type": "ambient",
+      "source": {
+        "kind": "cue",
+        "cue": "cue:creature.gull"
+      }
+    }
+  },
+  {
+    "id": "sound:songbird",
+    "kind": "sound",
+    "key": "songbird",
+    "category": "sound.nature",
+    "family": "sound.nature",
+    "tags": [
+      "bird"
+    ],
+    "text": {
+      "name": {
+        "key": "content.sound.songbird.name",
+        "en": "Songbird"
+      },
+      "description": {
+        "key": "content.sound.songbird.description",
+        "en": "A short songbird phrase."
+      }
+    },
+    "sound": {
+      "credits": {
+        "root": "clientAssets",
+        "path": "audio/LICENSE.txt"
+      },
+      "durationSeconds": 1,
+      "licence": "originalSynthesis",
+      "loop": false,
+      "type": "ambient",
+      "source": {
+        "kind": "cue",
+        "cue": "cue:creature.songbird"
+      }
+    }
+  },
+  {
+    "id": "sound:swiftCall",
+    "kind": "sound",
+    "key": "swiftCall",
+    "category": "sound.nature",
+    "family": "sound.nature",
+    "tags": [
+      "bird"
+    ],
+    "text": {
+      "name": {
+        "key": "content.sound.swiftCall.name",
+        "en": "Swift call"
+      },
+      "description": {
+        "key": "content.sound.swiftCall.description",
+        "en": "The thin scream of a swift."
+      }
+    },
+    "sound": {
+      "credits": {
+        "root": "clientAssets",
+        "path": "audio/LICENSE.txt"
+      },
+      "durationSeconds": 1,
+      "licence": "originalSynthesis",
+      "loop": false,
+      "type": "ambient",
+      "source": {
+        "kind": "cue",
+        "cue": "cue:creature.swift"
+      }
+    }
+  },
+  {
+    "id": "sound:deerBark",
+    "kind": "sound",
+    "key": "deerBark",
+    "category": "sound.nature",
+    "family": "sound.nature",
+    "tags": [
+      "animal"
+    ],
+    "text": {
+      "name": {
+        "key": "content.sound.deerBark.name",
+        "en": "Deer bark"
+      },
+      "description": {
+        "key": "content.sound.deerBark.description",
+        "en": "The bark of a startled deer."
+      }
+    },
+    "sound": {
+      "credits": {
+        "root": "clientAssets",
+        "path": "audio/LICENSE.txt"
+      },
+      "durationSeconds": 1,
+      "licence": "originalSynthesis",
+      "loop": false,
+      "type": "ambient",
+      "source": {
+        "kind": "cue",
+        "cue": "cue:creature.deer"
+      }
+    }
+  },
+  {
+    "id": "sound:elkBugle",
+    "kind": "sound",
+    "key": "elkBugle",
+    "category": "sound.nature",
+    "family": "sound.nature",
+    "tags": [
+      "animal"
+    ],
+    "text": {
+      "name": {
+        "key": "content.sound.elkBugle.name",
+        "en": "Elk bugle"
+      },
+      "description": {
+        "key": "content.sound.elkBugle.description",
+        "en": "The bugle of an elk."
+      }
+    },
+    "sound": {
+      "credits": {
+        "root": "clientAssets",
+        "path": "audio/LICENSE.txt"
+      },
+      "durationSeconds": 2,
+      "licence": "originalSynthesis",
+      "loop": false,
+      "type": "ambient",
+      "source": {
+        "kind": "cue",
+        "cue": "cue:creature.elk"
+      }
+    }
+  },
+  {
+    "id": "sound:grassRustle",
+    "kind": "sound",
+    "key": "grassRustle",
+    "category": "sound.nature",
+    "family": "sound.nature",
+    "tags": [
+      "animal"
+    ],
+    "text": {
+      "name": {
+        "key": "content.sound.grassRustle.name",
+        "en": "Grass rustle"
+      },
+      "description": {
+        "key": "content.sound.grassRustle.description",
+        "en": "A small animal rustles through the grass."
+      }
+    },
+    "sound": {
+      "credits": {
+        "root": "clientAssets",
+        "path": "audio/LICENSE.txt"
+      },
+      "durationSeconds": 1,
+      "licence": "originalSynthesis",
+      "loop": false,
+      "type": "ambient",
+      "source": {
+        "kind": "cue",
+        "cue": "cue:creature.rabbit"
+      }
+    }
+  }
+]

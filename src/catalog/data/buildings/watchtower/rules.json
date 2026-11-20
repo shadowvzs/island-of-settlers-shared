@@ -1,0 +1,65 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "none",
+    "props": [
+      "banner"
+    ],
+    "roof": "red",
+    "style": "tower"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "door",
+      "territory"
+    ],
+    "family": "military"
+  },
+  "limits": {
+    "colony": "always"
+  },
+  "military": {
+    "archerPosts": 3,
+    "assault": "fort",
+    "coinCapacity": 6,
+    "garrison": 6
+  },
+  "production": {
+    "inputs": [
+      "coins"
+    ],
+    "job": "settler:soldier",
+    "outputs": [],
+    "seconds": 20,
+    "service": true
+  },
+  "progressionTier": "medium",
+  "role": {
+    "en": "Garrisons soldiers and claims territory",
+    "key": "content.building.watchtower.role"
+  },
+  "structureHp": 35000,
+  "task": "guard",
+  "territoryRadius": 39,
+  "unlockLevel": 22,
+  "worker": "settler:soldier"
+}

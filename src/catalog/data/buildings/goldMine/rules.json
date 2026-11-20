@@ -1,0 +1,65 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "wheel",
+    "props": [
+      "gold",
+      "cart"
+    ],
+    "roof": "green",
+    "style": "mine"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "limits": {
+    "colony": "conquered"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "alternativeFood": true,
+    "inputs": [
+      "fish",
+      "meat",
+      "bread"
+    ],
+    "job": "settler:miner",
+    "outputs": [
+      "goldOre"
+    ],
+    "seconds": 16
+  },
+  "progressionTier": "mines",
+  "role": {
+    "en": "Mines gold ore using food",
+    "key": "content.building.goldMine.role"
+  },
+  "structureHp": 8000,
+  "task": "mine",
+  "unlockLevel": 19,
+  "worker": "settler:miner"
+}

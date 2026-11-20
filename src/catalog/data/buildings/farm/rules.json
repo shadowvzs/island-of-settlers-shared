@@ -1,0 +1,61 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 3,
+    "mechanism": "none",
+    "props": [
+      "grain",
+      "cart"
+    ],
+    "roof": "thatch",
+    "style": "hall"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "limits": {
+    "colony": "conquered"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [],
+    "job": "settler:farmer",
+    "outdoor": "field",
+    "outputs": [
+      "grain"
+    ],
+    "seconds": 24
+  },
+  "progressionTier": "big",
+  "role": {
+    "en": "Plants and harvests grain",
+    "key": "content.building.farm.role"
+  },
+  "structureHp": 9000,
+  "task": "harvest",
+  "unlockLevel": 4,
+  "worker": "settler:farmer"
+}

@@ -1,0 +1,4065 @@
+{
+  "defaults": {
+    "requirementCount": 1,
+    "targetCount": 1,
+    "targetFromBuildings": 20,
+    "weight": 4
+  },
+  "generatedBy": "npm run ai:suggest (draft: review, adjust, move entries into the program, run npm run ai:check)",
+  "program": "balanced",
+  "suggestions": [
+    {
+      "goal": {
+        "building": "building:basaltQuarry",
+        "group": "wood",
+        "id": "basaltQuarry",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Basalt quarry",
+        "group": "listed building.materials goals",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "basalt"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "japanese",
+              "nubian"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:bigResidence",
+        "group": "housing",
+        "id": "bigResidence",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Big residence",
+        "group": "listed residences",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "roman",
+              "viking",
+              "japanese",
+              "nubian",
+              "chinese",
+              "persian",
+              "maya"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:brewery",
+        "group": "food",
+        "id": "brewery",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          },
+          {
+            "count": 1,
+            "goal": "well"
+          },
+          {
+            "count": 1,
+            "goal": "farm"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Brewery",
+        "group": "listed building.foodDrink goals",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "beer"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "farm"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "farm",
+            "status": "listed",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "grain"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "well"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "well",
+            "status": "listed",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "water"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:cedarForester",
+        "group": "wood",
+        "id": "cedarForester",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Cedar forester",
+        "group": "listed building.materials goals",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "japanese",
+              "nubian"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:cedarWoodcutter",
+        "group": "wood",
+        "id": "cedarWoodcutter",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Cedar woodcutter",
+        "group": "listed building.materials goals",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "cedarLogs"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "japanese",
+              "nubian"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:charburner",
+        "group": "wood",
+        "id": "charburner",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "woodcutter"
+          },
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Charburner",
+        "group": "its prerequisite goal woodcutter",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "coal"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "woodcutter"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "woodcutter",
+            "status": "listed",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "logs"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:coalMine",
+        "group": "wood",
+        "id": "coalMine",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          },
+          {
+            "count": 1,
+            "goal": "fishery"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Coal mine",
+        "group": "its prerequisite goal sawmill",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "coal"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [
+              "slaughterhouse"
+            ],
+            "listedProducers": [
+              "fishery",
+              "hunter",
+              "bakery"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "fishery",
+            "status": "listed",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "fish",
+              "meat",
+              "bread"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "japanese",
+              "nubian"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:goldMine",
+        "group": "wood",
+        "id": "goldMine",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          },
+          {
+            "count": 1,
+            "goal": "fishery"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Gold mine",
+        "group": "its prerequisite goal sawmill",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "goldOre"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [
+              "slaughterhouse"
+            ],
+            "listedProducers": [
+              "fishery",
+              "hunter",
+              "bakery"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "fishery",
+            "status": "listed",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "fish",
+              "meat",
+              "bread"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "japanese",
+              "nubian"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:graniteMine",
+        "group": "wood",
+        "id": "graniteMine",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          },
+          {
+            "count": 1,
+            "goal": "fishery"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Granite mine",
+        "group": "its prerequisite goal sawmill",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "stone"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [
+              "slaughterhouse"
+            ],
+            "listedProducers": [
+              "fishery",
+              "hunter",
+              "bakery"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "fishery",
+            "status": "listed",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "fish",
+              "meat",
+              "bread"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "japanese",
+              "nubian"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:graniteQuarry",
+        "group": "wood",
+        "id": "graniteQuarry",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Granite quarry",
+        "group": "listed building.materials goals",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "granite"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "japanese",
+              "nubian"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:hardwoodForester",
+        "group": "wood",
+        "id": "hardwoodForester",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Hardwood forester",
+        "group": "listed building.materials goals",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "japanese",
+              "nubian"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:hardwoodWoodcutter",
+        "group": "wood",
+        "id": "hardwoodWoodcutter",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Hardwood woodcutter",
+        "group": "listed building.materials goals",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "hardwoodLogs"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "japanese",
+              "nubian"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:ironMine",
+        "group": "wood",
+        "id": "ironMine",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          },
+          {
+            "count": 1,
+            "goal": "fishery"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Iron mine",
+        "group": "its prerequisite goal sawmill",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "ironOre"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [
+              "slaughterhouse"
+            ],
+            "listedProducers": [
+              "fishery",
+              "hunter",
+              "bakery"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "fishery",
+            "status": "listed",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "fish",
+              "meat",
+              "bread"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "japanese",
+              "nubian"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:ironSmelter",
+        "group": "wood",
+        "id": "ironSmelter",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          },
+          {
+            "count": 1,
+            "goal": "charburner"
+          },
+          {
+            "count": 1,
+            "goal": "ironMine"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Iron smelter",
+        "group": "its prerequisite goal sawmill",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "iron"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [
+              "charburner",
+              "coalMine"
+            ],
+            "listedProducers": [],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "charburner",
+            "status": "draft",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "coal"
+            ]
+          },
+          {
+            "draftProducers": [
+              "ironMine"
+            ],
+            "listedProducers": [],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "ironMine",
+            "status": "draft",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "ironOre"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": [
+          "coal from draft goals only: move charburner or coalMine too",
+          "ironOre from draft goals only: move ironMine too"
+        ]
+      }
+    },
+    {
+      "goal": {
+        "building": "building:armory",
+        "group": "wood",
+        "id": "armory",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          },
+          {
+            "count": 1,
+            "goal": "charburner"
+          },
+          {
+            "count": 1,
+            "goal": "ironSmelter"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Armory",
+        "group": "its prerequisite goal sawmill",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "shield",
+          "sword",
+          "axe",
+          "bow"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [
+              "charburner",
+              "coalMine"
+            ],
+            "listedProducers": [],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "charburner",
+            "status": "draft",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "coal"
+            ]
+          },
+          {
+            "draftProducers": [
+              "ironSmelter"
+            ],
+            "listedProducers": [],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "ironSmelter",
+            "status": "draft",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "iron"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "roman",
+              "viking",
+              "japanese",
+              "nubian",
+              "chinese",
+              "persian",
+              "maya"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": [
+          "coal from draft goals only: move charburner or coalMine too",
+          "iron from draft goals only: move ironSmelter too"
+        ]
+      }
+    },
+    {
+      "goal": {
+        "building": "building:limestoneQuarry",
+        "group": "wood",
+        "id": "limestoneQuarry",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Limestone quarry",
+        "group": "listed building.materials goals",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "limestone"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "japanese",
+              "nubian"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:mahoganyForester",
+        "group": "wood",
+        "id": "mahoganyForester",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Mahogany forester",
+        "group": "listed building.materials goals",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "japanese",
+              "nubian"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:mahoganyWoodcutter",
+        "group": "wood",
+        "id": "mahoganyWoodcutter",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Mahogany woodcutter",
+        "group": "listed building.materials goals",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "mahoganyLogs"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "japanese",
+              "nubian"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:marbleQuarry",
+        "group": "wood",
+        "id": "marbleQuarry",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Marble quarry",
+        "group": "listed building.materials goals",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "marble"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "japanese",
+              "nubian"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:metalworks",
+        "group": "wood",
+        "id": "metalworks",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          },
+          {
+            "count": 1,
+            "goal": "ironSmelter"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Metalworks",
+        "group": "its prerequisite goal sawmill",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "axe",
+          "saw",
+          "pickaxe",
+          "shovel",
+          "hammer",
+          "fishingRod",
+          "scythe",
+          "bow",
+          "crucible",
+          "tongs",
+          "rollingPin",
+          "cleaver",
+          "spyglass"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [
+              "ironSmelter"
+            ],
+            "listedProducers": [],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "ironSmelter",
+            "status": "draft",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "iron"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction",
+              "input"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": [
+          "iron from draft goals only: move ironSmelter too"
+        ]
+      }
+    },
+    {
+      "goal": {
+        "building": "building:mint",
+        "group": "wood",
+        "id": "mint",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          },
+          {
+            "count": 1,
+            "goal": "charburner"
+          },
+          {
+            "count": 1,
+            "goal": "goldMine"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Mint",
+        "group": "its prerequisite goal sawmill",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "coins"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [
+              "charburner",
+              "coalMine"
+            ],
+            "listedProducers": [],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "charburner",
+            "status": "draft",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "coal"
+            ]
+          },
+          {
+            "draftProducers": [
+              "goldMine"
+            ],
+            "listedProducers": [],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "goldMine",
+            "status": "draft",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "goldOre"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": [
+          "coal from draft goals only: move charburner or coalMine too",
+          "goldOre from draft goals only: move goldMine too"
+        ]
+      }
+    },
+    {
+      "goal": {
+        "building": "building:pigFarm",
+        "group": "food",
+        "id": "pigFarm",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          },
+          {
+            "count": 1,
+            "goal": "well"
+          },
+          {
+            "count": 1,
+            "goal": "farm"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Pig farm",
+        "group": "listed building.foodDrink goals",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "pig"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "farm"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "farm",
+            "status": "listed",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "grain"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "roman",
+              "viking",
+              "japanese",
+              "nubian",
+              "chinese",
+              "persian",
+              "maya"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "well"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "well",
+            "status": "listed",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "water"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:shipyard",
+        "group": "housing",
+        "id": "shipyard",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Shipyard",
+        "group": "listed building.settlement goals",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "boat"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction",
+              "input"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "roman",
+              "viking",
+              "japanese",
+              "nubian",
+              "chinese",
+              "persian",
+              "maya"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:skinner",
+        "group": "wood",
+        "id": "skinner",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          },
+          {
+            "count": 1,
+            "goal": "pigFarm"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Skinner",
+        "group": "its prerequisite goal sawmill",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "hides"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [
+              "pigFarm"
+            ],
+            "listedProducers": [],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "pigFarm",
+            "status": "draft",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "pig"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "japanese",
+              "nubian"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": [
+          "pig from draft goals only: move pigFarm too"
+        ]
+      }
+    },
+    {
+      "goal": {
+        "building": "building:slaughterhouse",
+        "group": "food",
+        "id": "slaughterhouse",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          },
+          {
+            "count": 1,
+            "goal": "pigFarm"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Slaughterhouse",
+        "group": "listed building.foodDrink goals",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "meat"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [
+              "pigFarm"
+            ],
+            "listedProducers": [],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "pigFarm",
+            "status": "draft",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "pig"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "roman",
+              "viking",
+              "japanese",
+              "nubian",
+              "chinese",
+              "persian",
+              "maya"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": [
+          "pig from draft goals only: move pigFarm too"
+        ]
+      }
+    },
+    {
+      "goal": {
+        "building": "building:tannery",
+        "group": "wood",
+        "id": "tannery",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          },
+          {
+            "count": 1,
+            "goal": "skinner"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Tannery",
+        "group": "its prerequisite goal sawmill",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "leather"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [
+              "skinner"
+            ],
+            "listedProducers": [],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "skinner",
+            "status": "draft",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "hides"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction",
+              "input"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "roman",
+              "viking",
+              "japanese",
+              "nubian",
+              "chinese",
+              "persian",
+              "maya"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": [
+          "hides from draft goals only: move skinner too"
+        ]
+      }
+    },
+    {
+      "goal": {
+        "building": "building:leatherworks",
+        "group": "wood",
+        "id": "leatherworks",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          },
+          {
+            "count": 1,
+            "goal": "tannery"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Leatherworks",
+        "group": "its prerequisite goal sawmill",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "armor"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [
+              "roman",
+              "viking",
+              "japanese",
+              "nubian",
+              "chinese",
+              "persian",
+              "maya"
+            ],
+            "status": "nationLimited",
+            "uses": [
+              "construction",
+              "input"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [
+              "tannery"
+            ],
+            "listedProducers": [],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "tannery",
+            "status": "draft",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "leather"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "roman",
+              "viking",
+              "japanese",
+              "nubian",
+              "chinese",
+              "persian",
+              "maya"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": [
+          "no producer of cloth for roman, viking, japanese, nubian, chinese, persian, maya: widen a goal's nations",
+          "leather from draft goals only: move tannery too"
+        ]
+      }
+    },
+    {
+      "goal": {
+        "building": "building:vineyard",
+        "group": "food",
+        "id": "vineyard",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Vineyard",
+        "group": "listed building.foodDrink goals",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {
+            "viking": {
+              "inputs": [],
+              "outputs": [
+                "honey"
+              ]
+            },
+            "japanese": {
+              "inputs": [],
+              "outputs": [
+                "rice"
+              ]
+            },
+            "nubian": {
+              "inputs": [],
+              "outputs": [
+                "coconut"
+              ]
+            },
+            "indigenous": {
+              "inputs": [],
+              "outputs": [
+                "berries"
+              ]
+            },
+            "chinese": {
+              "inputs": [],
+              "outputs": [
+                "teaLeaves"
+              ]
+            },
+            "persian": {
+              "inputs": [],
+              "outputs": [
+                "pomegranate"
+              ]
+            },
+            "maya": {
+              "inputs": [],
+              "outputs": [
+                "cacaoBeans"
+              ]
+            }
+          },
+          "unavailable": []
+        },
+        "outputs": [
+          "grapes"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "roman",
+              "viking",
+              "japanese",
+              "nubian",
+              "chinese",
+              "persian",
+              "maya"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:walnutForester",
+        "group": "wood",
+        "id": "walnutForester",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Walnut forester",
+        "group": "listed building.materials goals",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "japanese",
+              "nubian"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:walnutWoodcutter",
+        "group": "wood",
+        "id": "walnutWoodcutter",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Walnut woodcutter",
+        "group": "listed building.materials goals",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {},
+          "unavailable": []
+        },
+        "outputs": [
+          "walnutLogs"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "japanese",
+              "nubian"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          }
+        ],
+        "warnings": []
+      }
+    },
+    {
+      "goal": {
+        "building": "building:winery",
+        "group": "food",
+        "id": "winery",
+        "requires": [
+          {
+            "count": 1,
+            "goal": "sawmill"
+          },
+          {
+            "count": 1,
+            "goal": "quarry"
+          },
+          {
+            "count": 1,
+            "goal": "well"
+          },
+          {
+            "count": 1,
+            "goal": "vineyard"
+          }
+        ],
+        "target": [
+          {
+            "buildings": 0,
+            "count": 0
+          },
+          {
+            "buildings": 20,
+            "count": 1
+          }
+        ],
+        "weight": 4
+      },
+      "notes": {
+        "building": "Winery",
+        "group": "listed building.foodDrink goals",
+        "nations": {
+          "available": [
+            "roman",
+            "viking",
+            "japanese",
+            "nubian",
+            "indigenous",
+            "chinese",
+            "persian",
+            "maya"
+          ],
+          "recipes": {
+            "viking": {
+              "inputs": [
+                "honey",
+                "water"
+              ],
+              "outputs": [
+                "mead"
+              ]
+            },
+            "japanese": {
+              "inputs": [
+                "rice",
+                "water"
+              ],
+              "outputs": [
+                "sake"
+              ]
+            },
+            "nubian": {
+              "inputs": [
+                "coconut",
+                "water"
+              ],
+              "outputs": [
+                "toddy"
+              ]
+            },
+            "indigenous": {
+              "inputs": [
+                "berries",
+                "water"
+              ],
+              "outputs": [
+                "berryDrink"
+              ]
+            },
+            "chinese": {
+              "inputs": [
+                "teaLeaves",
+                "water"
+              ],
+              "outputs": [
+                "tea"
+              ]
+            },
+            "persian": {
+              "inputs": [
+                "pomegranate",
+                "water"
+              ],
+              "outputs": [
+                "pomegranateJuice"
+              ]
+            },
+            "maya": {
+              "inputs": [
+                "cacaoBeans",
+                "water"
+              ],
+              "outputs": [
+                "cacaoDrink"
+              ]
+            }
+          },
+          "unavailable": []
+        },
+        "outputs": [
+          "wine"
+        ],
+        "prerequisites": [
+          {
+            "draftProducers": [
+              "vineyard"
+            ],
+            "listedProducers": [],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "vineyard",
+            "status": "draft",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "berries"
+            ]
+          },
+          {
+            "draftProducers": [
+              "vineyard"
+            ],
+            "listedProducers": [],
+            "nations": [
+              "maya"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "vineyard",
+            "status": "draft",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "cacaoBeans"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "weaver"
+            ],
+            "nations": [
+              "indigenous"
+            ],
+            "nationsWithoutProducer": [],
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "cloth"
+            ]
+          },
+          {
+            "draftProducers": [
+              "vineyard"
+            ],
+            "listedProducers": [],
+            "nations": [
+              "nubian"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "vineyard",
+            "status": "draft",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "coconut"
+            ]
+          },
+          {
+            "draftProducers": [
+              "vineyard"
+            ],
+            "listedProducers": [],
+            "nations": [
+              "roman"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "vineyard",
+            "status": "draft",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "grapes"
+            ]
+          },
+          {
+            "draftProducers": [
+              "vineyard"
+            ],
+            "listedProducers": [],
+            "nations": [
+              "viking"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "vineyard",
+            "status": "draft",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "honey"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "sawmill"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "sawmill",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "planks"
+            ]
+          },
+          {
+            "draftProducers": [
+              "vineyard"
+            ],
+            "listedProducers": [],
+            "nations": [
+              "persian"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "vineyard",
+            "status": "draft",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "pomegranate"
+            ]
+          },
+          {
+            "draftProducers": [
+              "vineyard"
+            ],
+            "listedProducers": [],
+            "nations": [
+              "japanese"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "vineyard",
+            "status": "draft",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "rice"
+            ]
+          },
+          {
+            "draftProducers": [
+              "graniteMine"
+            ],
+            "listedProducers": [
+              "quarry"
+            ],
+            "nations": [
+              "roman",
+              "viking",
+              "japanese",
+              "nubian",
+              "chinese",
+              "persian",
+              "maya"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "quarry",
+            "status": "listed",
+            "uses": [
+              "construction"
+            ],
+            "wares": [
+              "stone"
+            ]
+          },
+          {
+            "draftProducers": [
+              "vineyard"
+            ],
+            "listedProducers": [],
+            "nations": [
+              "chinese"
+            ],
+            "nationsWithoutProducer": [],
+            "requires": "vineyard",
+            "status": "draft",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "teaLeaves"
+            ]
+          },
+          {
+            "draftProducers": [],
+            "listedProducers": [
+              "well"
+            ],
+            "nations": "all",
+            "nationsWithoutProducer": [],
+            "requires": "well",
+            "status": "listed",
+            "uses": [
+              "input"
+            ],
+            "wares": [
+              "water"
+            ]
+          }
+        ],
+        "warnings": [
+          "berries, cacaoBeans, coconut, grapes, honey, pomegranate, rice, teaLeaves from draft goals only: move vineyard too"
+        ]
+      }
+    }
+  ]
+}

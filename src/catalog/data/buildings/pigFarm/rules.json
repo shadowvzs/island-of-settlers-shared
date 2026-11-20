@@ -1,0 +1,63 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 3,
+    "mechanism": "none",
+    "props": [
+      "pen",
+      "grain"
+    ],
+    "roof": "red",
+    "style": "hall"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "limits": {
+    "colony": "conquered"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [
+      "grain",
+      "water"
+    ],
+    "job": "settler:pigBreeder",
+    "outputs": [
+      "pig"
+    ],
+    "seconds": 24
+  },
+  "progressionTier": "big",
+  "role": {
+    "en": "Breeds pigs using grain and water",
+    "key": "content.building.pigFarm.role"
+  },
+  "structureHp": 9000,
+  "task": "feed",
+  "unlockLevel": 7,
+  "worker": "settler:pigBreeder"
+}

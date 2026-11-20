@@ -1,0 +1,71 @@
+{
+  "id": "building:harbour",
+  "kind": "building",
+  "key": "harbour",
+  "code": 39,
+  "category": "building.settlement",
+  "family": "building.harbour",
+  "tags": [
+    "storage"
+  ],
+  "text": {
+    "name": {
+      "key": "domain.building.harbour",
+      "en": "Harbor building"
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.harbour.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "dock",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/harbour/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/harbour/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/harbour/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/harbour/rules.json"
+    }
+  }
+}

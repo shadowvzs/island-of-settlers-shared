@@ -1,0 +1,19 @@
+{
+  "id": "building:cedarSawmill",
+  "kind": "building",
+  "key": "cedarSawmill",
+  "code": 48,
+  "category": "building.materials",
+  "family": "building.production.sawmill",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.cedarSawmill",
+      "en": "Cedar sawmill"
+    }
+  },
+  "retired": true,
+  "building": {
+    "placeable": false
+  }
+}

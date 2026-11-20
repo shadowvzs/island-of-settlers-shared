@@ -1,0 +1,226 @@
+[
+  {
+    "id": "bandit:raiderHideout",
+    "kind": "bandit",
+    "key": "raiderHideout",
+    "code": 0,
+    "category": "bandit",
+    "family": "bandit.raiderHideout",
+    "tags": [
+      "military"
+    ],
+    "text": {
+      "name": {
+        "key": "domain.bandit.raiderHideout",
+        "en": "Raider hideout"
+      },
+      "variants": {
+        "enclosure": {
+          "key": "domain.bandit.raiderLodge",
+          "en": "Raider lodge"
+        },
+        "tier": {
+          "key": "domain.bandit.medium",
+          "en": "Medium"
+        }
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "clicked",
+        "damaged",
+        "destroyed"
+      ],
+      "targetOf": [
+        "attackTarget",
+        "damage",
+        "door",
+        "enter",
+        "kill",
+        "spawn"
+      ]
+    },
+    "bandit": {
+      "capacity": 4,
+      "militaryBuilding": "building:guardhouse",
+      "models": [
+        {
+          "cells": [
+            2,
+            2
+          ],
+          "kind": "camp",
+          "lookouts": 0
+        },
+        {
+          "cells": [
+            3,
+            3
+          ],
+          "kind": "camp",
+          "lookouts": 1
+        },
+        {
+          "cells": [
+            3,
+            2
+          ],
+          "kind": "camp",
+          "lookouts": 0
+        }
+      ],
+      "tier": "Medium"
+    }
+  },
+  {
+    "id": "bandit:banditEncampment",
+    "kind": "bandit",
+    "key": "banditEncampment",
+    "code": 1,
+    "category": "bandit",
+    "family": "bandit.banditEncampment",
+    "tags": [
+      "military"
+    ],
+    "text": {
+      "name": {
+        "key": "domain.bandit.banditEncampment",
+        "en": "Bandit encampment"
+      },
+      "variants": {
+        "enclosure": {
+          "key": "domain.bandit.banditRefuge",
+          "en": "Bandit refuge"
+        },
+        "tier": {
+          "key": "domain.bandit.hard",
+          "en": "Hard"
+        },
+        "tower": {
+          "key": "domain.bandit.archerScaffold",
+          "en": "Archer scaffold"
+        }
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "clicked",
+        "damaged",
+        "destroyed"
+      ],
+      "targetOf": [
+        "attackTarget",
+        "damage",
+        "door",
+        "enter",
+        "kill",
+        "spawn"
+      ]
+    },
+    "bandit": {
+      "capacity": 7,
+      "militaryBuilding": "building:watchtower",
+      "models": [
+        {
+          "capacity": 3,
+          "cells": [
+            2,
+            2
+          ],
+          "kind": "tower",
+          "lookouts": 1
+        },
+        {
+          "cells": [
+            4,
+            5
+          ],
+          "kind": "camp",
+          "lookouts": 1
+        },
+        {
+          "cells": [
+            5,
+            5
+          ],
+          "kind": "camp",
+          "lookouts": 2
+        }
+      ],
+      "tier": "Hard"
+    }
+  },
+  {
+    "id": "bandit:outlawStronghold",
+    "kind": "bandit",
+    "key": "outlawStronghold",
+    "code": 2,
+    "category": "bandit",
+    "family": "bandit.outlawStronghold",
+    "tags": [
+      "military"
+    ],
+    "text": {
+      "name": {
+        "key": "domain.bandit.outlawStronghold",
+        "en": "Outlaw stronghold"
+      },
+      "variants": {
+        "enclosure": {
+          "key": "domain.bandit.outlawHeadquarters",
+          "en": "Outlaw headquarters"
+        },
+        "tier": {
+          "key": "domain.bandit.veryHard",
+          "en": "Very hard"
+        }
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "clicked",
+        "damaged",
+        "destroyed"
+      ],
+      "targetOf": [
+        "attackTarget",
+        "damage",
+        "door",
+        "enter",
+        "kill",
+        "spawn"
+      ]
+    },
+    "bandit": {
+      "capacity": 12,
+      "militaryBuilding": "building:fortress",
+      "models": [
+        {
+          "cells": [
+            8,
+            8
+          ],
+          "kind": "stronghold",
+          "lookouts": 2
+        },
+        {
+          "cells": [
+            8,
+            6
+          ],
+          "kind": "stronghold",
+          "lookouts": 3
+        },
+        {
+          "cells": [
+            6,
+            8
+          ],
+          "kind": "stronghold",
+          "lookouts": 1
+        }
+      ],
+      "tier": "Very hard"
+    }
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "id": "stone:smallRock",
+    "kind": "stone",
+    "key": "smallRock",
+    "code": 4,
+    "category": "stone",
+    "family": "stone",
+    "tags": [
+      "groundDecoration"
+    ],
+    "actor": {
+      "capabilities": [
+        "pickedUp"
+      ],
+      "targetOf": [
+        "pickUp",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.option.decoration.smallStone",
+        "en": "Small stone"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-small-stone.webp"
+    },
+    "prop": {
+      "editor": {
+        "label": {
+          "key": "mapEditor.option.decoration.smallStone",
+          "en": "Small stone"
+        },
+        "order": 0,
+        "tool": "doodad"
+      },
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "stone:largeRock",
+    "kind": "stone",
+    "key": "largeRock",
+    "code": 5,
+    "category": "stone",
+    "family": "stone",
+    "tags": [
+      "groundDecoration"
+    ],
+    "actor": {
+      "capabilities": [
+        "pickedUp"
+      ],
+      "targetOf": [
+        "pickUp",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.option.decoration.largeStone",
+        "en": "Large stone"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-large-stone.webp"
+    },
+    "prop": {
+      "editor": {
+        "label": {
+          "key": "mapEditor.option.decoration.largeStone",
+          "en": "Large stone"
+        },
+        "order": 1,
+        "tool": "doodad"
+      },
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "stone:pebbles",
+    "kind": "stone",
+    "key": "pebbles",
+    "code": 20,
+    "category": "stone",
+    "family": "stone",
+    "tags": [
+      "groundDecoration"
+    ],
+    "actor": {
+      "capabilities": [
+        "pickedUp"
+      ],
+      "targetOf": [
+        "pickUp",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.option.decoration.pebbles",
+        "en": "Pebbles"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-pebbles.webp"
+    },
+    "prop": {
+      "editor": {
+        "label": {
+          "key": "mapEditor.option.decoration.pebbles",
+          "en": "Pebbles"
+        },
+        "order": 2,
+        "tool": "doodad"
+      },
+      "layer": "worldProp"
+    }
+  }
+]

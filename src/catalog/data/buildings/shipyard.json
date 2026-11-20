@@ -1,0 +1,70 @@
+{
+  "id": "building:shipyard",
+  "kind": "building",
+  "key": "shipyard",
+  "code": 36,
+  "category": "building.settlement",
+  "family": "building.production.shipyard",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.shipyard",
+      "en": "Shipyard"
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.shipyard.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "occupied",
+      "produce",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/shipyard/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/shipyard/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/shipyard/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/shipyard/rules.json"
+    }
+  }
+}

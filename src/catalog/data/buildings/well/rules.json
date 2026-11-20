@@ -1,0 +1,59 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "wheel",
+    "props": [
+      "buckets"
+    ],
+    "roof": "red",
+    "style": "well"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "limits": {
+    "colony": "conquered"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [],
+    "job": "settler:wellWorker",
+    "outputs": [
+      "water"
+    ],
+    "seconds": 14
+  },
+  "progressionTier": "small",
+  "role": {
+    "en": "Draws water for food and livestock production",
+    "key": "content.building.well.role"
+  },
+  "structureHp": 6000,
+  "task": "draw",
+  "unlockLevel": 3,
+  "worker": "settler:wellWorker"
+}

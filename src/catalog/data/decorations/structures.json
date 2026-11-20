@@ -1,0 +1,1587 @@
+[
+  {
+    "id": "decoration:roman-rusticated-arch",
+    "kind": "decoration",
+    "key": "roman-rusticated-arch",
+    "category": "decoration.arches",
+    "family": "decoration.arches",
+    "tags": [
+      "original"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.romanRusticated",
+        "en": "Roman rusticated arch"
+      }
+    },
+    "variants": {
+      "finish": [
+        "limestone",
+        "granite",
+        "marble"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "roman",
+      "price": 5,
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:roman-ceremonial-arch",
+    "kind": "decoration",
+    "key": "roman-ceremonial-arch",
+    "category": "decoration.arches",
+    "family": "decoration.arches",
+    "tags": [
+      "original"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.romanCeremonial",
+        "en": "Roman ceremonial arch"
+      }
+    },
+    "variants": {
+      "finish": [
+        "limestone",
+        "granite",
+        "marble"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "roman",
+      "price": 5,
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:japanese-timber-torii",
+    "kind": "decoration",
+    "key": "japanese-timber-torii",
+    "category": "decoration.arches",
+    "family": "decoration.arches",
+    "tags": [
+      "original"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.japaneseTorii",
+        "en": "Japanese timber torii"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "japanese",
+      "price": 5,
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:japanese-stone-lantern",
+    "kind": "decoration",
+    "key": "japanese-stone-lantern",
+    "category": "decoration.lanterns",
+    "family": "decoration.lanterns",
+    "tags": [
+      "original"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.japaneseLantern",
+        "en": "Japanese stone lantern"
+      }
+    },
+    "variants": {
+      "finish": [
+        "granite"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "japanese",
+      "price": 5,
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:chinese-pailou",
+    "kind": "decoration",
+    "key": "chinese-pailou",
+    "category": "decoration.arches",
+    "family": "decoration.arches",
+    "tags": [
+      "original"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.chinesePailou",
+        "en": "Chinese pailou"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "chinese",
+      "price": 5,
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:chinese-stone-lantern",
+    "kind": "decoration",
+    "key": "chinese-stone-lantern",
+    "category": "decoration.lanterns",
+    "family": "decoration.lanterns",
+    "tags": [
+      "original"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.chineseLantern",
+        "en": "Chinese stone lantern"
+      }
+    },
+    "variants": {
+      "finish": [
+        "granite"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "chinese",
+      "price": 5,
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:persian-pointed-portal",
+    "kind": "decoration",
+    "key": "persian-pointed-portal",
+    "category": "decoration.arches",
+    "family": "decoration.arches",
+    "tags": [
+      "original"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.persianPointed",
+        "en": "Persian pointed portal"
+      }
+    },
+    "variants": {
+      "finish": [
+        "limestone"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "persian",
+      "price": 5,
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:persian-relief-portal",
+    "kind": "decoration",
+    "key": "persian-relief-portal",
+    "category": "decoration.arches",
+    "family": "decoration.arches",
+    "tags": [
+      "original"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.persianRelief",
+        "en": "Persian carved portal"
+      }
+    },
+    "variants": {
+      "finish": [
+        "limestone"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "persian",
+      "price": 5,
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:maya-corbelled-portal",
+    "kind": "decoration",
+    "key": "maya-corbelled-portal",
+    "category": "decoration.arches",
+    "family": "decoration.arches",
+    "tags": [
+      "original"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.mayaCorbelled",
+        "en": "Maya corbelled portal"
+      }
+    },
+    "variants": {
+      "finish": [
+        "limestone"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "maya",
+      "price": 5,
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:maya-triangle-portal",
+    "kind": "decoration",
+    "key": "maya-triangle-portal",
+    "category": "decoration.arches",
+    "family": "decoration.arches",
+    "tags": [
+      "original"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.mayaTriangle",
+        "en": "Maya triangular portal"
+      }
+    },
+    "variants": {
+      "finish": [
+        "limestone"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "maya",
+      "price": 5,
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:viking-timber-portal",
+    "kind": "decoration",
+    "key": "viking-timber-portal",
+    "category": "decoration.arches",
+    "family": "decoration.arches",
+    "tags": [
+      "original"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.vikingTimber",
+        "en": "Viking timber portal"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "viking",
+      "price": 5,
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:viking-carved-portal",
+    "kind": "decoration",
+    "key": "viking-carved-portal",
+    "category": "decoration.arches",
+    "family": "decoration.arches",
+    "tags": [
+      "original"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.vikingCarved",
+        "en": "Viking carved portal"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "viking",
+      "price": 5,
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:indigenous-flowering-pergola",
+    "kind": "decoration",
+    "key": "indigenous-flowering-pergola",
+    "category": "decoration.arches",
+    "family": "decoration.arches",
+    "tags": [
+      "original"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.floweringPergola",
+        "en": "Flowering pergola"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "indigenous",
+      "price": 5,
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:indigenous-flower-pot",
+    "kind": "decoration",
+    "key": "indigenous-flower-pot",
+    "category": "decoration.plants",
+    "family": "decoration.plants",
+    "tags": [
+      "original"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.flowerPot",
+        "en": "Flower pot"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "indigenous",
+      "price": 5,
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:nubian-carved-portal",
+    "kind": "decoration",
+    "key": "nubian-carved-portal",
+    "category": "decoration.arches",
+    "family": "decoration.arches",
+    "tags": [
+      "original"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.nubianPortal",
+        "en": "Nubian carved portal"
+      }
+    },
+    "variants": {
+      "finish": [
+        "limestone"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "nubian",
+      "price": 5,
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:nubian-flower-pot",
+    "kind": "decoration",
+    "key": "nubian-flower-pot",
+    "category": "decoration.plants",
+    "family": "decoration.plants",
+    "tags": [
+      "original"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.nubianPot",
+        "en": "Nubian flower pot"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "nubian",
+      "price": 5,
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:japanese-wooden-lantern",
+    "kind": "decoration",
+    "key": "japanese-wooden-lantern",
+    "category": "decoration.lanterns",
+    "family": "decoration.lanterns",
+    "tags": [
+      "addition"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.japaneseWoodenLantern",
+        "en": "Japanese wooden lantern"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "japanese",
+      "price": 5,
+      "releaseGate": "decoration",
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:chinese-wooden-lantern",
+    "kind": "decoration",
+    "key": "chinese-wooden-lantern",
+    "category": "decoration.lanterns",
+    "family": "decoration.lanterns",
+    "tags": [
+      "addition"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.chineseWoodenLantern",
+        "en": "Chinese wooden lantern"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "chinese",
+      "price": 5,
+      "releaseGate": "decoration",
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:japanese-hanging-lantern-torii",
+    "kind": "decoration",
+    "key": "japanese-hanging-lantern-torii",
+    "category": "decoration.arches",
+    "family": "decoration.arches",
+    "tags": [
+      "addition"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.japaneseHangingTorii",
+        "en": "Torii with hanging lanterns"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "japanese",
+      "price": 5,
+      "releaseGate": "decoration",
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:chinese-hanging-lantern-pailou",
+    "kind": "decoration",
+    "key": "chinese-hanging-lantern-pailou",
+    "category": "decoration.arches",
+    "family": "decoration.arches",
+    "tags": [
+      "addition"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.chineseHangingPailou",
+        "en": "Pailou with hanging lanterns"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "chinese",
+      "price": 5,
+      "releaseGate": "decoration",
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:wisteria-curved",
+    "kind": "decoration",
+    "key": "wisteria-curved",
+    "category": "decoration.arches",
+    "family": "decoration.arches",
+    "tags": [
+      "addition"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.wisteriaCurved",
+        "en": "Curved wisteria arch"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "indigenous",
+      "price": 5,
+      "releaseGate": "decoration",
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:wisteria-lattice",
+    "kind": "decoration",
+    "key": "wisteria-lattice",
+    "category": "decoration.arches",
+    "family": "decoration.arches",
+    "tags": [
+      "addition"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.wisteriaLattice",
+        "en": "Latticed wisteria arch"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "indigenous",
+      "price": 5,
+      "releaseGate": "decoration",
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:wisteria-pergola",
+    "kind": "decoration",
+    "key": "wisteria-pergola",
+    "category": "decoration.arches",
+    "family": "decoration.arches",
+    "tags": [
+      "addition"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.wisteriaPergola",
+        "en": "Wisteria pergola"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "indigenous",
+      "price": 5,
+      "releaseGate": "decoration",
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:wisteria-tree-0",
+    "kind": "decoration",
+    "key": "wisteria-tree-0",
+    "category": "decoration.trees",
+    "family": "decoration.trees",
+    "tags": [
+      "addition"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.wisteriaTreeTwined",
+        "en": "Twined wisteria tree"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "japanese",
+      "price": 5,
+      "releaseGate": "decoration",
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:wisteria-tree-1",
+    "kind": "decoration",
+    "key": "wisteria-tree-1",
+    "category": "decoration.trees",
+    "family": "decoration.trees",
+    "tags": [
+      "addition"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.wisteriaTreeSpreading",
+        "en": "Spreading wisteria tree"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "japanese",
+      "price": 5,
+      "releaseGate": "decoration",
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:wisteria-tree-2",
+    "kind": "decoration",
+    "key": "wisteria-tree-2",
+    "category": "decoration.trees",
+    "family": "decoration.trees",
+    "tags": [
+      "addition"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.wisteriaTreeLow",
+        "en": "Low-crowned wisteria tree"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "japanese",
+      "price": 5,
+      "releaseGate": "decoration",
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:bamboo-grove-green",
+    "kind": "decoration",
+    "key": "bamboo-grove-green",
+    "category": "decoration.trees",
+    "family": "decoration.trees",
+    "tags": [
+      "addition",
+      "bamboo"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.bambooGroveGreen",
+        "en": "Green bamboo grove"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "chinese",
+      "price": 5,
+      "shopAvailable": false,
+      "uses": [
+        "building",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:bamboo-grove-golden",
+    "kind": "decoration",
+    "key": "bamboo-grove-golden",
+    "category": "decoration.trees",
+    "family": "decoration.trees",
+    "tags": [
+      "addition",
+      "bamboo"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.bambooGroveGolden",
+        "en": "Golden striped bamboo grove"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "chinese",
+      "price": 5,
+      "shopAvailable": false,
+      "uses": [
+        "building",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:bamboo-culm-green",
+    "kind": "decoration",
+    "key": "bamboo-culm-green",
+    "category": "decoration.trees",
+    "family": "decoration.trees",
+    "tags": [
+      "addition",
+      "bamboo"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.bambooCulmGreen",
+        "en": "Tall green bamboo"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "chinese",
+      "price": 5,
+      "shopAvailable": false,
+      "uses": [
+        "building",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:bamboo-culm-giant",
+    "kind": "decoration",
+    "key": "bamboo-culm-giant",
+    "category": "decoration.trees",
+    "family": "decoration.trees",
+    "tags": [
+      "addition",
+      "bamboo"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.bambooCulmGiant",
+        "en": "Giant bamboo"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "chinese",
+      "price": 5,
+      "shopAvailable": false,
+      "uses": [
+        "building",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:bamboo-culm-golden",
+    "kind": "decoration",
+    "key": "bamboo-culm-golden",
+    "category": "decoration.trees",
+    "family": "decoration.trees",
+    "tags": [
+      "addition",
+      "bamboo"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.bambooCulmGolden",
+        "en": "Tall golden striped bamboo"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "chinese",
+      "price": 5,
+      "shopAvailable": false,
+      "uses": [
+        "building",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:bamboo-culm-grooved",
+    "kind": "decoration",
+    "key": "bamboo-culm-grooved",
+    "category": "decoration.trees",
+    "family": "decoration.trees",
+    "tags": [
+      "addition",
+      "bamboo"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.bambooCulmGrooved",
+        "en": "Tall yellow-groove bamboo"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "chinese",
+      "price": 5,
+      "shopAvailable": false,
+      "uses": [
+        "building",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:japanese-bamboo-stand",
+    "kind": "decoration",
+    "key": "japanese-bamboo-stand",
+    "category": "decoration.plants",
+    "family": "decoration.plants",
+    "tags": [
+      "addition"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.japaneseBambooStand",
+        "en": "Japanese bamboo stand"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "japanese",
+      "price": 5,
+      "shopAvailable": false,
+      "uses": [
+        "building",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:roman-doric-column",
+    "kind": "decoration",
+    "key": "roman-doric-column",
+    "category": "decoration.columns",
+    "family": "decoration.columns",
+    "tags": [
+      "column"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.romanDoricColumn",
+        "en": "Roman Doric column"
+      }
+    },
+    "variants": {
+      "finish": [
+        "limestone",
+        "marble"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "roman",
+      "price": 5,
+      "releaseGate": "decoration",
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:roman-ionic-column",
+    "kind": "decoration",
+    "key": "roman-ionic-column",
+    "category": "decoration.columns",
+    "family": "decoration.columns",
+    "tags": [
+      "column"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.romanIonicColumn",
+        "en": "Roman Ionic column"
+      }
+    },
+    "variants": {
+      "finish": [
+        "limestone",
+        "marble"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "roman",
+      "price": 5,
+      "releaseGate": "decoration",
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:climbing-rose-white",
+    "kind": "decoration",
+    "key": "climbing-rose-white",
+    "category": "decoration.arches",
+    "family": "decoration.arches",
+    "tags": [
+      "climber"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.climbingRoseWhite",
+        "en": "White climbing rose arch"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "indigenous",
+      "price": 5,
+      "releaseGate": "decoration",
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:climbing-rose-red",
+    "kind": "decoration",
+    "key": "climbing-rose-red",
+    "category": "decoration.arches",
+    "family": "decoration.arches",
+    "tags": [
+      "climber"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.climbingRoseRed",
+        "en": "Red climbing rose arch"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "indigenous",
+      "price": 5,
+      "releaseGate": "decoration",
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  },
+  {
+    "id": "decoration:ivy-lattice",
+    "kind": "decoration",
+    "key": "ivy-lattice",
+    "category": "decoration.arches",
+    "family": "decoration.arches",
+    "tags": [
+      "climber"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "roadDecoration.ivyLattice",
+        "en": "Ivy lattice arch"
+      }
+    },
+    "variants": {
+      "finish": [
+        "native"
+      ]
+    },
+    "icon": {
+      "root": "clientPublic",
+      "path": "icons/road-decorations/{key}-{finish}.png"
+    },
+    "decoration": {
+      "maxHeld": 1000000,
+      "nation": "roman",
+      "price": 5,
+      "releaseGate": "decoration",
+      "shopAvailable": true,
+      "uses": [
+        "shop",
+        "editor"
+      ]
+    }
+  }
+]

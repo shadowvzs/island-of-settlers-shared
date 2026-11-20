@@ -1,0 +1,57 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "none",
+    "props": [],
+    "roof": "red",
+    "style": "hall"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [
+      "flax",
+      "flax"
+    ],
+    "job": "settler:weaver",
+    "outputs": [
+      "cloth"
+    ],
+    "seconds": 24
+  },
+  "progressionTier": "small",
+  "role": {
+    "en": "Weaves flax fibre into cloth for sails and trade",
+    "key": "content.building.weaver.role"
+  },
+  "structureHp": 6000,
+  "task": "weave",
+  "unlockLevel": 6,
+  "worker": "settler:weaver"
+}

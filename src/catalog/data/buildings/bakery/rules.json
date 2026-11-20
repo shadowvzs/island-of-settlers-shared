@@ -1,0 +1,63 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "none",
+    "props": [
+      "oven",
+      "grain"
+    ],
+    "roof": "red",
+    "style": "cottage"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "limits": {
+    "colony": "conquered"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [
+      "flour",
+      "water"
+    ],
+    "job": "settler:baker",
+    "outputs": [
+      "bread"
+    ],
+    "seconds": 15
+  },
+  "progressionTier": "medium",
+  "role": {
+    "en": "Bakes bread from flour and water",
+    "key": "content.building.bakery.role"
+  },
+  "structureHp": 6000,
+  "task": "bake",
+  "unlockLevel": 6,
+  "worker": "settler:baker"
+}

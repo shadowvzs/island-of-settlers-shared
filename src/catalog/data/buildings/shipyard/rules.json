@@ -1,0 +1,75 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "crane",
+    "props": [
+      "boat",
+      "boards"
+    ],
+    "roof": "slate",
+    "style": "hall"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [
+      "planks"
+    ],
+    "job": "settler:shipwright",
+    "logic": "rule:production.shipyard",
+    "modes": {
+      "boats": {
+        "builds": "ware:boat",
+        "inputs": {
+          "planks": 1
+        }
+      },
+      "ships": {
+        "builds": "ship:sailingShip",
+        "inputs": {
+          "cloth": 4,
+          "planks": 10
+        }
+      }
+    },
+    "outputs": [
+      "boat"
+    ],
+    "seconds": 24
+  },
+  "progressionTier": "medium",
+  "role": {
+    "en": "Builds boats and ships from boards",
+    "key": "content.building.shipyard.role"
+  },
+  "structureHp": 6000,
+  "task": "build-ship",
+  "unlockLevel": 18,
+  "worker": "settler:shipwright"
+}

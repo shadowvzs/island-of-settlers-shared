@@ -1,0 +1,272 @@
+[
+  {
+    "id": "fish:silverside",
+    "kind": "fish",
+    "key": "silverside",
+    "code": 0,
+    "category": "fish",
+    "family": "fish",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.fish.silverside.name",
+        "en": "Silverside"
+      }
+    },
+    "life": {
+      "domain": "render",
+      "weight": 0.26
+    }
+  },
+  {
+    "id": "fish:blueChromis",
+    "kind": "fish",
+    "key": "blueChromis",
+    "code": 1,
+    "category": "fish",
+    "family": "fish",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.fish.blueChromis.name",
+        "en": "Blue chromis"
+      }
+    },
+    "life": {
+      "domain": "render",
+      "weight": 0.18
+    }
+  },
+  {
+    "id": "fish:yellowtailSnapper",
+    "kind": "fish",
+    "key": "yellowtailSnapper",
+    "code": 2,
+    "category": "fish",
+    "family": "fish",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.fish.yellowtailSnapper.name",
+        "en": "Yellowtail snapper"
+      }
+    },
+    "life": {
+      "domain": "render",
+      "weight": 0.12
+    }
+  },
+  {
+    "id": "fish:parrotfish",
+    "kind": "fish",
+    "key": "parrotfish",
+    "code": 3,
+    "category": "fish",
+    "family": "fish",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.fish.parrotfish.name",
+        "en": "Parrotfish"
+      }
+    },
+    "life": {
+      "domain": "render",
+      "weight": 0.1
+    }
+  },
+  {
+    "id": "fish:butterflyfish",
+    "kind": "fish",
+    "key": "butterflyfish",
+    "code": 4,
+    "category": "fish",
+    "family": "fish",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.fish.butterflyfish.name",
+        "en": "Butterflyfish"
+      }
+    },
+    "life": {
+      "domain": "render",
+      "weight": 0.1
+    }
+  },
+  {
+    "id": "fish:sergeantMajor",
+    "kind": "fish",
+    "key": "sergeantMajor",
+    "code": 5,
+    "category": "fish",
+    "family": "fish",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.fish.sergeantMajor.name",
+        "en": "Sergeant major"
+      }
+    },
+    "life": {
+      "domain": "render",
+      "weight": 0.09
+    }
+  },
+  {
+    "id": "fish:clownAnemonefish",
+    "kind": "fish",
+    "key": "clownAnemonefish",
+    "code": 6,
+    "category": "fish",
+    "family": "fish",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.fish.clownAnemonefish.name",
+        "en": "Clown anemonefish"
+      }
+    },
+    "life": {
+      "domain": "render",
+      "weight": 0.06
+    }
+  },
+  {
+    "id": "fish:royalDottyback",
+    "kind": "fish",
+    "key": "royalDottyback",
+    "code": 7,
+    "category": "fish",
+    "family": "fish",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.fish.royalDottyback.name",
+        "en": "Royal dottyback"
+      }
+    },
+    "life": {
+      "domain": "render",
+      "weight": 0.05
+    }
+  },
+  {
+    "id": "fish:squirrelfish",
+    "kind": "fish",
+    "key": "squirrelfish",
+    "code": 8,
+    "category": "fish",
+    "family": "fish",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.fish.squirrelfish.name",
+        "en": "Squirrelfish"
+      }
+    },
+    "life": {
+      "domain": "render",
+      "weight": 0.04
+    }
+  }
+]

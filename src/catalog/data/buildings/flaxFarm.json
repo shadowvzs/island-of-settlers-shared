@@ -1,0 +1,70 @@
+{
+  "id": "building:flaxFarm",
+  "kind": "building",
+  "key": "flaxFarm",
+  "code": 60,
+  "category": "building.materials",
+  "family": "building.production.flaxFarm",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.flaxFarm",
+      "en": "Flax Farm"
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.flaxFarm.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "occupied",
+      "produce",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/flaxFarm/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/flaxFarm/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/flaxFarm/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/flaxFarm/rules.json"
+    }
+  }
+}

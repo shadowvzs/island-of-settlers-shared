@@ -1,0 +1,70 @@
+{
+  "id": "building:fortress",
+  "kind": "building",
+  "key": "fortress",
+  "code": 9,
+  "category": "building.military",
+  "family": "building.military",
+  "tags": [
+    "military"
+  ],
+  "text": {
+    "name": {
+      "key": "domain.building.fortress",
+      "en": "Fortress"
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.fortress.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/fortress/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/fortress/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/fortress/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/fortress/rules.json"
+    }
+  }
+}

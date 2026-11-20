@@ -1,0 +1,180 @@
+[
+  {
+    "id": "ship:sailingShip",
+    "kind": "ship",
+    "key": "sailingShip",
+    "category": "ship",
+    "family": "ship.sailing",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "content.ship.sailingShip.name",
+        "en": "Sailing ship"
+      }
+    },
+    "variants": {
+      "nation": "all"
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "ui-icons/roman-merchant-ship.png"
+    },
+    "model": {
+      "kind": "recipe",
+      "recipe": "recipe:ship.sailingShip.{nation}"
+    },
+    "actor": {
+      "capabilities": [
+        "cargo",
+        "clicked",
+        "enteredRegion",
+        "sail",
+        "sink"
+      ],
+      "targetOf": [
+        "attackTarget",
+        "board",
+        "cargo",
+        "sail",
+        "setOwner",
+        "sink",
+        "spawn"
+      ]
+    },
+    "ship": {
+      "builtBy": "building:shipyard",
+      "hull": {
+        "beam": 3.36,
+        "length": 8.8,
+        "overallBeam": 5.6,
+        "overallLength": 10.4,
+        "scale": 4,
+        "spacing": 0.6
+      },
+      "liveries": [
+        "nation",
+        "neutral"
+      ],
+      "nationIcons": {
+        "roman": {
+          "root": "clientAssets",
+          "path": "ui-icons/roman-merchant-ship.png"
+        },
+        "viking": {
+          "root": "clientAssets",
+          "path": "ui-icons/ships/viking-longship.png"
+        },
+        "japanese": {
+          "root": "clientAssets",
+          "path": "ui-icons/ships/japanese-bune.png"
+        },
+        "nubian": {
+          "root": "clientAssets",
+          "path": "ui-icons/ships/nubian-trader.png"
+        },
+        "indigenous": {
+          "root": "clientAssets",
+          "path": "ui-icons/ships/indigenous-trader.png"
+        },
+        "chinese": {
+          "root": "clientAssets",
+          "path": "ui-icons/ships/chinese-junk.png"
+        },
+        "persian": {
+          "root": "clientAssets",
+          "path": "ui-icons/ships/persian-trader.png"
+        },
+        "maya": {
+          "root": "clientAssets",
+          "path": "ui-icons/ships/maya-trader.png"
+        }
+      },
+      "neutralIcons": {
+        "roman": {
+          "root": "clientAssets",
+          "path": "ui-icons/ships/neutral-roman.png"
+        },
+        "viking": {
+          "root": "clientAssets",
+          "path": "ui-icons/ships/neutral-viking.png"
+        },
+        "japanese": {
+          "root": "clientAssets",
+          "path": "ui-icons/ships/neutral-japanese.png"
+        },
+        "nubian": {
+          "root": "clientAssets",
+          "path": "ui-icons/ships/neutral-nubian.png"
+        },
+        "indigenous": {
+          "root": "clientAssets",
+          "path": "ui-icons/ships/neutral-roman.png"
+        },
+        "chinese": {
+          "root": "clientAssets",
+          "path": "ui-icons/ships/neutral-roman.png"
+        },
+        "persian": {
+          "root": "clientAssets",
+          "path": "ui-icons/ships/neutral-roman.png"
+        },
+        "maya": {
+          "root": "clientAssets",
+          "path": "ui-icons/ships/neutral-roman.png"
+        }
+      },
+      "capacity": {
+        "boxes": 33,
+        "passengers": 16
+      }
+    }
+  },
+  {
+    "id": "ship:raider",
+    "kind": "ship",
+    "key": "raider",
+    "category": "ship",
+    "family": "ship.raider",
+    "tags": [
+      "hostile"
+    ],
+    "text": {
+      "name": {
+        "key": "content.ship.raider.name",
+        "en": "Raider ship"
+      }
+    },
+    "model": {
+      "kind": "recipe",
+      "recipe": "recipe:ship.raider"
+    },
+    "actor": {
+      "capabilities": [
+        "cargo",
+        "clicked",
+        "enteredRegion",
+        "sail",
+        "sink"
+      ],
+      "targetOf": [
+        "attackTarget",
+        "board",
+        "cargo",
+        "sail",
+        "setOwner",
+        "sink",
+        "spawn"
+      ]
+    },
+    "ship": {
+      "hullOf": "ship:sailingShip",
+      "liveries": [
+        "enemy"
+      ],
+      "capacity": {
+        "boxes": 33,
+        "passengers": 16
+      }
+    }
+  }
+]

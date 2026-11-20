@@ -1,0 +1,159 @@
+{
+  "art": {
+    "extension": true,
+    "footprint": 3,
+    "mechanism": "none",
+    "props": [
+      "vines",
+      "barrels"
+    ],
+    "roof": "green",
+    "style": "hall"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "nations": {
+    "chinese": {
+      "production": {
+        "inputs": [],
+        "job": "settler:teaGrower",
+        "outputs": [
+          "teaLeaves"
+        ],
+        "plantation": "tea"
+      },
+      "role": {
+        "en": "Grows tea bushes and picks their leaves",
+        "key": "content.building.vineyard.role.chinese"
+      }
+    },
+    "indigenous": {
+      "production": {
+        "inputs": [],
+        "job": "settler:berryGrower",
+        "outputs": [
+          "berries"
+        ],
+        "plantation": "berries"
+      },
+      "role": {
+        "en": "Tends berry bushes and gathers ripe berries",
+        "key": "content.building.vineyard.role.indigenous"
+      }
+    },
+    "japanese": {
+      "production": {
+        "inputs": [],
+        "job": "settler:riceFarmer",
+        "outputs": [
+          "rice"
+        ],
+        "plantation": "rice"
+      },
+      "role": {
+        "en": "Plants rice paddies around the farm and harvests the rice",
+        "key": "content.building.vineyard.role.japanese"
+      }
+    },
+    "maya": {
+      "production": {
+        "inputs": [],
+        "job": "settler:cacaoGrower",
+        "outputs": [
+          "cacaoBeans"
+        ],
+        "plantation": "cacao"
+      },
+      "role": {
+        "en": "Grows cacao trees and harvests cacao beans",
+        "key": "content.building.vineyard.role.maya"
+      }
+    },
+    "nubian": {
+      "production": {
+        "inputs": [],
+        "job": "settler:palmGrower",
+        "outputs": [
+          "coconut"
+        ],
+        "plantation": "palm"
+      },
+      "role": {
+        "en": "Plants coconut palms around the house and harvests their coconuts",
+        "key": "content.building.vineyard.role.nubian"
+      }
+    },
+    "persian": {
+      "production": {
+        "inputs": [],
+        "job": "settler:pomegranateGrower",
+        "outputs": [
+          "pomegranate"
+        ],
+        "plantation": "pomegranate"
+      },
+      "role": {
+        "en": "Tends pomegranate trees and harvests their fruit",
+        "key": "content.building.vineyard.role.persian"
+      }
+    },
+    "viking": {
+      "production": {
+        "inputs": [],
+        "job": "settler:beekeeper",
+        "outputs": [
+          "honey"
+        ],
+        "plantation": "hive"
+      },
+      "role": {
+        "en": "Sets beehives around the house and collects their honey",
+        "key": "content.building.vineyard.role.viking"
+      }
+    }
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [],
+    "job": "settler:winegrower",
+    "outdoor": "field",
+    "outputs": [
+      "grapes"
+    ],
+    "plantation": "vine",
+    "seconds": 24
+  },
+  "progressionTier": "big",
+  "role": {
+    "en": "Plants grape vines around the house and harvests the grapes",
+    "key": "content.building.vineyard.role"
+  },
+  "structureHp": 9000,
+  "task": "harvest",
+  "unlockLevel": 10,
+  "worker": "settler:winegrower"
+}

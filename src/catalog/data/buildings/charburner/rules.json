@@ -1,0 +1,60 @@
+{
+  "art": {
+    "extension": true,
+    "footprint": 3,
+    "mechanism": "none",
+    "props": [
+      "coal",
+      "logs"
+    ],
+    "roof": "thatch",
+    "style": "hall"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [
+      "logs"
+    ],
+    "job": "settler:charburner",
+    "outdoor": "field",
+    "outputs": [
+      "coal"
+    ],
+    "seconds": 12
+  },
+  "progressionTier": "big",
+  "role": {
+    "en": "Burns logs in an earth-covered clamp to produce charcoal",
+    "key": "content.building.charburner.role"
+  },
+  "structureHp": 9000,
+  "task": "burn",
+  "unlockLevel": 12,
+  "worker": "settler:charburner"
+}

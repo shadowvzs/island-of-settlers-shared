@@ -1,0 +1,22 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 3,
+    "mechanism": "none",
+    "props": [],
+    "roof": "slate",
+    "style": "hall"
+  },
+  "limits": {
+    "homeOnly": true,
+    "max": 1
+  },
+  "progressionTier": "big",
+  "role": {
+    "en": "A national landmark built from every construction-material tier",
+    "key": "content.building.monument.role"
+  },
+  "structureHp": 30000,
+  "task": "none",
+  "unlockLevel": 30
+}

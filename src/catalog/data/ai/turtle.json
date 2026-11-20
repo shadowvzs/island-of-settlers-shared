@@ -1,0 +1,102 @@
+{
+  "extends": "balanced",
+  "addGoals": [
+    {
+      "building": "building:watchtower",
+      "group": "military",
+      "id": "watchtower",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "guardhouse"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        },
+        {
+          "buildings": 10,
+          "count": 1
+        },
+        {
+          "buildings": 22,
+          "count": 2
+        },
+        {
+          "buildings": 34,
+          "count": 3
+        }
+      ],
+      "weight": 6
+    }
+  ],
+  "goals": {
+    "guardhouse": {
+      "target": [
+        {
+          "buildings": 0,
+          "count": 1
+        },
+        {
+          "buildings": 12,
+          "count": 2
+        },
+        {
+          "buildings": 24,
+          "count": 3
+        }
+      ],
+      "weight": 7
+    },
+    "militaryAcademy": {
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        },
+        {
+          "buildings": 16,
+          "count": 1
+        }
+      ]
+    }
+  },
+  "groups": {
+    "arms": {
+      "style": 90
+    },
+    "food": {
+      "style": 120
+    },
+    "housing": {
+      "style": 130
+    },
+    "military": {
+      "style": 160
+    }
+  },
+  "stock": {
+    "wares": {
+      "planks": {
+        "fortify": 40,
+        "grow": 40
+      },
+      "stone": {
+        "fortify": 50,
+        "grow": 40
+      }
+    }
+  },
+  "strategy": {
+    "attackRatioPercent": 150,
+    "attackStrengthPercent": 150,
+    "calmPosture": "fortify",
+    "firstAttackPercent": 200,
+    "raids": "never",
+    "retryPercent": 200,
+    "soldierReserve": 2
+  },
+  "style": "turtle"
+}

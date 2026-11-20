@@ -1,0 +1,60 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "none",
+    "props": [
+      "stone"
+    ],
+    "roof": "slate",
+    "style": "cottage"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "limits": {
+    "colony": "conquered"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [],
+    "job": "settler:stonemason",
+    "outdoor": "stone",
+    "outputs": [
+      "limestone"
+    ],
+    "seconds": 10
+  },
+  "progressionTier": "small",
+  "role": {
+    "en": "Quarries colony limestone deposits",
+    "key": "content.building.limestoneQuarry.role"
+  },
+  "structureHp": 6000,
+  "task": "quarry",
+  "unlockLevel": 22,
+  "worker": "settler:stonemason"
+}

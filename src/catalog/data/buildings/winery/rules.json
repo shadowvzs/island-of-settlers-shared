@@ -1,0 +1,174 @@
+{
+  "art": {
+    "extension": true,
+    "footprint": 2,
+    "mechanism": "press",
+    "props": [
+      "barrels",
+      "vines"
+    ],
+    "roof": "green",
+    "style": "hall"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "nations": {
+    "chinese": {
+      "production": {
+        "inputs": [
+          "teaLeaves",
+          "water"
+        ],
+        "job": "settler:teaBrewer",
+        "outputs": [
+          "tea"
+        ]
+      },
+      "role": {
+        "en": "Prepares tea leaves with water into tea",
+        "key": "content.building.winery.role.chinese"
+      }
+    },
+    "indigenous": {
+      "production": {
+        "inputs": [
+          "berries",
+          "water"
+        ],
+        "job": "settler:berryInfuser",
+        "outputs": [
+          "berryDrink"
+        ]
+      },
+      "role": {
+        "en": "Crushes and infuses berries into a fruit drink",
+        "key": "content.building.winery.role.indigenous"
+      }
+    },
+    "japanese": {
+      "production": {
+        "inputs": [
+          "rice",
+          "water"
+        ],
+        "job": "settler:sakeBrewer",
+        "outputs": [
+          "sake"
+        ]
+      },
+      "role": {
+        "en": "Brews rice into sake",
+        "key": "content.building.winery.role.japanese"
+      }
+    },
+    "maya": {
+      "production": {
+        "inputs": [
+          "cacaoBeans",
+          "water"
+        ],
+        "job": "settler:cacaoBrewer",
+        "outputs": [
+          "cacaoDrink"
+        ]
+      },
+      "role": {
+        "en": "Grinds cacao beans and froths a cacao drink",
+        "key": "content.building.winery.role.maya"
+      }
+    },
+    "nubian": {
+      "production": {
+        "inputs": [
+          "coconut",
+          "water"
+        ],
+        "job": "settler:toddyMaker",
+        "outputs": [
+          "toddy"
+        ]
+      },
+      "role": {
+        "en": "Ferments coconuts into toddy",
+        "key": "content.building.winery.role.nubian"
+      }
+    },
+    "persian": {
+      "production": {
+        "inputs": [
+          "pomegranate",
+          "water"
+        ],
+        "job": "settler:pomegranatePresser",
+        "outputs": [
+          "pomegranateJuice"
+        ]
+      },
+      "role": {
+        "en": "Presses pomegranates into juice",
+        "key": "content.building.winery.role.persian"
+      }
+    },
+    "viking": {
+      "production": {
+        "inputs": [
+          "honey",
+          "water"
+        ],
+        "job": "settler:meadBrewer",
+        "outputs": [
+          "mead"
+        ]
+      },
+      "role": {
+        "en": "Brews honey into mead",
+        "key": "content.building.winery.role.viking"
+      }
+    }
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [
+      "grapes",
+      "water"
+    ],
+    "job": "settler:vintner",
+    "outputs": [
+      "wine"
+    ],
+    "seconds": 16
+  },
+  "progressionTier": "medium",
+  "role": {
+    "en": "Presses grapes into wine",
+    "key": "content.building.winery.role"
+  },
+  "structureHp": 6000,
+  "task": "press",
+  "unlockLevel": 11,
+  "worker": "settler:vintner"
+}

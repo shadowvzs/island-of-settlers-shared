@@ -1,0 +1,19 @@
+{
+  "id": "building:retired38",
+  "kind": "building",
+  "key": "retired38",
+  "code": 38,
+  "category": "building.settlement",
+  "family": "building",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "content.building.retired.name",
+      "en": "Retired building"
+    }
+  },
+  "retired": true,
+  "building": {
+    "placeable": false
+  }
+}

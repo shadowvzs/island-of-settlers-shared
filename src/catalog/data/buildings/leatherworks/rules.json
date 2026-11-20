@@ -1,0 +1,60 @@
+{
+  "art": {
+    "extension": true,
+    "footprint": 2,
+    "mechanism": "press",
+    "props": [
+      "hides",
+      "weapons"
+    ],
+    "roof": "green",
+    "style": "hall"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [
+      "leather",
+      "cloth"
+    ],
+    "job": "settler:leatherworker",
+    "outputs": [
+      "armor"
+    ],
+    "seconds": 16
+  },
+  "progressionTier": "big",
+  "role": {
+    "en": "Crafts armor from leather",
+    "key": "content.building.leatherworks.role"
+  },
+  "structureHp": 6000,
+  "task": "sew",
+  "unlockLevel": 15,
+  "worker": "settler:leatherworker"
+}

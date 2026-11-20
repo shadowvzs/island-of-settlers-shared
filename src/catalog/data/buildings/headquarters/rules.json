@@ -1,0 +1,50 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 3,
+    "mechanism": "none",
+    "props": [
+      "crates",
+      "banner"
+    ],
+    "roof": "slate",
+    "style": "castle"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "storage"
+    ],
+    "family": "storage"
+  },
+  "progressionTier": "big",
+  "role": {
+    "en": "Stores goods and idle settlers; new settlers are born here",
+    "key": "content.building.headquarters.role"
+  },
+  "storage": {
+    "capacity": 1000
+  },
+  "structureHp": 60000,
+  "task": "carry",
+  "territoryRadius": 48,
+  "unlockLevel": 1,
+  "worker": "settler:carrier"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "building:mediumResidence",
+  "kind": "building",
+  "key": "mediumResidence",
+  "code": 58,
+  "category": "building.settlement",
+  "family": "building.residence",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.mediumResidence",
+      "en": "Medium residence"
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.mediumResidence.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/mediumResidence/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/mediumResidence/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/mediumResidence/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/mediumResidence/rules.json"
+    }
+  }
+}

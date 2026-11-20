@@ -1,0 +1,70 @@
+{
+  "id": "building:cedarForester",
+  "kind": "building",
+  "key": "cedarForester",
+  "code": 45,
+  "category": "building.materials",
+  "family": "building.production.forester",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.cedarForester",
+      "en": "Cedar forester"
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.cedarForester.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "occupied",
+      "produce",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/cedarForester/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/cedarForester/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/cedarForester/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/cedarForester/rules.json"
+    }
+  }
+}

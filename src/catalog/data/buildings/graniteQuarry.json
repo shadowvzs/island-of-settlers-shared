@@ -1,0 +1,70 @@
+{
+  "id": "building:graniteQuarry",
+  "kind": "building",
+  "key": "graniteQuarry",
+  "code": 55,
+  "category": "building.materials",
+  "family": "building.production.quarry",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.graniteQuarry",
+      "en": "Granite quarry"
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.graniteQuarry.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "occupied",
+      "produce",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/graniteQuarry/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/graniteQuarry/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/graniteQuarry/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/graniteQuarry/rules.json"
+    }
+  }
+}

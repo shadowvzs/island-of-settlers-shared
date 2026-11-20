@@ -1,0 +1,100 @@
+{
+  "id": "building:winery",
+  "kind": "building",
+  "key": "winery",
+  "code": 6,
+  "category": "building.foodDrink",
+  "family": "building.production.winery",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.winery",
+      "en": "Winery"
+    },
+    "variants": {
+      "chinese": {
+        "key": "domain.building.chinese.teaHouse",
+        "en": "Tea house"
+      },
+      "persian": {
+        "key": "domain.building.persian.pomegranatePress",
+        "en": "Pomegranate press"
+      },
+      "maya": {
+        "key": "domain.building.maya.cacaoHouse",
+        "en": "Cacao house"
+      },
+      "indigenous": {
+        "key": "domain.building.indigenous.berryInfusionLodge",
+        "en": "Berry infusion lodge"
+      },
+      "japanese": {
+        "key": "domain.building.japanese.riceDistillery",
+        "en": "Rice distillery"
+      },
+      "nubian": {
+        "key": "domain.building.nubian.toddyMaker",
+        "en": "Toddy maker"
+      },
+      "viking": {
+        "key": "domain.building.viking.meadery",
+        "en": "Meadery"
+      }
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.winery.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "occupied",
+      "produce",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/winery/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/winery/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/winery/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/winery/rules.json"
+    }
+  }
+}

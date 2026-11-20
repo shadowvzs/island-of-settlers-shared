@@ -1,0 +1,175 @@
+[
+  {
+    "id": "deposit:coalOre",
+    "kind": "deposit",
+    "key": "coalOre",
+    "code": 1,
+    "category": "deposit",
+    "family": "deposit.ore",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "mined"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "domain.ware.coal",
+        "en": "Coal"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/ore-coal.webp"
+    },
+    "deposit": {
+      "editor": {
+        "order": 0,
+        "tool": "ore"
+      },
+      "source": "mineZone"
+    }
+  },
+  {
+    "id": "deposit:ironOre",
+    "kind": "deposit",
+    "key": "ironOre",
+    "code": 2,
+    "category": "deposit",
+    "family": "deposit.ore",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "mined"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.catalog.ore.iron",
+        "en": "Iron"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/ore-iron.webp"
+    },
+    "deposit": {
+      "editor": {
+        "order": 1,
+        "tool": "ore"
+      },
+      "source": "mineZone"
+    }
+  },
+  {
+    "id": "deposit:goldOre",
+    "kind": "deposit",
+    "key": "goldOre",
+    "code": 3,
+    "category": "deposit",
+    "family": "deposit.ore",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "mined"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.catalog.ore.gold",
+        "en": "Gold"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/ore-gold.webp"
+    },
+    "deposit": {
+      "editor": {
+        "order": 2,
+        "tool": "ore"
+      },
+      "source": "mineZone"
+    }
+  },
+  {
+    "id": "deposit:graniteOre",
+    "kind": "deposit",
+    "key": "graniteOre",
+    "code": 4,
+    "category": "deposit",
+    "family": "deposit.ore",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "mined"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.catalog.ore.granite",
+        "en": "Granite"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/ore-granite.webp"
+    },
+    "deposit": {
+      "editor": {
+        "order": 3,
+        "tool": "ore"
+      },
+      "source": "mineZone"
+    }
+  },
+  {
+    "id": "deposit:stoneBoulder",
+    "kind": "deposit",
+    "key": "stoneBoulder",
+    "category": "deposit",
+    "family": "deposit.stone",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "mined"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.deposit.stoneBoulder.name",
+        "en": "Stone deposit"
+      }
+    },
+    "variants": {
+      "form": [
+        "marble",
+        "limestone",
+        "basalt",
+        "granite"
+      ]
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/{form}-deposit.png"
+    },
+    "deposit": {
+      "source": "stoneBoulder"
+    }
+  }
+]

@@ -1,0 +1,107 @@
+{
+  "animals.json": {
+    "model": {
+      "kind": "glb",
+      "asset": {
+        "root": "clientAssets",
+        "path": "models/animals/{key}/{key}.glb"
+      }
+    },
+    "sidecars": {
+      "tuning": {
+        "path": "tuning/wildlife-profiles.json"
+      }
+    }
+  },
+  "birds.json": {
+    "model": {
+      "kind": "recipe",
+      "recipe": "recipe:bird.{key}"
+    },
+    "sidecars": {
+      "tuning": {
+        "path": "tuning/models/birds.json"
+      }
+    }
+  },
+  "butterflies.json": {
+    "model": {
+      "kind": "recipe",
+      "recipe": "recipe:butterfly.{key}"
+    },
+    "sidecars": {
+      "tuning": {
+        "path": "tuning/models/butterflies.json"
+      }
+    }
+  },
+  "critters.json": {
+    "model": {
+      "kind": "recipe",
+      "recipe": "recipe:critter.{key}"
+    }
+  },
+  "fish.json": {
+    "model": {
+      "kind": "recipe",
+      "recipe": "recipe:fish.{key}"
+    },
+    "sidecars": {
+      "tuning": {
+        "path": "tuning/models/fish.json"
+      }
+    }
+  },
+  "plants.json": {
+    "model": {
+      "kind": "recipe",
+      "recipe": "recipe:plant.{key}"
+    }
+  },
+  "shells.json": {
+    "model": {
+      "kind": "recipe",
+      "recipe": "recipe:shell.{key}"
+    }
+  },
+  "trees.json": {
+    "model": {
+      "kind": "recipe",
+      "recipe": "recipe:tree.{key}"
+    }
+  },
+  "wares.json": {
+    "icon": {
+      "root": "clientAssets",
+      "path": "ware-icons/{key}.png"
+    }
+  },
+  "whales.json": {
+    "model": {
+      "kind": "recipe",
+      "recipe": "recipe:whale.{key}"
+    },
+    "sidecars": {
+      "tuning": {
+        "path": "tuning/models/whales.json"
+      }
+    }
+  },
+  "decorations/plants.json": {
+    "model": {
+      "kind": "recipe",
+      "recipe": "recipe:decoration.{key}"
+    },
+    "sidecars": {
+      "tuning": {
+        "path": "tuning/models/plants.json"
+      }
+    }
+  },
+  "decorations/structures.json": {
+    "model": {
+      "kind": "recipe",
+      "recipe": "recipe:decoration.{key}"
+    }
+  }
+}

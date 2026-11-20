@@ -1,0 +1,63 @@
+{
+  "id": "building:monument",
+  "kind": "building",
+  "key": "monument",
+  "code": 7,
+  "category": "building.settlement",
+  "family": "building.monument",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.monument",
+      "en": "Monument"
+    }
+  },
+  "variants": {
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.monument.{nation}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/monument/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/monument/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/monument/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/monument/rules.json"
+    }
+  }
+}

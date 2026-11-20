@@ -1,0 +1,729 @@
+[
+  {
+    "id": "plant:bush",
+    "kind": "plant",
+    "key": "bush",
+    "code": 3,
+    "category": "plant",
+    "family": "plant",
+    "tags": [
+      "groundDecoration"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.option.decoration.bush",
+        "en": "Bush"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-bush.webp"
+    },
+    "prop": {
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "plant:flowers",
+    "kind": "plant",
+    "key": "flowers",
+    "code": 6,
+    "category": "plant",
+    "family": "plant",
+    "tags": [
+      "groundDecoration"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.option.decoration.flowers",
+        "en": "Flowers"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-flowers.webp"
+    },
+    "prop": {
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "plant:mushrooms",
+    "kind": "plant",
+    "key": "mushrooms",
+    "code": 7,
+    "category": "plant",
+    "family": "plant",
+    "tags": [
+      "groundDecoration"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.option.decoration.mushrooms",
+        "en": "Mushrooms"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-mushrooms.webp"
+    },
+    "prop": {
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "plant:waterLily",
+    "kind": "plant",
+    "key": "waterLily",
+    "code": 19,
+    "category": "plant",
+    "family": "plant",
+    "tags": [
+      "groundDecoration"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.option.decoration.waterLily",
+        "en": "Water lily"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-water-lily.webp"
+    },
+    "prop": {
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "plant:reeds",
+    "kind": "plant",
+    "key": "reeds",
+    "code": 8,
+    "category": "plant",
+    "family": "plant",
+    "tags": [
+      "groundDecoration"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.option.decoration.reeds",
+        "en": "Reeds"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-reeds.webp"
+    },
+    "prop": {
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "plant:cattail",
+    "kind": "plant",
+    "key": "cattail",
+    "code": 9,
+    "category": "plant",
+    "family": "plant",
+    "tags": [
+      "groundDecoration"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.option.decoration.cattail",
+        "en": "Cattail"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-cattail.webp"
+    },
+    "prop": {
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "plant:riverShrub",
+    "kind": "plant",
+    "key": "riverShrub",
+    "code": 10,
+    "category": "plant",
+    "family": "plant",
+    "tags": [
+      "groundDecoration"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.option.decoration.riverShrub",
+        "en": "River shrub"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-river-shrub.webp"
+    },
+    "prop": {
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "plant:willowShrub",
+    "kind": "plant",
+    "key": "willowShrub",
+    "code": 11,
+    "category": "plant",
+    "family": "plant",
+    "tags": [
+      "groundDecoration"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.option.decoration.willowShrub",
+        "en": "Willow shrub"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-willow-shrub.webp"
+    },
+    "prop": {
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "plant:sedge",
+    "kind": "plant",
+    "key": "sedge",
+    "code": 12,
+    "category": "plant",
+    "family": "plant",
+    "tags": [
+      "groundDecoration"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.option.decoration.sedge",
+        "en": "Sedge"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-sedge.webp"
+    },
+    "prop": {
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "plant:berryBush",
+    "kind": "plant",
+    "key": "berryBush",
+    "code": 13,
+    "category": "plant",
+    "family": "plant",
+    "tags": [
+      "groundDecoration"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.option.decoration.berryBush",
+        "en": "Berry bush"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-berry-bush.webp"
+    },
+    "prop": {
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "plant:fern",
+    "kind": "plant",
+    "key": "fern",
+    "code": 14,
+    "category": "plant",
+    "family": "plant",
+    "tags": [
+      "groundDecoration"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.option.decoration.fern",
+        "en": "Fern"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-fern.webp"
+    },
+    "prop": {
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "plant:broadleafShrub",
+    "kind": "plant",
+    "key": "broadleafShrub",
+    "code": 16,
+    "category": "plant",
+    "family": "plant",
+    "tags": [
+      "groundDecoration"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.option.decoration.broadleafShrub",
+        "en": "Broadleaf shrub"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-broadleaf-shrub.webp"
+    },
+    "prop": {
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "plant:fieldShrub",
+    "kind": "plant",
+    "key": "fieldShrub",
+    "code": 17,
+    "category": "plant",
+    "family": "plant",
+    "tags": [
+      "groundDecoration"
+    ],
+    "actor": {
+      "capabilities": [],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.option.decoration.fieldShrub",
+        "en": "Field shrub"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-field-shrub.webp"
+    },
+    "prop": {
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "plant:cactus",
+    "kind": "plant",
+    "key": "cactus",
+    "code": 38,
+    "category": "plant",
+    "family": "plant",
+    "tags": [
+      "adventure"
+    ],
+    "actor": {
+      "capabilities": [
+        "cut"
+      ],
+      "targetOf": [
+        "cut",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.plant.cactus.name",
+        "en": "Cactus"
+      }
+    },
+    "prop": {
+      "layer": "adventure"
+    }
+  },
+  {
+    "id": "plant:shortGrass",
+    "kind": "plant",
+    "key": "shortGrass",
+    "code": 25,
+    "category": "plant",
+    "family": "plant.cover",
+    "tags": [
+      "cover"
+    ],
+    "text": {
+      "name": {
+        "key": "content.plant.shortGrass.name",
+        "en": "Short grass"
+      }
+    },
+    "prop": {
+      "layer": "cover",
+      "editor": {
+        "order": 3,
+        "tool": "doodad"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-short-grass.webp"
+    }
+  },
+  {
+    "id": "plant:tallGrass",
+    "kind": "plant",
+    "key": "tallGrass",
+    "code": 26,
+    "category": "plant",
+    "family": "plant.cover",
+    "tags": [
+      "cover"
+    ],
+    "text": {
+      "name": {
+        "key": "content.plant.tallGrass.name",
+        "en": "Tall grass"
+      }
+    },
+    "prop": {
+      "layer": "cover",
+      "editor": {
+        "order": 4,
+        "tool": "doodad"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-tall-grass.webp"
+    }
+  },
+  {
+    "id": "plant:dryTuft",
+    "kind": "plant",
+    "key": "dryTuft",
+    "code": 27,
+    "category": "plant",
+    "family": "plant.cover",
+    "tags": [
+      "cover"
+    ],
+    "text": {
+      "name": {
+        "key": "content.plant.dryTuft.name",
+        "en": "Dry grass tuft"
+      }
+    },
+    "prop": {
+      "layer": "cover",
+      "editor": {
+        "order": 5,
+        "tool": "doodad"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-dry-tuft.webp"
+    }
+  },
+  {
+    "id": "plant:seedGrass",
+    "kind": "plant",
+    "key": "seedGrass",
+    "code": 28,
+    "category": "plant",
+    "family": "plant.cover",
+    "tags": [
+      "cover"
+    ],
+    "text": {
+      "name": {
+        "key": "content.plant.seedGrass.name",
+        "en": "Seed grass"
+      }
+    },
+    "prop": {
+      "layer": "cover"
+    }
+  },
+  {
+    "id": "plant:clover",
+    "kind": "plant",
+    "key": "clover",
+    "code": 29,
+    "category": "plant",
+    "family": "plant.cover",
+    "tags": [
+      "cover"
+    ],
+    "text": {
+      "name": {
+        "key": "content.plant.clover.name",
+        "en": "Clover"
+      }
+    },
+    "prop": {
+      "layer": "cover"
+    }
+  },
+  {
+    "id": "plant:fieldWeed",
+    "kind": "plant",
+    "key": "fieldWeed",
+    "code": 30,
+    "category": "plant",
+    "family": "plant.cover",
+    "tags": [
+      "cover"
+    ],
+    "text": {
+      "name": {
+        "key": "content.plant.fieldWeed.name",
+        "en": "Field weed"
+      }
+    },
+    "prop": {
+      "layer": "cover"
+    }
+  },
+  {
+    "id": "plant:yellowFlower",
+    "kind": "plant",
+    "key": "yellowFlower",
+    "code": 31,
+    "category": "plant",
+    "family": "plant.cover",
+    "tags": [
+      "cover"
+    ],
+    "text": {
+      "name": {
+        "key": "content.plant.yellowFlower.name",
+        "en": "Yellow wildflower"
+      }
+    },
+    "prop": {
+      "layer": "cover"
+    }
+  },
+  {
+    "id": "plant:whiteFlower",
+    "kind": "plant",
+    "key": "whiteFlower",
+    "code": 32,
+    "category": "plant",
+    "family": "plant.cover",
+    "tags": [
+      "cover"
+    ],
+    "text": {
+      "name": {
+        "key": "content.plant.whiteFlower.name",
+        "en": "White wildflower"
+      }
+    },
+    "prop": {
+      "layer": "cover"
+    }
+  },
+  {
+    "id": "plant:pinkFlower",
+    "kind": "plant",
+    "key": "pinkFlower",
+    "code": 33,
+    "category": "plant",
+    "family": "plant.cover",
+    "tags": [
+      "cover"
+    ],
+    "text": {
+      "name": {
+        "key": "content.plant.pinkFlower.name",
+        "en": "Pink wildflower"
+      }
+    },
+    "prop": {
+      "layer": "cover"
+    }
+  },
+  {
+    "id": "plant:thistle",
+    "kind": "plant",
+    "key": "thistle",
+    "code": 34,
+    "category": "plant",
+    "family": "plant.cover",
+    "tags": [
+      "cover"
+    ],
+    "text": {
+      "name": {
+        "key": "content.plant.thistle.name",
+        "en": "Thistle"
+      }
+    },
+    "prop": {
+      "layer": "cover"
+    }
+  },
+  {
+    "id": "plant:savannaGrass",
+    "kind": "plant",
+    "key": "savannaGrass",
+    "code": 43,
+    "category": "plant",
+    "family": "plant.cover",
+    "tags": [
+      "cover"
+    ],
+    "text": {
+      "name": {
+        "key": "content.plant.savannaGrass.name",
+        "en": "Savanna grass"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-savanna-grass.webp"
+    },
+    "prop": {
+      "editor": {
+        "order": 6,
+        "tool": "doodad"
+      },
+      "layer": "cover"
+    }
+  },
+  {
+    "id": "plant:jungleGrass",
+    "kind": "plant",
+    "key": "jungleGrass",
+    "code": 44,
+    "category": "plant",
+    "family": "plant.cover",
+    "tags": [
+      "cover"
+    ],
+    "text": {
+      "name": {
+        "key": "content.plant.jungleGrass.name",
+        "en": "Jungle grass"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-jungle-grass.webp"
+    },
+    "prop": {
+      "editor": {
+        "order": 7,
+        "tool": "doodad"
+      },
+      "layer": "cover"
+    }
+  },
+  {
+    "id": "plant:forestGrass",
+    "kind": "plant",
+    "key": "forestGrass",
+    "code": 45,
+    "category": "plant",
+    "family": "plant.cover",
+    "tags": [
+      "cover"
+    ],
+    "text": {
+      "name": {
+        "key": "content.plant.forestGrass.name",
+        "en": "Forest grass"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/doodad-forest-grass.webp"
+    },
+    "prop": {
+      "editor": {
+        "order": 8,
+        "tool": "doodad"
+      },
+      "layer": "cover"
+    }
+  }
+]

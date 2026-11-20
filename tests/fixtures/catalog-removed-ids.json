@@ -1,0 +1,14 @@
+[
+  {
+    "id": "building:stable",
+    "reason": "Owner 2026-11-11: the Stable no longer exists; code 38 stays reserved as building:retired38."
+  },
+  {
+    "id": "settler:stableKeeper",
+    "reason": "Owner 2026-11-11: the stable keeper job no longer exists."
+  },
+  {
+    "id": "ware:horse",
+    "reason": "Owner 2026-11-11: horses are not a ware; the only horse is the commander's mount."
+  }
+]

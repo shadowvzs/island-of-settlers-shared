@@ -1,0 +1,152 @@
+[
+  {
+    "id": "shell:seashell",
+    "kind": "shell",
+    "key": "seashell",
+    "code": 35,
+    "category": "shell",
+    "family": "shell",
+    "tags": [
+      "shoreShell"
+    ],
+    "actor": {
+      "capabilities": [
+        "clicked",
+        "collected"
+      ],
+      "targetOf": [
+        "pickUp",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.shell.seashell.name",
+        "en": "Seashell"
+      }
+    },
+    "prop": {
+      "layer": "cover"
+    }
+  },
+  {
+    "id": "shell:snailShell",
+    "kind": "shell",
+    "key": "snailShell",
+    "code": 36,
+    "category": "shell",
+    "family": "shell",
+    "tags": [
+      "shoreShell"
+    ],
+    "actor": {
+      "capabilities": [
+        "clicked",
+        "collected"
+      ],
+      "targetOf": [
+        "pickUp",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.shell.snailShell.name",
+        "en": "Snail shell"
+      }
+    },
+    "prop": {
+      "layer": "cover"
+    }
+  },
+  {
+    "id": "shell:seaStar",
+    "kind": "shell",
+    "key": "seaStar",
+    "code": 37,
+    "category": "shell",
+    "family": "shell",
+    "tags": [
+      "shoreShell"
+    ],
+    "actor": {
+      "capabilities": [
+        "clicked",
+        "collected"
+      ],
+      "targetOf": [
+        "pickUp",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.shell.seaStar.name",
+        "en": "Sea star"
+      }
+    },
+    "prop": {
+      "layer": "cover"
+    }
+  },
+  {
+    "id": "shell:seaSnailShell",
+    "kind": "shell",
+    "key": "seaSnailShell",
+    "code": 41,
+    "category": "shell",
+    "family": "shell",
+    "tags": [
+      "shoreShell"
+    ],
+    "actor": {
+      "capabilities": [
+        "clicked",
+        "collected"
+      ],
+      "targetOf": [
+        "pickUp",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.shell.seaSnailShell.name",
+        "en": "Sea snail shell"
+      }
+    },
+    "prop": {
+      "layer": "cover"
+    }
+  },
+  {
+    "id": "shell:openShell",
+    "kind": "shell",
+    "key": "openShell",
+    "code": 42,
+    "category": "shell",
+    "family": "shell",
+    "tags": [
+      "shoreShell"
+    ],
+    "actor": {
+      "capabilities": [
+        "clicked",
+        "collected"
+      ],
+      "targetOf": [
+        "pickUp",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.shell.openShell.name",
+        "en": "Open shell"
+      }
+    },
+    "prop": {
+      "layer": "cover"
+    }
+  }
+]

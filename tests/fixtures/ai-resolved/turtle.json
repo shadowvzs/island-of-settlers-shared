@@ -1,0 +1,836 @@
+{
+  "commitmentPercent": 10,
+  "costWeight": 1,
+  "goals": [
+    {
+      "building": "building:woodcutter",
+      "group": "wood",
+      "id": "woodcutter",
+      "target": [
+        {
+          "buildings": 0,
+          "count": 2
+        },
+        {
+          "buildings": 14,
+          "count": 3
+        },
+        {
+          "buildings": 28,
+          "count": 4
+        }
+      ],
+      "weight": 10
+    },
+    {
+      "building": "building:sawmill",
+      "group": "wood",
+      "id": "sawmill",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "woodcutter"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 1
+        },
+        {
+          "buildings": 26,
+          "count": 2
+        }
+      ],
+      "weight": 9
+    },
+    {
+      "building": "building:forester",
+      "group": "wood",
+      "id": "forester",
+      "requires": [
+        {
+          "count": 2,
+          "goal": "woodcutter"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 1
+        },
+        {
+          "buildings": 18,
+          "count": 2
+        }
+      ],
+      "weight": 6
+    },
+    {
+      "building": "building:flaxFarm",
+      "group": "cloth",
+      "id": "flaxFarm",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "woodcutter"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        }
+      ],
+      "weight": 7,
+      "nationTargets": {
+        "indigenous": [
+          {
+            "buildings": 0,
+            "count": 1
+          },
+          {
+            "buildings": 24,
+            "count": 2
+          }
+        ]
+      }
+    },
+    {
+      "building": "building:weaver",
+      "group": "cloth",
+      "id": "weaver",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "flaxFarm"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        }
+      ],
+      "weight": 7,
+      "nationTargets": {
+        "indigenous": [
+          {
+            "buildings": 0,
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "building": "building:quarry",
+      "group": "stone",
+      "id": "quarry",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "sawmill"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 1
+        },
+        {
+          "buildings": 20,
+          "count": 2
+        }
+      ],
+      "weight": 8
+    },
+    {
+      "building": "building:smallResidence",
+      "group": "housing",
+      "id": "smallResidence",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "sawmill"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 2
+        },
+        {
+          "buildings": 14,
+          "count": 3
+        },
+        {
+          "buildings": 24,
+          "count": 4
+        }
+      ],
+      "weight": 7
+    },
+    {
+      "building": "building:fishery",
+      "group": "food",
+      "id": "fishery",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "sawmill"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 1
+        },
+        {
+          "buildings": 24,
+          "count": 2
+        }
+      ],
+      "weight": 5
+    },
+    {
+      "building": "building:hunter",
+      "group": "food",
+      "id": "hunter",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "sawmill"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 1
+        }
+      ],
+      "weight": 4
+    },
+    {
+      "building": "building:well",
+      "group": "food",
+      "id": "well",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "sawmill"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        },
+        {
+          "buildings": 10,
+          "count": 1
+        }
+      ],
+      "weight": 4
+    },
+    {
+      "building": "building:farm",
+      "group": "food",
+      "id": "farm",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "sawmill"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        },
+        {
+          "buildings": 10,
+          "count": 1
+        },
+        {
+          "buildings": 30,
+          "count": 2
+        }
+      ],
+      "weight": 5
+    },
+    {
+      "building": "building:mill",
+      "group": "food",
+      "id": "mill",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "farm"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 1
+        }
+      ],
+      "weight": 5
+    },
+    {
+      "building": "building:bakery",
+      "group": "food",
+      "id": "bakery",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "mill"
+        },
+        {
+          "count": 1,
+          "goal": "well"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 1
+        }
+      ],
+      "weight": 5
+    },
+    {
+      "building": "building:mediumResidence",
+      "group": "housing",
+      "id": "mediumResidence",
+      "requires": [
+        {
+          "count": 3,
+          "goal": "smallResidence"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        },
+        {
+          "buildings": 24,
+          "count": 1
+        },
+        {
+          "buildings": 36,
+          "count": 2
+        }
+      ],
+      "weight": 6
+    },
+    {
+      "building": "building:charburner",
+      "group": "arms",
+      "id": "charburner",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "sawmill"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        }
+      ],
+      "weight": 5
+    },
+    {
+      "building": "building:ironMine",
+      "group": "arms",
+      "id": "ironMine",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "sawmill"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        }
+      ],
+      "weight": 5
+    },
+    {
+      "building": "building:ironSmelter",
+      "group": "arms",
+      "id": "ironSmelter",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "charburner"
+        },
+        {
+          "count": 1,
+          "goal": "ironMine"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        }
+      ],
+      "weight": 5
+    },
+    {
+      "building": "building:armory",
+      "group": "arms",
+      "id": "armory",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "ironSmelter"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        }
+      ],
+      "weight": 6
+    },
+    {
+      "building": "building:metalworks",
+      "group": "tools",
+      "id": "metalworks",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "ironSmelter"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        },
+        {
+          "buildings": 20,
+          "count": 1
+        }
+      ],
+      "weight": 6
+    },
+    {
+      "building": "building:pigFarm",
+      "group": "arms",
+      "id": "pigFarm",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "farm"
+        },
+        {
+          "count": 1,
+          "goal": "well"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        }
+      ],
+      "weight": 4
+    },
+    {
+      "building": "building:skinner",
+      "group": "arms",
+      "id": "skinner",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "pigFarm"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        }
+      ],
+      "weight": 4
+    },
+    {
+      "building": "building:tannery",
+      "group": "arms",
+      "id": "tannery",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "skinner"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        }
+      ],
+      "weight": 4
+    },
+    {
+      "building": "building:leatherworks",
+      "group": "arms",
+      "id": "leatherworks",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "tannery"
+        },
+        {
+          "count": 1,
+          "goal": "weaver"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        }
+      ],
+      "weight": 5
+    },
+    {
+      "building": "building:brewery",
+      "group": "arms",
+      "id": "brewery",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "farm"
+        },
+        {
+          "count": 1,
+          "goal": "well"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        }
+      ],
+      "weight": 4
+    },
+    {
+      "building": "building:militaryAcademy",
+      "group": "military",
+      "id": "militaryAcademy",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "armory"
+        },
+        {
+          "count": 1,
+          "goal": "brewery"
+        },
+        {
+          "count": 1,
+          "goal": "leatherworks"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        },
+        {
+          "buildings": 16,
+          "count": 1
+        }
+      ],
+      "weight": 7
+    },
+    {
+      "building": "building:guardhouse",
+      "group": "military",
+      "id": "guardhouse",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "sawmill"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 1
+        },
+        {
+          "buildings": 12,
+          "count": 2
+        },
+        {
+          "buildings": 24,
+          "count": 3
+        }
+      ],
+      "weight": 7
+    },
+    {
+      "building": "building:watchtower",
+      "group": "military",
+      "id": "watchtower",
+      "requires": [
+        {
+          "count": 1,
+          "goal": "guardhouse"
+        }
+      ],
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        },
+        {
+          "buildings": 10,
+          "count": 1
+        },
+        {
+          "buildings": 22,
+          "count": 2
+        },
+        {
+          "buildings": 34,
+          "count": 3
+        }
+      ],
+      "weight": 6
+    }
+  ],
+  "groups": {
+    "arms": {
+      "exposed": true,
+      "postures": {
+        "fortify": 110,
+        "grow": 100
+      },
+      "style": 90
+    },
+    "cloth": {
+      "exposed": true,
+      "postures": {
+        "fortify": 80,
+        "grow": 100
+      },
+      "style": 100
+    },
+    "food": {
+      "exposed": true,
+      "postures": {
+        "fortify": 70,
+        "grow": 100
+      },
+      "style": 120
+    },
+    "housing": {
+      "exposed": false,
+      "postures": {
+        "fortify": 60,
+        "grow": 100
+      },
+      "style": 130
+    },
+    "military": {
+      "exposed": false,
+      "postures": {
+        "fortify": 150,
+        "grow": 100
+      },
+      "style": 160
+    },
+    "stone": {
+      "exposed": true,
+      "postures": {
+        "fortify": 90,
+        "grow": 100
+      },
+      "style": 100
+    },
+    "tools": {
+      "exposed": true,
+      "postures": {
+        "fortify": 80,
+        "grow": 100
+      },
+      "style": 100
+    },
+    "wood": {
+      "exposed": true,
+      "postures": {
+        "fortify": 80,
+        "grow": 100
+      },
+      "style": 100
+    }
+  },
+  "stock": {
+    "default": {
+      "grow": 20,
+      "fortify": 20
+    },
+    "resumeMargin": 5,
+    "wares": {
+      "armor": {
+        "grow": 8,
+        "fortify": 12
+      },
+      "axe": {
+        "grow": 8,
+        "fortify": 8
+      },
+      "beer": {
+        "grow": 8,
+        "fortify": 12
+      },
+      "bow": {
+        "grow": 8,
+        "fortify": 8
+      },
+      "bread": {
+        "grow": 20,
+        "fortify": 30
+      },
+      "cleaver": {
+        "grow": 6,
+        "fortify": 6
+      },
+      "cloth": {
+        "grow": 20,
+        "fortify": 20
+      },
+      "coal": {
+        "grow": 12,
+        "fortify": 12
+      },
+      "crucible": {
+        "grow": 6,
+        "fortify": 6
+      },
+      "fish": {
+        "grow": 20,
+        "fortify": 30
+      },
+      "fishingRod": {
+        "grow": 6,
+        "fortify": 6
+      },
+      "flax": {
+        "grow": 12,
+        "fortify": 12
+      },
+      "flour": {
+        "grow": 12,
+        "fortify": 12
+      },
+      "grain": {
+        "grow": 12,
+        "fortify": 12
+      },
+      "hammer": {
+        "grow": 8,
+        "fortify": 8
+      },
+      "hides": {
+        "grow": 8,
+        "fortify": 8
+      },
+      "iron": {
+        "grow": 8,
+        "fortify": 8
+      },
+      "ironOre": {
+        "grow": 8,
+        "fortify": 8
+      },
+      "leather": {
+        "grow": 8,
+        "fortify": 8
+      },
+      "logs": {
+        "grow": 16,
+        "fortify": 16
+      },
+      "meat": {
+        "grow": 20,
+        "fortify": 30
+      },
+      "pickaxe": {
+        "grow": 6,
+        "fortify": 6
+      },
+      "pig": {
+        "grow": 8,
+        "fortify": 8
+      },
+      "planks": {
+        "fortify": 40,
+        "grow": 40
+      },
+      "rollingPin": {
+        "grow": 6,
+        "fortify": 6
+      },
+      "saw": {
+        "grow": 6,
+        "fortify": 6
+      },
+      "scythe": {
+        "grow": 6,
+        "fortify": 6
+      },
+      "shield": {
+        "grow": 8,
+        "fortify": 12
+      },
+      "shovel": {
+        "grow": 6,
+        "fortify": 6
+      },
+      "spyglass": {
+        "grow": 6,
+        "fortify": 6
+      },
+      "stone": {
+        "fortify": 50,
+        "grow": 40
+      },
+      "sword": {
+        "grow": 8,
+        "fortify": 12
+      },
+      "tongs": {
+        "grow": 6,
+        "fortify": 6
+      },
+      "water": {
+        "grow": 12,
+        "fortify": 12
+      }
+    }
+  },
+  "strategy": {
+    "attackRatioPercent": 150,
+    "attackStrengthPercent": 150,
+    "calmPosture": "fortify",
+    "firstAttackPercent": 200,
+    "raids": "never",
+    "retryPercent": 200,
+    "soldierReserve": 2
+  },
+  "style": "turtle",
+  "threatPenalty": 3
+}

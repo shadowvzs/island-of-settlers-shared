@@ -1,0 +1,30 @@
+{
+  "plot": {
+    "cells": [2, 2],
+    "scale": 0.8745794398886244
+  },
+  "door": {
+    "height": 0.77,
+    "hinge": [-0.23, 0, 0.706],
+    "profile": "flat",
+    "spring": 0.63,
+    "width": 0.46
+  },
+  "entrance": [],
+  "ground": "building",
+  "logistics": {
+    "carrierApproach": [-0.42, 0, 1.94],
+    "carrierHandoff": [-0.42, 0, 1.22],
+    "carrierQueue": [
+      [-0.42, 0, 1.5],
+      [-0.42, 0, 1.78]
+    ],
+    "doorThreshold": [0, 0, 0.6174530845613688],
+    "roadConnection": [0, 0, 2],
+    "workerApproach": [0, 0, 1.22],
+    "workerExit": [0, 0, 1.4343102814173438]
+  },
+  "mechanism": [0, 0.8600000000000001, -0.15],
+  "overhead": [],
+  "workerExit": [0, 0, 1.4343102814173438]
+}

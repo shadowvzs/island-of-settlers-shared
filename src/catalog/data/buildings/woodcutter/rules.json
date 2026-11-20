@@ -1,0 +1,58 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "none",
+    "props": [
+      "logs",
+      "stump"
+    ],
+    "roof": "red",
+    "style": "cottage"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [],
+    "job": "settler:woodcutter",
+    "outdoor": "tree",
+    "outputs": [
+      "logs"
+    ],
+    "seconds": 6
+  },
+  "progressionTier": "small",
+  "role": {
+    "en": "Harvests nearby trees into local log stock; carriers prioritize the nearest accepting warehouse",
+    "key": "content.building.woodcutter.role"
+  },
+  "structureHp": 6000,
+  "task": "fell",
+  "unlockLevel": 1,
+  "worker": "settler:woodcutter"
+}

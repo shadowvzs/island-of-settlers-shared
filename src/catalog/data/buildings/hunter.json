@@ -1,0 +1,70 @@
+{
+  "id": "building:hunter",
+  "kind": "building",
+  "key": "hunter",
+  "code": 22,
+  "category": "building.foodDrink",
+  "family": "building.production.hunter",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.hunter",
+      "en": "Hunter"
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.hunter.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "occupied",
+      "produce",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/hunter/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/hunter/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/hunter/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/hunter/rules.json"
+    }
+  }
+}

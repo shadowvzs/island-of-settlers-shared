@@ -1,0 +1,496 @@
+[
+  {
+    "id": "nation:roman",
+    "kind": "nation",
+    "key": "roman",
+    "text": {
+      "name": {
+        "key": "domain.nation.roman",
+        "en": "Roman"
+      }
+    },
+    "category": "nation",
+    "family": "nation",
+    "tags": [
+      "settlerNation"
+    ],
+    "nation": {
+      "settlers": true,
+      "terrainAffinity": {
+        "cover": [
+          "plant:clover",
+          "plant:fieldWeed",
+          "plant:shortGrass",
+          "plant:whiteFlower",
+          "plant:yellowFlower"
+        ],
+        "ground": [
+          "dirt",
+          "grass",
+          "gravel",
+          "lushGrass"
+        ],
+        "palette": {
+          "rock": "limestone",
+          "rockTypical": [
+            "limestone"
+          ],
+          "sand": "tan",
+          "sandTypical": [
+            "tan"
+          ],
+          "soil": "terraRossa",
+          "soilTypical": [
+            "chalk",
+            "terraRossa"
+          ]
+        },
+        "trees": {
+          "broadleaf": 1.05,
+          "conifer": 0.05,
+          "forest": 0,
+          "palms": 0
+        },
+        "variants": [
+          "coarse-stones"
+        ],
+        "water": {
+          "rivers": 1,
+          "wetness": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "nation:viking",
+    "kind": "nation",
+    "key": "viking",
+    "text": {
+      "name": {
+        "key": "domain.nation.viking",
+        "en": "Viking"
+      }
+    },
+    "category": "nation",
+    "family": "nation",
+    "tags": [
+      "settlerNation"
+    ],
+    "nation": {
+      "settlers": true,
+      "terrainAffinity": {
+        "cover": [
+          "plant:clover",
+          "plant:fieldWeed",
+          "plant:shortGrass",
+          "plant:tallGrass"
+        ],
+        "ground": [
+          "dirt",
+          "forestFloor",
+          "grass",
+          "gravel",
+          "lushGrass"
+        ],
+        "palette": {
+          "heather": 1,
+          "rock": "basalt",
+          "rockTypical": [
+            "basalt"
+          ],
+          "sand": "grey",
+          "sandTypical": [
+            "grey"
+          ],
+          "soil": "darkBrown",
+          "soilTypical": [
+            "darkBrown"
+          ]
+        },
+        "trees": {
+          "broadleaf": 0.8,
+          "conifer": 0.45,
+          "forest": 0.15,
+          "palms": 0
+        },
+        "variants": [
+          "coarse-stones",
+          "moss"
+        ],
+        "water": {
+          "rivers": 1,
+          "wetness": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "nation:japanese",
+    "kind": "nation",
+    "key": "japanese",
+    "text": {
+      "name": {
+        "key": "domain.nation.japanese",
+        "en": "Japanese"
+      }
+    },
+    "category": "nation",
+    "family": "nation",
+    "tags": [
+      "settlerNation"
+    ],
+    "nation": {
+      "settlers": true,
+      "terrainAffinity": {
+        "cover": [
+          "plant:clover",
+          "plant:shortGrass",
+          "plant:tallGrass",
+          "plant:whiteFlower"
+        ],
+        "ground": [
+          "dirt",
+          "forestFloor",
+          "grass",
+          "lushGrass"
+        ],
+        "palette": {
+          "rock": "basalt",
+          "rockTypical": [
+            "basalt"
+          ],
+          "sand": "black",
+          "sandTypical": [
+            "black"
+          ],
+          "soil": "darkBrown",
+          "soilTypical": [
+            "darkBrown"
+          ]
+        },
+        "trees": {
+          "broadleaf": 0.9,
+          "conifer": 0.35,
+          "forest": 0.1,
+          "palms": 0
+        },
+        "variants": [
+          "coarse-stones",
+          "moss"
+        ],
+        "water": {
+          "rivers": 1.6,
+          "wetness": 1.15
+        }
+      }
+    }
+  },
+  {
+    "id": "nation:nubian",
+    "kind": "nation",
+    "key": "nubian",
+    "text": {
+      "name": {
+        "key": "domain.nation.nubian",
+        "en": "Nubian"
+      }
+    },
+    "category": "nation",
+    "family": "nation",
+    "tags": [
+      "settlerNation"
+    ],
+    "nation": {
+      "settlers": true,
+      "terrainAffinity": {
+        "cover": [
+          "plant:dryTuft",
+          "plant:seedGrass",
+          "plant:shortGrass",
+          "plant:tallGrass"
+        ],
+        "ground": [
+          "dirt",
+          "grass",
+          "gravel",
+          "sand"
+        ],
+        "palette": {
+          "rock": "redSandstone",
+          "rockTypical": [
+            "golden",
+            "redSandstone"
+          ],
+          "sand": "golden",
+          "sandTypical": [
+            "golden",
+            "red"
+          ],
+          "soil": "laterite",
+          "soilTypical": [
+            "laterite"
+          ]
+        },
+        "trees": {
+          "broadleaf": 0.5,
+          "conifer": 0,
+          "forest": -0.6,
+          "palms": 0.45
+        },
+        "variants": [
+          "coarse-stones",
+          "cracked-earth"
+        ],
+        "water": {
+          "rivers": 0.8,
+          "wetness": 0.5
+        }
+      }
+    }
+  },
+  {
+    "id": "nation:indigenous",
+    "kind": "nation",
+    "key": "indigenous",
+    "text": {
+      "name": {
+        "key": "account.race.indigenous",
+        "en": "Indigenous"
+      }
+    },
+    "category": "nation",
+    "family": "nation",
+    "tags": [
+      "buildingFirstNation"
+    ],
+    "nation": {
+      "settlers": false,
+      "terrainAffinity": {
+        "cover": [
+          "plant:dryTuft",
+          "plant:seedGrass",
+          "plant:shortGrass",
+          "plant:tallGrass"
+        ],
+        "ground": [
+          "dirt",
+          "grass",
+          "sand"
+        ],
+        "palette": {
+          "jungle": 1,
+          "rock": "grey",
+          "rockTypical": [
+            "grey"
+          ],
+          "sand": "white",
+          "sandTypical": [
+            "white"
+          ],
+          "soil": "laterite",
+          "soilTypical": [
+            "laterite"
+          ]
+        },
+        "trees": {
+          "broadleaf": 0.9,
+          "conifer": 0,
+          "forest": -0.25,
+          "palms": 0.3
+        },
+        "variants": [],
+        "water": {
+          "rivers": 0.9,
+          "wetness": 0.85
+        }
+      }
+    }
+  },
+  {
+    "id": "nation:chinese",
+    "kind": "nation",
+    "key": "chinese",
+    "text": {
+      "name": {
+        "key": "account.race.chinese",
+        "en": "Chinese"
+      }
+    },
+    "category": "nation",
+    "family": "nation",
+    "tags": [
+      "buildingFirstNation"
+    ],
+    "nation": {
+      "settlers": false,
+      "terrainAffinity": {
+        "cover": [
+          "plant:clover",
+          "plant:shortGrass",
+          "plant:tallGrass",
+          "plant:whiteFlower",
+          "plant:yellowFlower"
+        ],
+        "ground": [
+          "dirt",
+          "grass",
+          "lushGrass"
+        ],
+        "palette": {
+          "rock": "grey",
+          "rockTypical": [
+            "grey"
+          ],
+          "sand": "tan",
+          "sandTypical": [
+            "tan"
+          ],
+          "soil": "loess",
+          "soilTypical": [
+            "loess"
+          ]
+        },
+        "trees": {
+          "broadleaf": 1.1,
+          "conifer": 0,
+          "forest": 0,
+          "palms": 0
+        },
+        "variants": [
+          "swamp-mud",
+          "tilled-soil"
+        ],
+        "water": {
+          "rivers": 1.15,
+          "wetness": 1.05
+        }
+      }
+    }
+  },
+  {
+    "id": "nation:persian",
+    "kind": "nation",
+    "key": "persian",
+    "text": {
+      "name": {
+        "key": "account.race.persian",
+        "en": "Persian"
+      }
+    },
+    "category": "nation",
+    "family": "nation",
+    "tags": [
+      "buildingFirstNation"
+    ],
+    "nation": {
+      "settlers": false,
+      "terrainAffinity": {
+        "cover": [
+          "plant:dryTuft",
+          "plant:seedGrass",
+          "plant:shortGrass",
+          "plant:tallGrass"
+        ],
+        "ground": [
+          "dirt",
+          "grass",
+          "gravel",
+          "sand"
+        ],
+        "palette": {
+          "rock": "golden",
+          "rockTypical": [
+            "golden",
+            "redSandstone"
+          ],
+          "sand": "golden",
+          "sandTypical": [
+            "golden",
+            "red"
+          ],
+          "soil": "terraRossa",
+          "soilTypical": [
+            "terraRossa"
+          ]
+        },
+        "trees": {
+          "broadleaf": 0.55,
+          "conifer": 0,
+          "forest": -0.55,
+          "palms": 0.45
+        },
+        "variants": [
+          "coarse-stones",
+          "cracked-earth"
+        ],
+        "water": {
+          "rivers": 0.85,
+          "wetness": 0.55
+        }
+      }
+    }
+  },
+  {
+    "id": "nation:maya",
+    "kind": "nation",
+    "key": "maya",
+    "text": {
+      "name": {
+        "key": "account.race.maya",
+        "en": "Classic Maya"
+      }
+    },
+    "category": "nation",
+    "family": "nation",
+    "tags": [
+      "buildingFirstNation"
+    ],
+    "nation": {
+      "settlers": false,
+      "terrainAffinity": {
+        "cover": [
+          "plant:clover",
+          "plant:fieldWeed",
+          "plant:shortGrass",
+          "plant:tallGrass",
+          "plant:whiteFlower"
+        ],
+        "ground": [
+          "dirt",
+          "forestFloor",
+          "grass",
+          "lushGrass"
+        ],
+        "palette": {
+          "jungle": 1,
+          "rock": "limestone",
+          "rockTypical": [
+            "limestone"
+          ],
+          "sand": "white",
+          "sandTypical": [
+            "white"
+          ],
+          "soil": "laterite",
+          "soilTypical": [
+            "laterite"
+          ]
+        },
+        "trees": {
+          "broadleaf": 1.35,
+          "conifer": 0,
+          "forest": 0.2,
+          "palms": 0.35
+        },
+        "variants": [
+          "moss",
+          "swamp-mud"
+        ],
+        "water": {
+          "rivers": 1.1,
+          "wetness": 1.45
+        }
+      }
+    }
+  }
+]

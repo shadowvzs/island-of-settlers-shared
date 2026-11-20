@@ -1,0 +1,68 @@
+{
+  "id": "building:smallResidence",
+  "kind": "building",
+  "key": "smallResidence",
+  "code": 57,
+  "category": "building.settlement",
+  "family": "building.residence",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.smallResidence",
+      "en": "Small residence"
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.smallResidence.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/smallResidence/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/smallResidence/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/smallResidence/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/smallResidence/rules.json"
+    }
+  }
+}

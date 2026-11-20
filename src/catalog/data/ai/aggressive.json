@@ -1,0 +1,106 @@
+{
+  "extends": "balanced",
+  "goalOrder": [
+    "woodcutter",
+    "sawmill",
+    "forester",
+    "flaxFarm",
+    "weaver",
+    "quarry",
+    "smallResidence",
+    "fishery",
+    "charburner",
+    "ironMine",
+    "well",
+    "farm",
+    "ironSmelter",
+    "armory",
+    "metalworks",
+    "brewery",
+    "pigFarm",
+    "skinner",
+    "tannery",
+    "leatherworks",
+    "militaryAcademy",
+    "hunter",
+    "mill",
+    "bakery",
+    "mediumResidence",
+    "guardhouse"
+  ],
+  "goals": {
+    "guardhouse": {
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        },
+        {
+          "buildings": 12,
+          "count": 1
+        },
+        {
+          "buildings": 32,
+          "count": 2
+        }
+      ]
+    },
+    "militaryAcademy": {
+      "target": [
+        {
+          "buildings": 0,
+          "count": 0
+        },
+        {
+          "buildings": 6,
+          "count": 1
+        },
+        {
+          "buildings": 30,
+          "count": 2
+        }
+      ]
+    }
+  },
+  "groups": {
+    "arms": {
+      "style": 150
+    },
+    "food": {
+      "style": 110
+    },
+    "military": {
+      "style": 140
+    }
+  },
+  "stock": {
+    "wares": {
+      "armor": {
+        "fortify": 20,
+        "grow": 16
+      },
+      "beer": {
+        "fortify": 20,
+        "grow": 16
+      },
+      "shield": {
+        "fortify": 20,
+        "grow": 16
+      },
+      "sword": {
+        "fortify": 20,
+        "grow": 16
+      }
+    }
+  },
+  "strategy": {
+    "attackRatioPercent": 80,
+    "attackStrengthPercent": 75,
+    "calmPosture": "grow",
+    "firstAttackPercent": 50,
+    "raids": "always",
+    "retryPercent": 50,
+    "soldierReserve": 8
+  },
+  "style": "aggressive"
+}

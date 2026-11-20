@@ -1,0 +1,278 @@
+{
+  "meadowFinch": {
+    "altitude": [0.7, 1.6],
+    "circling": 0,
+    "flapAmplitude": 0.95,
+    "flapRate": 7.5,
+    "flockMax": 7,
+    "flockMin": 3,
+    "glideDihedral": 0.05,
+    "glideFold": 0.75,
+    "glideShare": 0.35,
+    "habitat": {
+      "forest": 0.55,
+      "grass": 1,
+      "water": 0.1
+    },
+    "perches": "both",
+    "shape": {
+      "beakLength": 0.16,
+      "bodyLength": 0.5,
+      "bodyRadius": 0.08,
+      "colors": {
+        "back": [0.56, 0.4, 0.25],
+        "beak": [0.78, 0.68, 0.5],
+        "belly": [0.9, 0.82, 0.68],
+        "breast": [0.86, 0.5, 0.3],
+        "cap": [0.22, 0.18, 0.16],
+        "covert": [0.82, 0.74, 0.58],
+        "eye": [0.05, 0.04, 0.04],
+        "tail": [0.3, 0.23, 0.17],
+        "throat": [0.82, 0.5, 0.32],
+        "wing": [0.46, 0.33, 0.21],
+        "wingTip": [0.2, 0.16, 0.13]
+      },
+      "primaries": 3,
+      "primaryNotch": 0.3,
+      "tailFork": 0.25,
+      "tailLength": 0.17,
+      "tailWidth": 0.16,
+      "wing": [
+        {
+          "lead": 0.1,
+          "span": 0,
+          "tip": 0,
+          "trail": -0.12
+        },
+        {
+          "lead": 0.12,
+          "span": 0.45,
+          "tip": 0.3,
+          "trail": -0.14
+        },
+        {
+          "lead": 0.06,
+          "span": 0.85,
+          "tip": 0.8,
+          "trail": -0.1
+        },
+        {
+          "lead": -0.04,
+          "span": 1,
+          "tip": 1,
+          "trail": -0.09
+        }
+      ]
+    },
+    "size": 0.72,
+    "speed": 2.6,
+    "turnRate": 1.7
+  },
+  "scytheSwift": {
+    "altitude": [3.5, 6.5],
+    "circling": 0.2,
+    "flapAmplitude": 0.55,
+    "flapRate": 5.5,
+    "flockMax": 5,
+    "flockMin": 2,
+    "glideDihedral": -0.03,
+    "glideFold": 0.1,
+    "glideShare": 0.55,
+    "habitat": {
+      "forest": 0.3,
+      "grass": 0.8,
+      "water": 0.9
+    },
+    "perches": "none",
+    "shape": {
+      "beakLength": 0.08,
+      "bodyLength": 0.34,
+      "bodyRadius": 0.05,
+      "colors": {
+        "back": [0.16, 0.15, 0.17],
+        "beak": [0.1, 0.1, 0.1],
+        "belly": [0.24, 0.22, 0.23],
+        "breast": [0.22, 0.2, 0.21],
+        "cap": [0.15, 0.14, 0.16],
+        "covert": [0.22, 0.21, 0.24],
+        "eye": [0.04, 0.04, 0.05],
+        "tail": [0.13, 0.12, 0.14],
+        "throat": [0.78, 0.75, 0.7],
+        "wing": [0.18, 0.17, 0.2],
+        "wingTip": [0.11, 0.11, 0.13]
+      },
+      "primaries": 3,
+      "primaryNotch": 0.12,
+      "tailFork": 0.75,
+      "tailLength": 0.18,
+      "tailWidth": 0.14,
+      "wing": [
+        {
+          "lead": 0.07,
+          "span": 0,
+          "tip": 0,
+          "trail": -0.08
+        },
+        {
+          "lead": 0.06,
+          "span": 0.35,
+          "tip": 0.2,
+          "trail": -0.08
+        },
+        {
+          "lead": -0.06,
+          "span": 0.75,
+          "tip": 0.7,
+          "trail": -0.13
+        },
+        {
+          "lead": -0.24,
+          "span": 1,
+          "tip": 1,
+          "trail": -0.24
+        }
+      ]
+    },
+    "size": 0.95,
+    "speed": 4.4,
+    "turnRate": 1.2
+  },
+  "ashRook": {
+    "altitude": [1.4, 2.8],
+    "circling": 0.8,
+    "flapAmplitude": 0.7,
+    "flapRate": 3.2,
+    "flockMax": 3,
+    "flockMin": 1,
+    "glideDihedral": 0.1,
+    "glideFold": 0,
+    "glideShare": 0.3,
+    "habitat": {
+      "forest": 1,
+      "grass": 0.6,
+      "water": 0.1
+    },
+    "perches": "canopy",
+    "shape": {
+      "beakLength": 0.22,
+      "bodyLength": 0.42,
+      "bodyRadius": 0.07,
+      "colors": {
+        "back": [0.1, 0.11, 0.15],
+        "beak": [0.62, 0.6, 0.58],
+        "belly": [0.17, 0.17, 0.2],
+        "breast": [0.14, 0.14, 0.18],
+        "cap": [0.12, 0.13, 0.19],
+        "covert": [0.15, 0.19, 0.31],
+        "eye": [0.06, 0.06, 0.08],
+        "tail": [0.09, 0.09, 0.12],
+        "throat": [0.15, 0.15, 0.19],
+        "wing": [0.12, 0.13, 0.19],
+        "wingTip": [0.07, 0.07, 0.09]
+      },
+      "primaries": 6,
+      "primaryNotch": 0.72,
+      "tailFork": 0,
+      "tailLength": 0.14,
+      "tailWidth": 0.15,
+      "wing": [
+        {
+          "lead": 0.1,
+          "span": 0,
+          "tip": 0,
+          "trail": -0.13
+        },
+        {
+          "lead": 0.12,
+          "span": 0.4,
+          "tip": 0.2,
+          "trail": -0.16
+        },
+        {
+          "lead": 0.11,
+          "span": 0.68,
+          "tip": 0.6,
+          "trail": -0.17
+        },
+        {
+          "lead": 0.06,
+          "span": 1,
+          "tip": 1,
+          "trail": -0.14
+        }
+      ]
+    },
+    "size": 1.18,
+    "speed": 2.2,
+    "turnRate": 0.85
+  },
+  "shoreGull": {
+    "altitude": [0.6, 2.2],
+    "circling": 0.3,
+    "flapAmplitude": 0.6,
+    "flapRate": 2.4,
+    "flockMax": 2,
+    "flockMin": 1,
+    "glideDihedral": 0.08,
+    "glideFold": 0.05,
+    "glideShare": 0.6,
+    "habitat": {
+      "forest": 0,
+      "grass": 0.15,
+      "water": 1
+    },
+    "perches": "none",
+    "shape": {
+      "beakLength": 0.18,
+      "bodyLength": 0.38,
+      "bodyRadius": 0.055,
+      "colors": {
+        "back": [0.6, 0.64, 0.69],
+        "beak": [0.92, 0.76, 0.22],
+        "belly": [0.97, 0.97, 0.95],
+        "breast": [0.96, 0.96, 0.94],
+        "cap": [0.94, 0.94, 0.92],
+        "covert": [0.62, 0.66, 0.71],
+        "eye": [0.85, 0.78, 0.35],
+        "tail": [0.92, 0.92, 0.9],
+        "throat": [0.97, 0.97, 0.95],
+        "wing": [0.66, 0.7, 0.75],
+        "wingTip": [0.08, 0.08, 0.09]
+      },
+      "primaries": 3,
+      "primaryNotch": 0.25,
+      "tailFork": 0,
+      "tailLength": 0.12,
+      "tailWidth": 0.11,
+      "wing": [
+        {
+          "lead": 0.07,
+          "span": 0,
+          "tip": 0,
+          "trail": -0.09
+        },
+        {
+          "lead": 0.08,
+          "span": 0.42,
+          "tip": 0,
+          "trail": -0.1
+        },
+        {
+          "lead": 0.03,
+          "span": 0.7,
+          "tip": 0.35,
+          "trail": -0.085
+        },
+        {
+          "lead": -0.11,
+          "span": 1,
+          "tip": 1,
+          "trail": -0.12
+        }
+      ]
+    },
+    "size": 1.36,
+    "speed": 2.4,
+    "turnRate": 0.65
+  }
+}

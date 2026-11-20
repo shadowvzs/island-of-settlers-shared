@@ -1,0 +1,101 @@
+[
+  {
+    "id": "boat:fishingSkiff",
+    "kind": "boat",
+    "key": "fishingSkiff",
+    "category": "boat",
+    "family": "boat.fishing",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "content.boat.fishingSkiff.name",
+        "en": "Fishing skiff"
+      }
+    },
+    "variants": {
+      "nation": "all"
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "ware-icons/boat.png"
+    },
+    "model": {
+      "kind": "recipe",
+      "recipe": "recipe:boat.fishingSkiff.{nation}"
+    },
+    "actor": {
+      "capabilities": [
+        "cargo",
+        "clicked",
+        "enteredRegion",
+        "sail"
+      ],
+      "targetOf": [
+        "cargo",
+        "sail",
+        "spawn"
+      ]
+    },
+    "ship": {
+      "hull": {
+        "beam": 0.55,
+        "length": 1.6,
+        "oar": {
+          "inboard": 0.2,
+          "length": 0.95
+        }
+      },
+      "liveries": [
+        "nation"
+      ]
+    }
+  },
+  {
+    "id": "boat:lighter",
+    "kind": "boat",
+    "key": "lighter",
+    "category": "boat",
+    "family": "boat.lighter",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "content.boat.lighter.name",
+        "en": "Lighter"
+      }
+    },
+    "variants": {
+      "nation": "all"
+    },
+    "model": {
+      "kind": "recipe",
+      "recipe": "recipe:boat.lighter.{nation}"
+    },
+    "actor": {
+      "capabilities": [
+        "cargo",
+        "clicked",
+        "enteredRegion",
+        "sail"
+      ],
+      "targetOf": [
+        "cargo",
+        "sail",
+        "spawn"
+      ]
+    },
+    "ship": {
+      "builtBy": "building:shipyard",
+      "hull": {
+        "beam": 0.9,
+        "length": 2.5,
+        "oar": {
+          "inboard": 0.32,
+          "length": 1.45
+        }
+      },
+      "liveries": [
+        "nation"
+      ]
+    }
+  }
+]

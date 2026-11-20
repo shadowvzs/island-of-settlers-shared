@@ -1,0 +1,554 @@
+[
+  {
+    "id": "commander:roman",
+    "kind": "commander",
+    "key": "roman",
+    "category": "commander",
+    "family": "commander",
+    "tags": [
+      "military"
+    ],
+    "text": {
+      "name": {
+        "key": "content.commander.name",
+        "en": "Commander"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "commander-portraits/roman.png"
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "incapacitated",
+        "killed"
+      ],
+      "targetOf": [
+        "attack",
+        "attackTarget",
+        "board",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "commander": {
+      "aura": {
+        "factor": 0.05,
+        "kind": "arrowReduction"
+      },
+      "definition": "roman-guardian",
+      "loadout": "sword",
+      "names": [
+        "Aurelius",
+        "Marcella",
+        "Cassius"
+      ],
+      "recruitCost": {
+        "beer": 10,
+        "coins": 20,
+        "shield": 1,
+        "sword": 1,
+        "wine": 10
+      },
+      "role": "defensive",
+      "sight": 18,
+      "style": "melee"
+    }
+  },
+  {
+    "id": "commander:viking",
+    "kind": "commander",
+    "key": "viking",
+    "category": "commander",
+    "family": "commander",
+    "tags": [
+      "military"
+    ],
+    "text": {
+      "name": {
+        "key": "content.commander.name",
+        "en": "Commander"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "commander-portraits/viking.png"
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "incapacitated",
+        "killed"
+      ],
+      "targetOf": [
+        "attack",
+        "attackTarget",
+        "board",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "commander": {
+      "aura": {
+        "factor": 0.05,
+        "kind": "meleeDamage"
+      },
+      "definition": "viking-raider",
+      "loadout": "axe",
+      "names": [
+        "Eirik",
+        "Astrid",
+        "Bjorn"
+      ],
+      "recruitCost": {
+        "beer": 10,
+        "coins": 20,
+        "shield": 1,
+        "sword": 1,
+        "mead": 10
+      },
+      "role": "offensive",
+      "sight": 18,
+      "style": "melee"
+    }
+  },
+  {
+    "id": "commander:japanese",
+    "kind": "commander",
+    "key": "japanese",
+    "category": "commander",
+    "family": "commander",
+    "tags": [
+      "military"
+    ],
+    "text": {
+      "name": {
+        "key": "content.commander.name",
+        "en": "Commander"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "commander-portraits/japanese.png"
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "incapacitated",
+        "killed"
+      ],
+      "targetOf": [
+        "attack",
+        "attackTarget",
+        "board",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "commander": {
+      "aura": {
+        "factor": 0.05,
+        "kind": "meleeDodge"
+      },
+      "definition": "japanese-guardian",
+      "loadout": "sword",
+      "names": [
+        "Takeda Haru",
+        "Minamoto Ren",
+        "Hōjō Akira"
+      ],
+      "recruitCost": {
+        "beer": 10,
+        "coins": 20,
+        "shield": 1,
+        "sword": 1,
+        "sake": 10
+      },
+      "role": "defensive",
+      "sight": 18,
+      "style": "melee"
+    }
+  },
+  {
+    "id": "commander:nubian",
+    "kind": "commander",
+    "key": "nubian",
+    "category": "commander",
+    "family": "commander",
+    "tags": [
+      "military"
+    ],
+    "text": {
+      "name": {
+        "key": "content.commander.name",
+        "en": "Commander"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "commander-portraits/nubian.png"
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "incapacitated",
+        "killed"
+      ],
+      "targetOf": [
+        "attack",
+        "attackTarget",
+        "board",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "commander": {
+      "aura": {
+        "factor": 0.05,
+        "kind": "bowDamage"
+      },
+      "definition": "nubian-archer",
+      "loadout": "bow",
+      "names": [
+        "Amanirenas",
+        "Nastasen",
+        "Shanakdakhete"
+      ],
+      "recruitCost": {
+        "beer": 10,
+        "coins": 20,
+        "shield": 1,
+        "sword": 1,
+        "toddy": 10
+      },
+      "role": "offensive",
+      "sight": 18,
+      "style": "ranged"
+    }
+  },
+  {
+    "id": "commander:indigenous",
+    "kind": "commander",
+    "key": "indigenous",
+    "category": "commander",
+    "family": "commander",
+    "tags": [
+      "military"
+    ],
+    "text": {
+      "name": {
+        "key": "content.commander.name",
+        "en": "Commander"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "commander-portraits/roman.png"
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "incapacitated",
+        "killed"
+      ],
+      "targetOf": [
+        "attack",
+        "attackTarget",
+        "board",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "commander": {
+      "aura": {
+        "factor": 0.05,
+        "kind": "arrowReduction"
+      },
+      "definition": "roman-guardian",
+      "loadout": "sword",
+      "names": [
+        "Aurelius",
+        "Marcella",
+        "Cassius"
+      ],
+      "recruitCost": {
+        "beer": 10,
+        "coins": 20,
+        "shield": 1,
+        "sword": 1,
+        "wine": 10
+      },
+      "role": "defensive",
+      "sight": 18,
+      "style": "melee"
+    }
+  },
+  {
+    "id": "commander:chinese",
+    "kind": "commander",
+    "key": "chinese",
+    "category": "commander",
+    "family": "commander",
+    "tags": [
+      "military"
+    ],
+    "text": {
+      "name": {
+        "key": "content.commander.name",
+        "en": "Commander"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "commander-portraits/roman.png"
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "incapacitated",
+        "killed"
+      ],
+      "targetOf": [
+        "attack",
+        "attackTarget",
+        "board",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "commander": {
+      "aura": {
+        "factor": 0.05,
+        "kind": "arrowReduction"
+      },
+      "definition": "roman-guardian",
+      "loadout": "sword",
+      "names": [
+        "Aurelius",
+        "Marcella",
+        "Cassius"
+      ],
+      "recruitCost": {
+        "beer": 10,
+        "coins": 20,
+        "shield": 1,
+        "sword": 1,
+        "wine": 10
+      },
+      "role": "defensive",
+      "sight": 18,
+      "style": "melee"
+    }
+  },
+  {
+    "id": "commander:persian",
+    "kind": "commander",
+    "key": "persian",
+    "category": "commander",
+    "family": "commander",
+    "tags": [
+      "military"
+    ],
+    "text": {
+      "name": {
+        "key": "content.commander.name",
+        "en": "Commander"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "commander-portraits/roman.png"
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "incapacitated",
+        "killed"
+      ],
+      "targetOf": [
+        "attack",
+        "attackTarget",
+        "board",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "commander": {
+      "aura": {
+        "factor": 0.05,
+        "kind": "arrowReduction"
+      },
+      "definition": "roman-guardian",
+      "loadout": "sword",
+      "names": [
+        "Aurelius",
+        "Marcella",
+        "Cassius"
+      ],
+      "recruitCost": {
+        "beer": 10,
+        "coins": 20,
+        "shield": 1,
+        "sword": 1,
+        "wine": 10
+      },
+      "role": "defensive",
+      "sight": 18,
+      "style": "melee"
+    }
+  },
+  {
+    "id": "commander:maya",
+    "kind": "commander",
+    "key": "maya",
+    "category": "commander",
+    "family": "commander",
+    "tags": [
+      "military"
+    ],
+    "text": {
+      "name": {
+        "key": "content.commander.name",
+        "en": "Commander"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "commander-portraits/roman.png"
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "incapacitated",
+        "killed"
+      ],
+      "targetOf": [
+        "attack",
+        "attackTarget",
+        "board",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "commander": {
+      "aura": {
+        "factor": 0.05,
+        "kind": "arrowReduction"
+      },
+      "definition": "roman-guardian",
+      "loadout": "sword",
+      "names": [
+        "Aurelius",
+        "Marcella",
+        "Cassius"
+      ],
+      "recruitCost": {
+        "beer": 10,
+        "coins": 20,
+        "shield": 1,
+        "sword": 1,
+        "wine": 10
+      },
+      "role": "defensive",
+      "sight": 18,
+      "style": "melee"
+    }
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 3,
+    "mechanism": "crane",
+    "props": [
+      "boat",
+      "crates"
+    ],
+    "roof": "red",
+    "style": "castle"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "storage",
+      "porterSpeed"
+    ],
+    "family": "harbour"
+  },
+  "progressionTier": "big",
+  "role": {
+    "en": "Stores goods; loads ships and launches expeditions",
+    "key": "content.building.harbour.role"
+  },
+  "storage": {
+    "capacity": 500
+  },
+  "structureHp": 60000,
+  "task": "carry",
+  "unlockLevel": 18,
+  "worker": "settler:carrier"
+}

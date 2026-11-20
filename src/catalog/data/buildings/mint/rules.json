@@ -1,0 +1,60 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "press",
+    "props": [
+      "gold",
+      "coal"
+    ],
+    "roof": "green",
+    "style": "hall"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [
+      "goldOre",
+      "coal"
+    ],
+    "job": "settler:minter",
+    "outputs": [
+      "coins"
+    ],
+    "seconds": 16
+  },
+  "progressionTier": "medium",
+  "role": {
+    "en": "Mints coins using gold and coal",
+    "key": "content.building.mint.role"
+  },
+  "structureHp": 6000,
+  "task": "mint",
+  "unlockLevel": 21,
+  "worker": "settler:minter"
+}

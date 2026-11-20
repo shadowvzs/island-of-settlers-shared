@@ -1,0 +1,64 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "saw",
+    "props": [
+      "logs",
+      "boards"
+    ],
+    "roof": "red",
+    "style": "hall"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodLogs": 4,
+        "marble": 2
+      },
+      {
+        "cedarLogs": 5,
+        "limestone": 3
+      },
+      {
+        "walnutLogs": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyLogs": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed",
+      "sawmillRecipe"
+    ],
+    "family": "sawmill"
+  },
+  "limits": {
+    "colony": "conquered"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [
+      "logs"
+    ],
+    "job": "settler:carpenter",
+    "logic": "rule:production.sawmill",
+    "outputs": [
+      "planks"
+    ],
+    "seconds": 10
+  },
+  "progressionTier": "medium",
+  "role": {
+    "en": "Saws logs into boards",
+    "key": "content.building.sawmill.role"
+  },
+  "structureHp": 6000,
+  "task": "saw",
+  "unlockLevel": 2,
+  "worker": "settler:carpenter"
+}

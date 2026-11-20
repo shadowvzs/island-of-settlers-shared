@@ -1,0 +1,70 @@
+{
+  "id": "building:quarry",
+  "kind": "building",
+  "key": "quarry",
+  "code": 19,
+  "category": "building.materials",
+  "family": "building.production.quarry",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.quarry",
+      "en": "Quarry"
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.quarry.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "occupied",
+      "produce",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/quarry/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/quarry/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/quarry/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/quarry/rules.json"
+    }
+  }
+}

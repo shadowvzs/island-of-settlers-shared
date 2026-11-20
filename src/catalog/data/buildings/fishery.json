@@ -1,0 +1,70 @@
+{
+  "id": "building:fishery",
+  "kind": "building",
+  "key": "fishery",
+  "code": 18,
+  "category": "building.foodDrink",
+  "family": "building.production.fishery",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.fishery",
+      "en": "Fishery"
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.fishery.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "occupied",
+      "produce",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/fishery/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/fishery/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/fishery/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/fishery/rules.json"
+    }
+  }
+}

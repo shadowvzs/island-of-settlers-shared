@@ -1,0 +1,61 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "none",
+    "props": [
+      "logs",
+      "stump"
+    ],
+    "roof": "red",
+    "style": "cottage"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "limits": {
+    "colony": "conquered"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [],
+    "job": "settler:woodcutter",
+    "outdoor": "tree",
+    "outputs": [
+      "hardwoodLogs"
+    ],
+    "seconds": 6
+  },
+  "progressionTier": "small",
+  "role": {
+    "en": "Cuts colony hardwood trees into hardwood logs",
+    "key": "content.building.hardwoodWoodcutter.role"
+  },
+  "structureHp": 6000,
+  "task": "fell",
+  "unlockLevel": 18,
+  "worker": "settler:woodcutter"
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "id": "bird:meadowFinch",
+    "kind": "bird",
+    "key": "meadowFinch",
+    "code": 0,
+    "category": "bird",
+    "family": "bird",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "spawned"
+      ],
+      "targetOf": [
+        "move",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.bird.meadowFinch.name",
+        "en": "Meadow finch"
+      }
+    },
+    "life": {
+      "domain": "render"
+    }
+  },
+  {
+    "id": "bird:scytheSwift",
+    "kind": "bird",
+    "key": "scytheSwift",
+    "code": 1,
+    "category": "bird",
+    "family": "bird",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "spawned"
+      ],
+      "targetOf": [
+        "move",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.bird.scytheSwift.name",
+        "en": "Scythe swift"
+      }
+    },
+    "life": {
+      "domain": "render"
+    }
+  },
+  {
+    "id": "bird:ashRook",
+    "kind": "bird",
+    "key": "ashRook",
+    "code": 2,
+    "category": "bird",
+    "family": "bird",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "spawned"
+      ],
+      "targetOf": [
+        "move",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.bird.ashRook.name",
+        "en": "Ash rook"
+      }
+    },
+    "life": {
+      "domain": "render"
+    }
+  },
+  {
+    "id": "bird:shoreGull",
+    "kind": "bird",
+    "key": "shoreGull",
+    "code": 3,
+    "category": "bird",
+    "family": "bird",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "spawned"
+      ],
+      "targetOf": [
+        "move",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.bird.shoreGull.name",
+        "en": "Shore gull"
+      }
+    },
+    "life": {
+      "domain": "render"
+    }
+  }
+]

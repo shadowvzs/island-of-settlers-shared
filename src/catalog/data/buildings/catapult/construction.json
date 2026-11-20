@@ -1,0 +1,49 @@
+{
+  "cost": {
+    "planks": 3,
+    "stone": 4
+  },
+  "inputs": {
+    "cells": [
+      5,
+      5
+    ],
+    "height": 5.46,
+    "triangles": 12642
+  },
+  "nations": {
+    "roman": {
+      "planks": 4,
+      "stone": 4
+    },
+    "viking": {
+      "planks": 4,
+      "stone": 3
+    },
+    "japanese": {
+      "planks": 3,
+      "stone": 5
+    },
+    "nubian": {
+      "planks": 2,
+      "stone": 5
+    },
+    "indigenous": {
+      "planks": 3,
+      "stone": 0,
+      "cloth": 3
+    },
+    "chinese": {
+      "planks": 4,
+      "stone": 4
+    },
+    "persian": {
+      "planks": 4,
+      "stone": 4
+    },
+    "maya": {
+      "planks": 4,
+      "stone": 4
+    }
+  }
+}

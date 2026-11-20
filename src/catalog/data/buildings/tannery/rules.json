@@ -1,0 +1,60 @@
+{
+  "art": {
+    "extension": true,
+    "footprint": 2,
+    "mechanism": "none",
+    "props": [
+      "hides",
+      "vats"
+    ],
+    "roof": "thatch",
+    "style": "hall"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [
+      "hides",
+      "planks"
+    ],
+    "job": "settler:tanner",
+    "outputs": [
+      "leather"
+    ],
+    "seconds": 15
+  },
+  "progressionTier": "medium",
+  "role": {
+    "en": "Processes hides and boards into leather",
+    "key": "content.building.tannery.role"
+  },
+  "structureHp": 6000,
+  "task": "tan",
+  "unlockLevel": 9,
+  "worker": "settler:tanner"
+}

@@ -1,0 +1,66 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "none",
+    "props": [
+      "banner",
+      "weapons"
+    ],
+    "roof": "red",
+    "style": "cottage"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "door",
+      "territory"
+    ],
+    "family": "military"
+  },
+  "limits": {
+    "colony": "always"
+  },
+  "military": {
+    "archerPosts": 0,
+    "assault": "fort",
+    "coinCapacity": 6,
+    "garrison": 2
+  },
+  "production": {
+    "inputs": [
+      "coins"
+    ],
+    "job": "settler:soldier",
+    "outputs": [],
+    "seconds": 20,
+    "service": true
+  },
+  "progressionTier": "small",
+  "role": {
+    "en": "Garrisons and trains soldiers; claims territory",
+    "key": "content.building.guardhouse.role"
+  },
+  "structureHp": 10000,
+  "task": "guard",
+  "territoryRadius": 20,
+  "unlockLevel": 16,
+  "worker": "settler:soldier"
+}

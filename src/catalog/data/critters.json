@@ -1,0 +1,781 @@
+[
+  {
+    "id": "critter:mallardDrake",
+    "kind": "critter",
+    "key": "mallardDrake",
+    "code": 0,
+    "category": "critter",
+    "family": "critter",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.mallardDrake.name",
+        "en": "Mallard drake"
+      }
+    },
+    "life": {
+      "bodyRadius": 0,
+      "domain": "render",
+      "shadow": true,
+      "size": 1.15,
+      "sizeJitter": 0.06
+    }
+  },
+  {
+    "id": "critter:mallardHen",
+    "kind": "critter",
+    "key": "mallardHen",
+    "code": 1,
+    "category": "critter",
+    "family": "critter",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.mallardHen.name",
+        "en": "Mallard hen"
+      }
+    },
+    "life": {
+      "bodyRadius": 0,
+      "domain": "render",
+      "shadow": true,
+      "size": 1.15,
+      "sizeJitter": 0.06
+    }
+  },
+  {
+    "id": "critter:duckling",
+    "kind": "critter",
+    "key": "duckling",
+    "code": 2,
+    "category": "critter",
+    "family": "critter",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.duckling.name",
+        "en": "Duckling"
+      }
+    },
+    "life": {
+      "bodyRadius": 0,
+      "domain": "render",
+      "shadow": false,
+      "size": 1.4375,
+      "sizeJitter": 0.06
+    }
+  },
+  {
+    "id": "critter:heron",
+    "kind": "critter",
+    "key": "heron",
+    "code": 3,
+    "category": "critter",
+    "family": "critter",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.heron.name",
+        "en": "Grey heron"
+      }
+    },
+    "life": {
+      "bodyRadius": 0,
+      "domain": "render",
+      "shadow": true,
+      "size": 1.15,
+      "sizeJitter": 0.06
+    }
+  },
+  {
+    "id": "critter:gull",
+    "kind": "critter",
+    "key": "gull",
+    "code": 4,
+    "category": "critter",
+    "family": "critter",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.gull.name",
+        "en": "Shore gull"
+      }
+    },
+    "life": {
+      "bodyRadius": 0,
+      "domain": "render",
+      "shadow": true,
+      "size": 1.3,
+      "sizeJitter": 0.06
+    }
+  },
+  {
+    "id": "critter:trout",
+    "kind": "critter",
+    "key": "trout",
+    "code": 5,
+    "category": "critter",
+    "family": "critter",
+    "tags": [
+      "food"
+    ],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.trout.name",
+        "en": "River trout"
+      }
+    },
+    "life": {
+      "bodyRadius": 0,
+      "domain": "render",
+      "shadow": false,
+      "size": 1,
+      "sizeJitter": 0.15
+    }
+  },
+  {
+    "id": "critter:mackerel",
+    "kind": "critter",
+    "key": "mackerel",
+    "code": 6,
+    "category": "critter",
+    "family": "critter",
+    "tags": [
+      "food"
+    ],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.mackerel.name",
+        "en": "Sea mackerel"
+      }
+    },
+    "life": {
+      "bodyRadius": 0,
+      "domain": "render",
+      "shadow": false,
+      "size": 1,
+      "sizeJitter": 0.15
+    }
+  },
+  {
+    "id": "critter:fox",
+    "kind": "critter",
+    "key": "fox",
+    "code": 7,
+    "category": "critter",
+    "family": "critter",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.fox.name",
+        "en": "Red fox"
+      }
+    },
+    "life": {
+      "bodyRadius": 0.13,
+      "domain": "render",
+      "shadow": true,
+      "size": 1,
+      "sizeJitter": 0.07
+    }
+  },
+  {
+    "id": "critter:boar",
+    "kind": "critter",
+    "key": "boar",
+    "code": 8,
+    "category": "critter",
+    "family": "critter",
+    "tags": [
+      "food",
+      "huntable"
+    ],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "hunted",
+        "killed",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "kill",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.boar.name",
+        "en": "Wild boar"
+      }
+    },
+    "life": {
+      "bodyRadius": 0.22,
+      "domain": "render",
+      "shadow": true,
+      "size": 1,
+      "sizeJitter": 0.07
+    }
+  },
+  {
+    "id": "critter:piglet",
+    "kind": "critter",
+    "key": "piglet",
+    "code": 9,
+    "category": "critter",
+    "family": "critter",
+    "tags": [
+      "food"
+    ],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.piglet.name",
+        "en": "Boar piglet"
+      }
+    },
+    "life": {
+      "bodyRadius": 0.1,
+      "domain": "render",
+      "shadow": true,
+      "size": 0.42,
+      "sizeJitter": 0.07
+    }
+  },
+  {
+    "id": "critter:wolf",
+    "kind": "critter",
+    "key": "wolf",
+    "code": 10,
+    "category": "critter",
+    "family": "critter",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.wolf.name",
+        "en": "Grey wolf"
+      }
+    },
+    "life": {
+      "bodyRadius": 0.18,
+      "domain": "render",
+      "shadow": true,
+      "size": 1,
+      "sizeJitter": 0.07
+    }
+  },
+  {
+    "id": "critter:bear",
+    "kind": "critter",
+    "key": "bear",
+    "code": 11,
+    "category": "critter",
+    "family": "critter",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.bear.name",
+        "en": "Brown bear"
+      }
+    },
+    "life": {
+      "bodyRadius": 0.34,
+      "domain": "render",
+      "shadow": true,
+      "size": 1,
+      "sizeJitter": 0.07
+    }
+  },
+  {
+    "id": "critter:squirrel",
+    "kind": "critter",
+    "key": "squirrel",
+    "code": 12,
+    "category": "critter",
+    "family": "critter",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.squirrel.name",
+        "en": "Red squirrel"
+      }
+    },
+    "life": {
+      "bodyRadius": 0,
+      "domain": "render",
+      "shadow": false,
+      "size": 1.25,
+      "sizeJitter": 0.07
+    }
+  },
+  {
+    "id": "critter:chamois",
+    "kind": "critter",
+    "key": "chamois",
+    "code": 13,
+    "category": "critter",
+    "family": "critter",
+    "tags": [
+      "food",
+      "huntable"
+    ],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "hunted",
+        "killed",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "kill",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.chamois.name",
+        "en": "Chamois"
+      }
+    },
+    "life": {
+      "bodyRadius": 0.17,
+      "domain": "render",
+      "shadow": true,
+      "size": 1.2,
+      "sizeJitter": 0.07
+    }
+  },
+  {
+    "id": "critter:chamoisKid",
+    "kind": "critter",
+    "key": "chamoisKid",
+    "code": 14,
+    "category": "critter",
+    "family": "critter",
+    "tags": [
+      "food"
+    ],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.chamoisKid.name",
+        "en": "Chamois kid"
+      }
+    },
+    "life": {
+      "bodyRadius": 0.1,
+      "domain": "render",
+      "shadow": true,
+      "size": 0.75,
+      "sizeJitter": 0.07
+    }
+  },
+  {
+    "id": "critter:marmot",
+    "kind": "critter",
+    "key": "marmot",
+    "code": 15,
+    "category": "critter",
+    "family": "critter",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.marmot.name",
+        "en": "Alpine marmot"
+      }
+    },
+    "life": {
+      "bodyRadius": 0,
+      "domain": "render",
+      "shadow": true,
+      "size": 1.8125,
+      "sizeJitter": 0.1
+    }
+  },
+  {
+    "id": "critter:burrow",
+    "kind": "critter",
+    "key": "burrow",
+    "code": 16,
+    "category": "critter",
+    "family": "critter",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.burrow.name",
+        "en": "Marmot burrow"
+      }
+    },
+    "life": {
+      "bodyRadius": 0,
+      "domain": "render",
+      "shadow": false,
+      "size": 1.8125,
+      "sizeJitter": 0.18
+    }
+  },
+  {
+    "id": "critter:eagle",
+    "kind": "critter",
+    "key": "eagle",
+    "code": 17,
+    "category": "critter",
+    "family": "critter",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.eagle.name",
+        "en": "Golden eagle"
+      }
+    },
+    "life": {
+      "bodyRadius": 0,
+      "domain": "render",
+      "shadow": true,
+      "size": 1,
+      "sizeJitter": 0.05
+    }
+  },
+  {
+    "id": "critter:hedgehog",
+    "kind": "critter",
+    "key": "hedgehog",
+    "code": 18,
+    "category": "critter",
+    "family": "critter",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.hedgehog.name",
+        "en": "Hedgehog"
+      }
+    },
+    "life": {
+      "bodyRadius": 0.1,
+      "domain": "render",
+      "shadow": true,
+      "size": 1.875,
+      "sizeJitter": 0.07
+    }
+  },
+  {
+    "id": "critter:frog",
+    "kind": "critter",
+    "key": "frog",
+    "code": 19,
+    "category": "critter",
+    "family": "critter",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.frog.name",
+        "en": "Common frog"
+      }
+    },
+    "life": {
+      "bodyRadius": 0,
+      "domain": "render",
+      "shadow": true,
+      "size": 3.25,
+      "sizeJitter": 0.12
+    }
+  },
+  {
+    "id": "critter:crab",
+    "kind": "critter",
+    "key": "crab",
+    "code": 20,
+    "category": "critter",
+    "family": "critter",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.crab.name",
+        "en": "Shore crab"
+      }
+    },
+    "life": {
+      "bodyRadius": 0,
+      "domain": "render",
+      "shadow": true,
+      "size": 3,
+      "sizeJitter": 0.12
+    }
+  },
+  {
+    "id": "critter:seal",
+    "kind": "critter",
+    "key": "seal",
+    "code": 21,
+    "category": "critter",
+    "family": "critter",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.seal.name",
+        "en": "Harbour seal"
+      }
+    },
+    "life": {
+      "bodyRadius": 0.3,
+      "domain": "render",
+      "shadow": true,
+      "size": 1,
+      "sizeJitter": 0.1
+    }
+  },
+  {
+    "id": "critter:dragonfly",
+    "kind": "critter",
+    "key": "dragonfly",
+    "code": 22,
+    "category": "critter",
+    "family": "critter",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.critter.dragonfly.name",
+        "en": "Emperor dragonfly"
+      }
+    },
+    "life": {
+      "bodyRadius": 0,
+      "domain": "render",
+      "shadow": false,
+      "size": 3.5,
+      "sizeJitter": 0.12
+    }
+  }
+]

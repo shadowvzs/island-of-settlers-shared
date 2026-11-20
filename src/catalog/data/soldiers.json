@@ -1,0 +1,501 @@
+[
+  {
+    "id": "soldier:shield",
+    "kind": "soldier",
+    "key": "shield",
+    "category": "soldier",
+    "family": "soldier.melee",
+    "tags": [
+      "military"
+    ],
+    "text": {
+      "name": {
+        "key": "domain.troop.generic.shield",
+        "en": "Shield soldiers"
+      },
+      "variants": {
+        "japanese.singular": {
+          "key": "domain.troop.japanese.shield.singular",
+          "en": "Swordsman"
+        },
+        "japanese.plural": {
+          "key": "domain.troop.japanese.shield.plural",
+          "en": "Swordsmen"
+        },
+        "nubian.singular": {
+          "key": "domain.troop.nubian.shield.singular",
+          "en": "Khopesh warrior"
+        },
+        "nubian.plural": {
+          "key": "domain.troop.nubian.shield.plural",
+          "en": "Khopesh warriors"
+        },
+        "roman.singular": {
+          "key": "domain.troop.roman.shield.singular",
+          "en": "Swordsman"
+        },
+        "roman.plural": {
+          "key": "domain.troop.roman.shield.plural",
+          "en": "Swordsmen"
+        },
+        "viking.singular": {
+          "key": "domain.troop.viking.shield.singular",
+          "en": "Shield warrior"
+        },
+        "viking.plural": {
+          "key": "domain.troop.viking.shield.plural",
+          "en": "Shield warriors"
+        }
+      }
+    },
+    "variants": {
+      "nation": "all",
+      "rank": {
+        "max": 2,
+        "min": 0
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "ui-icons/army-{nation}-{key}.png"
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "garrison",
+        "killed",
+        "promoted",
+        "recruited"
+      ],
+      "targetOf": [
+        "attack",
+        "attackTarget",
+        "board",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "soldier": {
+      "portrait": {
+        "nations": [
+          "japanese",
+          "nubian",
+          "roman",
+          "viking"
+        ],
+        "path": {
+          "root": "clientAssets",
+          "path": "troop-portraits/{nation}-{key}.png"
+        },
+        "ranked": {
+          "root": "clientAssets",
+          "path": "troop-portraits/{nation}-{key}-rank{rank}.png"
+        }
+      },
+      "profile": {
+        "armour": [
+          0.2,
+          0.3,
+          0.4
+        ],
+        "damage": 10,
+        "hp": 125,
+        "interval": 1,
+        "minimumRange": 0,
+        "range": 0.9,
+        "sight": 11,
+        "speed": 1.4
+      },
+      "recruitCost": {
+        "sword": 1,
+        "shield": 1,
+        "beer": 1
+      }
+    }
+  },
+  {
+    "id": "soldier:heavy",
+    "kind": "soldier",
+    "key": "heavy",
+    "category": "soldier",
+    "family": "soldier.melee",
+    "tags": [
+      "military"
+    ],
+    "text": {
+      "name": {
+        "key": "domain.troop.generic.heavy",
+        "en": "Heavy infantry"
+      },
+      "variants": {
+        "japanese.singular": {
+          "key": "domain.troop.japanese.heavy.singular",
+          "en": "Longswordsman"
+        },
+        "japanese.plural": {
+          "key": "domain.troop.japanese.heavy.plural",
+          "en": "Longswordsmen"
+        },
+        "nubian.singular": {
+          "key": "domain.troop.nubian.heavy.singular",
+          "en": "Spearman"
+        },
+        "nubian.plural": {
+          "key": "domain.troop.nubian.heavy.plural",
+          "en": "Spearmen"
+        },
+        "roman.singular": {
+          "key": "domain.troop.roman.heavy.singular",
+          "en": "Longswordsman"
+        },
+        "roman.plural": {
+          "key": "domain.troop.roman.heavy.plural",
+          "en": "Longswordsmen"
+        },
+        "viking.singular": {
+          "key": "domain.troop.viking.heavy.singular",
+          "en": "Dane axeman"
+        },
+        "viking.plural": {
+          "key": "domain.troop.viking.heavy.plural",
+          "en": "Dane axemen"
+        }
+      }
+    },
+    "variants": {
+      "nation": "all",
+      "rank": {
+        "max": 2,
+        "min": 0
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "ui-icons/army-{nation}-{key}.png"
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "garrison",
+        "killed",
+        "promoted",
+        "recruited"
+      ],
+      "targetOf": [
+        "attack",
+        "attackTarget",
+        "board",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "soldier": {
+      "portrait": {
+        "nations": [
+          "japanese",
+          "nubian",
+          "roman",
+          "viking"
+        ],
+        "path": {
+          "root": "clientAssets",
+          "path": "troop-portraits/{nation}-{key}.png"
+        },
+        "ranked": {
+          "root": "clientAssets",
+          "path": "troop-portraits/{nation}-{key}-rank{rank}.png"
+        }
+      },
+      "profile": {
+        "armour": [
+          0.1,
+          0.15,
+          0.2
+        ],
+        "damage": 18,
+        "hp": 100,
+        "interval": 1.2,
+        "minimumRange": 0,
+        "range": 1,
+        "sight": 11,
+        "speed": 0.8
+      },
+      "recruitCost": {
+        "axe": 1,
+        "beer": 1
+      }
+    }
+  },
+  {
+    "id": "soldier:archer",
+    "kind": "soldier",
+    "key": "archer",
+    "category": "soldier",
+    "family": "soldier.ranged",
+    "tags": [
+      "military"
+    ],
+    "text": {
+      "name": {
+        "key": "domain.troop.generic.archer",
+        "en": "Archers"
+      },
+      "variants": {
+        "japanese.singular": {
+          "key": "domain.troop.japanese.archer.singular",
+          "en": "Archer"
+        },
+        "japanese.plural": {
+          "key": "domain.troop.japanese.archer.plural",
+          "en": "Archers"
+        },
+        "nubian.singular": {
+          "key": "domain.troop.nubian.archer.singular",
+          "en": "Archer"
+        },
+        "nubian.plural": {
+          "key": "domain.troop.nubian.archer.plural",
+          "en": "Archers"
+        },
+        "roman.singular": {
+          "key": "domain.troop.roman.archer.singular",
+          "en": "Archer"
+        },
+        "roman.plural": {
+          "key": "domain.troop.roman.archer.plural",
+          "en": "Archers"
+        },
+        "viking.singular": {
+          "key": "domain.troop.viking.archer.singular",
+          "en": "Archer"
+        },
+        "viking.plural": {
+          "key": "domain.troop.viking.archer.plural",
+          "en": "Archers"
+        }
+      }
+    },
+    "variants": {
+      "nation": "all",
+      "rank": {
+        "max": 2,
+        "min": 0
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "ui-icons/army-{nation}-{key}.png"
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "garrison",
+        "killed",
+        "promoted",
+        "recruited"
+      ],
+      "targetOf": [
+        "attack",
+        "attackTarget",
+        "board",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "soldier": {
+      "portrait": {
+        "nations": [
+          "japanese",
+          "nubian",
+          "roman",
+          "viking"
+        ],
+        "path": {
+          "root": "clientAssets",
+          "path": "troop-portraits/{nation}-{key}.png"
+        },
+        "ranked": {
+          "root": "clientAssets",
+          "path": "troop-portraits/{nation}-{key}-rank{rank}.png"
+        }
+      },
+      "profile": {
+        "armour": [
+          0.05,
+          0.1,
+          0.15
+        ],
+        "damage": 18.75,
+        "hp": 56.25,
+        "interval": 1.6,
+        "minimumRange": 2,
+        "range": 8,
+        "sight": 13,
+        "speed": 1.3
+      },
+      "recruitCost": {
+        "bow": 1,
+        "beer": 1
+      }
+    }
+  },
+  {
+    "id": "soldier:cavalry",
+    "kind": "soldier",
+    "key": "cavalry",
+    "category": "soldier",
+    "family": "soldier.mounted",
+    "tags": [
+      "military"
+    ],
+    "text": {
+      "name": {
+        "key": "domain.troop.generic.cavalry",
+        "en": "Cavalry"
+      },
+      "variants": {
+        "japanese.singular": {
+          "key": "domain.troop.japanese.cavalry.singular",
+          "en": "Cavalryman"
+        },
+        "japanese.plural": {
+          "key": "domain.troop.japanese.cavalry.plural",
+          "en": "Cavalry"
+        },
+        "nubian.singular": {
+          "key": "domain.troop.nubian.cavalry.singular",
+          "en": "Cavalryman"
+        },
+        "nubian.plural": {
+          "key": "domain.troop.nubian.cavalry.plural",
+          "en": "Cavalry"
+        },
+        "roman.singular": {
+          "key": "domain.troop.roman.cavalry.singular",
+          "en": "Cavalryman"
+        },
+        "roman.plural": {
+          "key": "domain.troop.roman.cavalry.plural",
+          "en": "Cavalry"
+        },
+        "viking.singular": {
+          "key": "domain.troop.viking.cavalry.singular",
+          "en": "Cavalryman"
+        },
+        "viking.plural": {
+          "key": "domain.troop.viking.cavalry.plural",
+          "en": "Cavalry"
+        }
+      }
+    },
+    "variants": {
+      "nation": [
+        "japanese",
+        "nubian",
+        "roman",
+        "viking"
+      ],
+      "rank": {
+        "max": 2,
+        "min": 0
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "ui-icons/army-{nation}-{key}.png"
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "garrison",
+        "killed",
+        "promoted",
+        "recruited"
+      ],
+      "targetOf": [
+        "attack",
+        "attackTarget",
+        "board",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "retired": true,
+    "soldier": {
+      "portrait": {
+        "nations": [
+          "japanese",
+          "nubian",
+          "roman",
+          "viking"
+        ],
+        "path": {
+          "root": "clientAssets",
+          "path": "troop-portraits/{nation}-{key}.png"
+        }
+      },
+      "profile": {
+        "armour": [
+          0.1,
+          0.2,
+          0.3
+        ],
+        "damage": 13,
+        "hp": 105,
+        "interval": 1.3,
+        "minimumRange": 0,
+        "range": 1.5,
+        "sight": 13,
+        "speed": 3.6
+      }
+    }
+  }
+]

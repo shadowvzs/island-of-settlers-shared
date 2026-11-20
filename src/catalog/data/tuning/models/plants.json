@@ -1,0 +1,315 @@
+{
+  "cherry-blossom": {
+    "blossom": [1, 0.66, 0.76],
+    "crownRadius": 0.67,
+    "foliage": [0.49, 0.68, 0.3],
+    "form": "tree",
+    "height": 3.35,
+    "leafLength": 0.11,
+    "leafWidth": 0.065
+  },
+  "white-cherry": {
+    "blossom": [1, 0.96, 0.85],
+    "crownRadius": 0.61,
+    "foliage": [0.43, 0.65, 0.27],
+    "form": "tree",
+    "height": 3.2,
+    "leafLength": 0.12,
+    "leafWidth": 0.06
+  },
+  "pink-peach": {
+    "blossom": [1, 0.45, 0.65],
+    "crownRadius": 0.62,
+    "foliage": [0.46, 0.62, 0.28],
+    "form": "tree",
+    "height": 3.25,
+    "leafLength": 0.15,
+    "leafWidth": 0.037
+  },
+  "white-peach": {
+    "blossom": [1, 0.95, 0.88],
+    "crownRadius": 0.58,
+    "foliage": [0.43, 0.6, 0.27],
+    "form": "tree",
+    "height": 3.15,
+    "leafLength": 0.15,
+    "leafWidth": 0.037
+  },
+  "double-peach": {
+    "blossom": [0.94, 0.27, 0.49],
+    "crownRadius": 0.65,
+    "foliage": [0.42, 0.61, 0.25],
+    "form": "tree",
+    "height": 3.3,
+    "leafLength": 0.15,
+    "leafWidth": 0.037
+  },
+  "compact-willow": {
+    "crownRadius": 0.65,
+    "foliage": [0.54, 0.68, 0.34],
+    "form": "weeping",
+    "height": 3.65,
+    "leafLength": 0.18,
+    "leafWidth": 0.027
+  },
+  "silver-willow": {
+    "crownRadius": 0.59,
+    "foliage": [0.66, 0.74, 0.57],
+    "form": "weeping",
+    "height": 3.45,
+    "leafLength": 0.16,
+    "leafWidth": 0.026
+  },
+  "golden-willow": {
+    "crownRadius": 0.62,
+    "foliage": [0.65, 0.7, 0.32],
+    "form": "weeping",
+    "height": 3.6,
+    "leafLength": 0.18,
+    "leafWidth": 0.025
+  },
+  "narrow-willow": {
+    "crownRadius": 0.45,
+    "foliage": [0.46, 0.65, 0.36],
+    "form": "weeping",
+    "height": 3.7,
+    "leafLength": 0.19,
+    "leafWidth": 0.024
+  },
+  "columnar-cypress": {
+    "crownRadius": 0.2,
+    "foliage": [0.24, 0.42, 0.24],
+    "form": "column",
+    "height": 2.55,
+    "leafLength": 0.085,
+    "leafWidth": 0.028
+  },
+  "italian-poplar": {
+    "crownRadius": 0.21,
+    "foliage": [0.46, 0.65, 0.29],
+    "form": "column",
+    "height": 2.75,
+    "leafLength": 0.11,
+    "leafWidth": 0.052
+  },
+  "juniper-spire": {
+    "crownRadius": 0.2,
+    "foliage": [0.37, 0.52, 0.41],
+    "form": "column",
+    "height": 1.85,
+    "leafLength": 0.075,
+    "leafWidth": 0.025
+  },
+  "date-palm": {
+    "crownRadius": 0.68,
+    "foliage": [0.47, 0.59, 0.28],
+    "form": "palm",
+    "height": 3.45,
+    "leafLength": 0.21,
+    "leafWidth": 0.035
+  },
+  "fan-palm": {
+    "crownRadius": 0.6,
+    "foliage": [0.38, 0.6, 0.32],
+    "form": "palm",
+    "height": 3.1,
+    "leafLength": 0.18,
+    "leafWidth": 0.055
+  },
+  "dwarf-coconut": {
+    "crownRadius": 0.69,
+    "foliage": [0.43, 0.64, 0.26],
+    "form": "palm",
+    "height": 3.6,
+    "leafLength": 0.25,
+    "leafWidth": 0.035
+  },
+  "olive-standard": {
+    "crownRadius": 0.52,
+    "foliage": [0.57, 0.64, 0.43],
+    "form": "tree",
+    "height": 3.05,
+    "leafLength": 0.11,
+    "leafWidth": 0.034
+  },
+  "orange-standard": {
+    "blossom": [1, 0.58, 0.12],
+    "crownRadius": 0.52,
+    "foliage": [0.28, 0.53, 0.24],
+    "form": "tree",
+    "height": 3.1,
+    "leafLength": 0.12,
+    "leafWidth": 0.055
+  },
+  "red-maple": {
+    "crownRadius": 0.62,
+    "foliage": [0.72, 0.31, 0.21],
+    "form": "tree",
+    "height": 3.3,
+    "leafLength": 0.13,
+    "leafWidth": 0.09
+  },
+  "acacia-standard": {
+    "blossom": [1, 0.82, 0.34],
+    "crownRadius": 0.64,
+    "foliage": [0.46, 0.6, 0.29],
+    "form": "tree",
+    "height": 3.15,
+    "leafLength": 0.075,
+    "leafWidth": 0.035
+  },
+  "italian-stone-pine": {
+    "crownRadius": 0.7,
+    "foliage": [0.33, 0.48, 0.26],
+    "form": "tree",
+    "height": 3.4,
+    "leafLength": 0.13,
+    "leafWidth": 0.018
+  },
+  "bonsai-pine": {
+    "crownRadius": 0.24,
+    "foliage": [0.32, 0.46, 0.27],
+    "form": "bonsai",
+    "height": 0.83,
+    "leafLength": 0.07,
+    "leafWidth": 0.018
+  },
+  "bonsai-juniper": {
+    "crownRadius": 0.23,
+    "foliage": [0.38, 0.52, 0.4],
+    "form": "bonsai",
+    "height": 0.7,
+    "leafLength": 0.065,
+    "leafWidth": 0.023
+  },
+  "bonsai-maple": {
+    "crownRadius": 0.24,
+    "foliage": [0.78, 0.31, 0.23],
+    "form": "bonsai",
+    "height": 0.77,
+    "leafLength": 0.075,
+    "leafWidth": 0.06
+  },
+  "bonsai-azalea": {
+    "blossom": [0.98, 0.46, 0.68],
+    "crownRadius": 0.23,
+    "foliage": [0.38, 0.54, 0.28],
+    "form": "bonsai",
+    "height": 0.67,
+    "leafLength": 0.065,
+    "leafWidth": 0.035
+  },
+  "boxwood": {
+    "crownRadius": 0.205,
+    "foliage": [0.33, 0.49, 0.23],
+    "form": "bush",
+    "height": 0.64,
+    "leafLength": 0.067,
+    "leafWidth": 0.04
+  },
+  "round-boxwood": {
+    "crownRadius": 0.21,
+    "foliage": [0.37, 0.53, 0.25],
+    "form": "topiary",
+    "height": 0.44,
+    "leafLength": 0.055,
+    "leafWidth": 0.035
+  },
+  "golden-boxwood": {
+    "crownRadius": 0.205,
+    "foliage": [0.61, 0.66, 0.27],
+    "form": "topiary",
+    "height": 0.43,
+    "leafLength": 0.055,
+    "leafWidth": 0.034
+  },
+  "round-myrtle": {
+    "crownRadius": 0.215,
+    "foliage": [0.31, 0.49, 0.27],
+    "form": "topiary",
+    "height": 0.46,
+    "leafLength": 0.058,
+    "leafWidth": 0.03
+  },
+  "myrtle": {
+    "blossom": [0.97, 0.94, 0.8],
+    "crownRadius": 0.21,
+    "foliage": [0.34, 0.53, 0.28],
+    "form": "bush",
+    "height": 0.78,
+    "leafLength": 0.08,
+    "leafWidth": 0.037
+  },
+  "azalea": {
+    "blossom": [0.97, 0.36, 0.61],
+    "crownRadius": 0.21,
+    "foliage": [0.36, 0.52, 0.26],
+    "form": "bush",
+    "height": 0.62,
+    "leafLength": 0.08,
+    "leafWidth": 0.042
+  },
+  "white-rose": {
+    "blossom": [1, 0.94, 0.8],
+    "crownRadius": 0.21,
+    "foliage": [0.37, 0.53, 0.25],
+    "form": "bush",
+    "height": 0.78,
+    "leafLength": 0.09,
+    "leafWidth": 0.05
+  },
+  "red-rose": {
+    "blossom": [0.86, 0.17, 0.2],
+    "crownRadius": 0.21,
+    "foliage": [0.35, 0.49, 0.22],
+    "form": "bush",
+    "height": 0.74,
+    "leafLength": 0.085,
+    "leafWidth": 0.05
+  },
+  "lavender": {
+    "blossom": [0.65, 0.43, 0.82],
+    "crownRadius": 0.19,
+    "foliage": [0.57, 0.64, 0.43],
+    "form": "flower",
+    "height": 0.58,
+    "leafLength": 0.09,
+    "leafWidth": 0.018
+  },
+  "rosemary": {
+    "blossom": [0.65, 0.69, 0.89],
+    "crownRadius": 0.19,
+    "foliage": [0.42, 0.55, 0.39],
+    "form": "bush",
+    "height": 0.7,
+    "leafLength": 0.085,
+    "leafWidth": 0.015
+  },
+  "hibiscus": {
+    "blossom": [0.99, 0.57, 0.3],
+    "crownRadius": 0.215,
+    "foliage": [0.32, 0.52, 0.25],
+    "form": "bush",
+    "height": 0.86,
+    "leafLength": 0.1,
+    "leafWidth": 0.057
+  },
+  "hydrangea": {
+    "blossom": [0.49, 0.65, 0.94],
+    "crownRadius": 0.215,
+    "foliage": [0.39, 0.56, 0.29],
+    "form": "bush",
+    "height": 0.68,
+    "leafLength": 0.1,
+    "leafWidth": 0.065
+  },
+  "marigold": {
+    "blossom": [1, 0.7, 0.14],
+    "crownRadius": 0.19,
+    "foliage": [0.4, 0.57, 0.24],
+    "form": "flower",
+    "height": 0.46,
+    "leafLength": 0.075,
+    "leafWidth": 0.025
+  }
+}

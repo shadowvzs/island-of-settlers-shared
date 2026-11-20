@@ -1,0 +1,66 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 3,
+    "mechanism": "none",
+    "props": [
+      "banner",
+      "weapons"
+    ],
+    "roof": "slate",
+    "style": "castle"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "door",
+      "territory"
+    ],
+    "family": "military"
+  },
+  "limits": {
+    "colony": "always"
+  },
+  "military": {
+    "archerPosts": 6,
+    "assault": "fort",
+    "coinCapacity": 6,
+    "garrison": 10
+  },
+  "production": {
+    "inputs": [
+      "coins"
+    ],
+    "job": "settler:soldier",
+    "outputs": [],
+    "seconds": 20,
+    "service": true
+  },
+  "progressionTier": "big",
+  "role": {
+    "en": "Large military garrison; defends territory",
+    "key": "content.building.fortress.role"
+  },
+  "structureHp": 50000,
+  "task": "guard",
+  "territoryRadius": 53,
+  "unlockLevel": 25,
+  "worker": "settler:soldier"
+}

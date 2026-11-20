@@ -1,0 +1,70 @@
+{
+  "id": "building:watchtower",
+  "kind": "building",
+  "key": "watchtower",
+  "code": 4,
+  "category": "building.military",
+  "family": "building.military",
+  "tags": [
+    "military"
+  ],
+  "text": {
+    "name": {
+      "key": "domain.building.watchtower",
+      "en": "Watchtower"
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.watchtower.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/watchtower/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/watchtower/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/watchtower/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/watchtower/rules.json"
+    }
+  }
+}

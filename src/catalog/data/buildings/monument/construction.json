@@ -1,0 +1,114 @@
+{
+  "cost": {
+    "planks": 20,
+    "stone": 20,
+    "hardwoodPlanks": 20,
+    "marble": 20,
+    "cedarPlanks": 20,
+    "limestone": 20,
+    "walnutPlanks": 20,
+    "basalt": 20,
+    "mahoganyPlanks": 20,
+    "granite": 20
+  },
+  "fixed": true,
+  "nations": {
+    "roman": {
+      "planks": 20,
+      "stone": 20,
+      "hardwoodPlanks": 20,
+      "marble": 20,
+      "cedarPlanks": 20,
+      "limestone": 20,
+      "walnutPlanks": 20,
+      "basalt": 20,
+      "mahoganyPlanks": 20,
+      "granite": 20
+    },
+    "viking": {
+      "planks": 20,
+      "stone": 20,
+      "hardwoodPlanks": 20,
+      "marble": 20,
+      "cedarPlanks": 20,
+      "limestone": 20,
+      "walnutPlanks": 20,
+      "basalt": 20,
+      "mahoganyPlanks": 20,
+      "granite": 20
+    },
+    "japanese": {
+      "planks": 20,
+      "stone": 20,
+      "hardwoodPlanks": 20,
+      "marble": 20,
+      "cedarPlanks": 20,
+      "limestone": 20,
+      "walnutPlanks": 20,
+      "basalt": 20,
+      "mahoganyPlanks": 20,
+      "granite": 20
+    },
+    "nubian": {
+      "planks": 20,
+      "stone": 20,
+      "hardwoodPlanks": 20,
+      "marble": 20,
+      "cedarPlanks": 20,
+      "limestone": 20,
+      "walnutPlanks": 20,
+      "basalt": 20,
+      "mahoganyPlanks": 20,
+      "granite": 20
+    },
+    "indigenous": {
+      "planks": 20,
+      "stone": 10,
+      "hardwoodPlanks": 20,
+      "marble": 20,
+      "cedarPlanks": 20,
+      "limestone": 20,
+      "walnutPlanks": 20,
+      "basalt": 20,
+      "mahoganyPlanks": 20,
+      "granite": 20,
+      "cloth": 20
+    },
+    "chinese": {
+      "planks": 20,
+      "stone": 20,
+      "hardwoodPlanks": 20,
+      "marble": 20,
+      "cedarPlanks": 20,
+      "limestone": 20,
+      "walnutPlanks": 20,
+      "basalt": 20,
+      "mahoganyPlanks": 20,
+      "granite": 20
+    },
+    "persian": {
+      "planks": 20,
+      "stone": 20,
+      "hardwoodPlanks": 20,
+      "marble": 20,
+      "cedarPlanks": 20,
+      "limestone": 20,
+      "walnutPlanks": 20,
+      "basalt": 20,
+      "mahoganyPlanks": 20,
+      "granite": 20
+    },
+    "maya": {
+      "planks": 20,
+      "stone": 20,
+      "hardwoodPlanks": 20,
+      "marble": 20,
+      "cedarPlanks": 20,
+      "limestone": 20,
+      "walnutPlanks": 20,
+      "basalt": 20,
+      "mahoganyPlanks": 20,
+      "granite": 20
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "none",
+    "props": [
+      "stone",
+      "banner"
+    ],
+    "roof": "thatch",
+    "style": "tower"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "door",
+      "territory"
+    ],
+    "family": "military"
+  },
+  "limits": {
+    "max": 3
+  },
+  "military": {
+    "garrison": 3
+  },
+  "production": {
+    "inputs": [],
+    "job": "settler:carrier",
+    "outputs": [],
+    "seconds": 10,
+    "service": true
+  },
+  "progressionTier": "medium",
+  "role": {
+    "en": "Throws boulders that damage nearby enemies on impact",
+    "key": "content.building.catapult.role"
+  },
+  "structureHp": 27500,
+  "task": "guard",
+  "territoryRadius": 2,
+  "unlockLevel": 24,
+  "worker": "settler:soldier"
+}

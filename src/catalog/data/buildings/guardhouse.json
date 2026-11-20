@@ -1,0 +1,70 @@
+{
+  "id": "building:guardhouse",
+  "kind": "building",
+  "key": "guardhouse",
+  "code": 2,
+  "category": "building.military",
+  "family": "building.military",
+  "tags": [
+    "military"
+  ],
+  "text": {
+    "name": {
+      "key": "domain.building.guardhouse",
+      "en": "Guardhouse"
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.guardhouse.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/guardhouse/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/guardhouse/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/guardhouse/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/guardhouse/rules.json"
+    }
+  }
+}

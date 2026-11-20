@@ -1,0 +1,701 @@
+[
+  {
+    "id": "offer:logs-100",
+    "kind": "offer",
+    "key": "logs-100",
+    "category": "offer.resources",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.logs",
+        "en": "Softwood logs"
+      }
+    },
+    "offer": {
+      "amount": 100,
+      "price": 10,
+      "resourceTier": 0,
+      "ware": "logs"
+    }
+  },
+  {
+    "id": "offer:planks-100",
+    "kind": "offer",
+    "key": "planks-100",
+    "category": "offer.resources",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.planks",
+        "en": "Softwood planks"
+      }
+    },
+    "offer": {
+      "amount": 100,
+      "price": 15,
+      "resourceTier": 0,
+      "ware": "planks"
+    }
+  },
+  {
+    "id": "offer:stone-100",
+    "kind": "offer",
+    "key": "stone-100",
+    "category": "offer.resources",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.stone",
+        "en": "Stone"
+      }
+    },
+    "offer": {
+      "amount": 100,
+      "price": 15,
+      "resourceTier": 0,
+      "ware": "stone"
+    }
+  },
+  {
+    "id": "offer:hardwoodLogs-100",
+    "kind": "offer",
+    "key": "hardwoodLogs-100",
+    "category": "offer.resources",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.hardwoodLogs",
+        "en": "Hardwood logs"
+      }
+    },
+    "offer": {
+      "amount": 100,
+      "price": 20,
+      "resourceTier": 1,
+      "ware": "hardwoodLogs"
+    }
+  },
+  {
+    "id": "offer:hardwoodPlanks-100",
+    "kind": "offer",
+    "key": "hardwoodPlanks-100",
+    "category": "offer.resources",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.hardwoodPlanks",
+        "en": "Hardwood planks"
+      }
+    },
+    "offer": {
+      "amount": 100,
+      "price": 30,
+      "resourceTier": 1,
+      "ware": "hardwoodPlanks"
+    }
+  },
+  {
+    "id": "offer:marble-100",
+    "kind": "offer",
+    "key": "marble-100",
+    "category": "offer.resources",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.marble",
+        "en": "Marble"
+      }
+    },
+    "offer": {
+      "amount": 100,
+      "price": 30,
+      "resourceTier": 1,
+      "ware": "marble"
+    }
+  },
+  {
+    "id": "offer:cedarLogs-100",
+    "kind": "offer",
+    "key": "cedarLogs-100",
+    "category": "offer.resources",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.cedarLogs",
+        "en": "Cedar logs"
+      }
+    },
+    "offer": {
+      "amount": 100,
+      "price": 40,
+      "resourceTier": 2,
+      "ware": "cedarLogs"
+    }
+  },
+  {
+    "id": "offer:cedarPlanks-100",
+    "kind": "offer",
+    "key": "cedarPlanks-100",
+    "category": "offer.resources",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.cedarPlanks",
+        "en": "Cedar planks"
+      }
+    },
+    "offer": {
+      "amount": 100,
+      "price": 60,
+      "resourceTier": 2,
+      "ware": "cedarPlanks"
+    }
+  },
+  {
+    "id": "offer:limestone-100",
+    "kind": "offer",
+    "key": "limestone-100",
+    "category": "offer.resources",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.limestone",
+        "en": "Limestone"
+      }
+    },
+    "offer": {
+      "amount": 100,
+      "price": 60,
+      "resourceTier": 2,
+      "ware": "limestone"
+    }
+  },
+  {
+    "id": "offer:walnutLogs-100",
+    "kind": "offer",
+    "key": "walnutLogs-100",
+    "category": "offer.resources",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.walnutLogs",
+        "en": "Walnut logs"
+      }
+    },
+    "offer": {
+      "amount": 100,
+      "price": 80,
+      "resourceTier": 3,
+      "ware": "walnutLogs"
+    }
+  },
+  {
+    "id": "offer:walnutPlanks-100",
+    "kind": "offer",
+    "key": "walnutPlanks-100",
+    "category": "offer.resources",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.walnutPlanks",
+        "en": "Walnut planks"
+      }
+    },
+    "offer": {
+      "amount": 100,
+      "price": 120,
+      "resourceTier": 3,
+      "ware": "walnutPlanks"
+    }
+  },
+  {
+    "id": "offer:basalt-100",
+    "kind": "offer",
+    "key": "basalt-100",
+    "category": "offer.resources",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.basalt",
+        "en": "Basalt"
+      }
+    },
+    "offer": {
+      "amount": 100,
+      "price": 120,
+      "resourceTier": 3,
+      "ware": "basalt"
+    }
+  },
+  {
+    "id": "offer:mahoganyLogs-100",
+    "kind": "offer",
+    "key": "mahoganyLogs-100",
+    "category": "offer.resources",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.mahoganyLogs",
+        "en": "Mahogany logs"
+      }
+    },
+    "offer": {
+      "amount": 100,
+      "price": 160,
+      "resourceTier": 4,
+      "ware": "mahoganyLogs"
+    }
+  },
+  {
+    "id": "offer:mahoganyPlanks-100",
+    "kind": "offer",
+    "key": "mahoganyPlanks-100",
+    "category": "offer.resources",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.mahoganyPlanks",
+        "en": "Mahogany planks"
+      }
+    },
+    "offer": {
+      "amount": 100,
+      "price": 240,
+      "resourceTier": 4,
+      "ware": "mahoganyPlanks"
+    }
+  },
+  {
+    "id": "offer:granite-100",
+    "kind": "offer",
+    "key": "granite-100",
+    "category": "offer.resources",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.granite",
+        "en": "Granite"
+      }
+    },
+    "offer": {
+      "amount": 100,
+      "price": 240,
+      "resourceTier": 4,
+      "ware": "granite"
+    }
+  },
+  {
+    "id": "offer:fish-100",
+    "kind": "offer",
+    "key": "fish-100",
+    "category": "offer.resources",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.fish",
+        "en": "Fish"
+      }
+    },
+    "offer": {
+      "amount": 100,
+      "price": 20,
+      "ware": "fish"
+    }
+  },
+  {
+    "id": "offer:meat-100",
+    "kind": "offer",
+    "key": "meat-100",
+    "category": "offer.resources",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.meat",
+        "en": "Meat"
+      }
+    },
+    "offer": {
+      "amount": 100,
+      "price": 20,
+      "ware": "meat"
+    }
+  },
+  {
+    "id": "offer:bread-100",
+    "kind": "offer",
+    "key": "bread-100",
+    "category": "offer.resources",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.bread",
+        "en": "Bread"
+      }
+    },
+    "offer": {
+      "amount": 100,
+      "price": 25,
+      "ware": "bread"
+    }
+  },
+  {
+    "id": "offer:coins-500",
+    "kind": "offer",
+    "key": "coins-500",
+    "category": "offer.resources",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.coins",
+        "en": "Gold coins"
+      }
+    },
+    "offer": {
+      "amount": 500,
+      "price": 100,
+      "ware": "coins"
+    }
+  },
+  {
+    "id": "offer:sword-10",
+    "kind": "offer",
+    "key": "sword-10",
+    "category": "offer.military",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.sword",
+        "en": "Sword"
+      }
+    },
+    "offer": {
+      "amount": 10,
+      "price": 15,
+      "ware": "sword"
+    }
+  },
+  {
+    "id": "offer:shield-10",
+    "kind": "offer",
+    "key": "shield-10",
+    "category": "offer.military",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.shield",
+        "en": "Shield"
+      }
+    },
+    "offer": {
+      "amount": 10,
+      "price": 15,
+      "ware": "shield"
+    }
+  },
+  {
+    "id": "offer:axe-10",
+    "kind": "offer",
+    "key": "axe-10",
+    "category": "offer.military",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.axe",
+        "en": "Axe"
+      }
+    },
+    "offer": {
+      "amount": 10,
+      "price": 15,
+      "ware": "axe"
+    }
+  },
+  {
+    "id": "offer:bow-10",
+    "kind": "offer",
+    "key": "bow-10",
+    "category": "offer.military",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.bow",
+        "en": "Bow"
+      }
+    },
+    "offer": {
+      "amount": 10,
+      "price": 15,
+      "ware": "bow"
+    }
+  },
+  {
+    "id": "offer:armor-10",
+    "kind": "offer",
+    "key": "armor-10",
+    "category": "offer.military",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.armor",
+        "en": "Armor"
+      }
+    },
+    "offer": {
+      "amount": 10,
+      "price": 15,
+      "ware": "armor"
+    }
+  },
+  {
+    "id": "offer:beer-25",
+    "kind": "offer",
+    "key": "beer-25",
+    "category": "offer.military",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.beer",
+        "en": "Beer"
+      }
+    },
+    "offer": {
+      "amount": 25,
+      "price": 10,
+      "ware": "beer"
+    }
+  },
+  {
+    "id": "offer:saw-10",
+    "kind": "offer",
+    "key": "saw-10",
+    "category": "offer.tools",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.saw",
+        "en": "Saw"
+      }
+    },
+    "offer": {
+      "amount": 10,
+      "price": 15,
+      "ware": "saw"
+    }
+  },
+  {
+    "id": "offer:pickaxe-10",
+    "kind": "offer",
+    "key": "pickaxe-10",
+    "category": "offer.tools",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.pickaxe",
+        "en": "Pickaxe"
+      }
+    },
+    "offer": {
+      "amount": 10,
+      "price": 15,
+      "ware": "pickaxe"
+    }
+  },
+  {
+    "id": "offer:shovel-10",
+    "kind": "offer",
+    "key": "shovel-10",
+    "category": "offer.tools",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.shovel",
+        "en": "Shovel"
+      }
+    },
+    "offer": {
+      "amount": 10,
+      "price": 15,
+      "ware": "shovel"
+    }
+  },
+  {
+    "id": "offer:hammer-10",
+    "kind": "offer",
+    "key": "hammer-10",
+    "category": "offer.tools",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.hammer",
+        "en": "Hammer"
+      }
+    },
+    "offer": {
+      "amount": 10,
+      "price": 15,
+      "ware": "hammer"
+    }
+  },
+  {
+    "id": "offer:fishingRod-10",
+    "kind": "offer",
+    "key": "fishingRod-10",
+    "category": "offer.tools",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.fishingRod",
+        "en": "Fishing rod"
+      }
+    },
+    "offer": {
+      "amount": 10,
+      "price": 15,
+      "ware": "fishingRod"
+    }
+  },
+  {
+    "id": "offer:scythe-10",
+    "kind": "offer",
+    "key": "scythe-10",
+    "category": "offer.tools",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.scythe",
+        "en": "Scythe"
+      }
+    },
+    "offer": {
+      "amount": 10,
+      "price": 15,
+      "ware": "scythe"
+    }
+  },
+  {
+    "id": "offer:crucible-10",
+    "kind": "offer",
+    "key": "crucible-10",
+    "category": "offer.tools",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.crucible",
+        "en": "Crucible"
+      }
+    },
+    "offer": {
+      "amount": 10,
+      "price": 15,
+      "ware": "crucible"
+    }
+  },
+  {
+    "id": "offer:tongs-10",
+    "kind": "offer",
+    "key": "tongs-10",
+    "category": "offer.tools",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.tongs",
+        "en": "Tongs"
+      }
+    },
+    "offer": {
+      "amount": 10,
+      "price": 15,
+      "ware": "tongs"
+    }
+  },
+  {
+    "id": "offer:rollingPin-10",
+    "kind": "offer",
+    "key": "rollingPin-10",
+    "category": "offer.tools",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.rollingPin",
+        "en": "Rolling pin"
+      }
+    },
+    "offer": {
+      "amount": 10,
+      "price": 15,
+      "ware": "rollingPin"
+    }
+  },
+  {
+    "id": "offer:cleaver-10",
+    "kind": "offer",
+    "key": "cleaver-10",
+    "category": "offer.tools",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.cleaver",
+        "en": "Cleaver"
+      }
+    },
+    "offer": {
+      "amount": 10,
+      "price": 15,
+      "ware": "cleaver"
+    }
+  },
+  {
+    "id": "offer:spyglass-10",
+    "kind": "offer",
+    "key": "spyglass-10",
+    "category": "offer.tools",
+    "family": "offer.ware",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.ware.spyglass",
+        "en": "Spyglass"
+      }
+    },
+    "offer": {
+      "amount": 10,
+      "price": 15,
+      "ware": "spyglass"
+    }
+  }
+]

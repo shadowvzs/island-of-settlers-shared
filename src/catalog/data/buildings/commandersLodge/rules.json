@@ -1,0 +1,57 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 1,
+    "mechanism": "none",
+    "props": [],
+    "roof": "red",
+    "style": "hall"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "training"
+    ],
+    "family": "tavern"
+  },
+  "limits": {
+    "commanderCampaign": true,
+    "homeOnly": true
+  },
+  "military": {
+    "assault": "support"
+  },
+  "production": {
+    "inputs": [],
+    "job": "settler:lodgeKeeper",
+    "outputs": [],
+    "seconds": 10,
+    "service": true
+  },
+  "progressionTier": "small",
+  "role": {
+    "en": "Homes, recruits and recovers the island's commander",
+    "key": "content.building.commandersLodge.role"
+  },
+  "structureHp": 15000,
+  "task": "serve",
+  "unlockLevel": 23,
+  "worker": "settler:lodgeKeeper"
+}

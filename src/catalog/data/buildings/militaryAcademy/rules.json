@@ -1,0 +1,56 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "none",
+    "props": [
+      "barrels",
+      "banner"
+    ],
+    "roof": "red",
+    "style": "hall"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "training"
+    ],
+    "family": "tavern"
+  },
+  "military": {
+    "assault": "support"
+  },
+  "production": {
+    "inputs": [],
+    "job": "settler:innkeeper",
+    "outputs": [],
+    "seconds": 10,
+    "service": true
+  },
+  "progressionTier": "medium",
+  "role": {
+    "en": "Recruits soldiers from delivered equipment",
+    "key": "content.building.militaryAcademy.role"
+  },
+  "structureHp": 20000,
+  "task": "serve",
+  "unlockLevel": 16,
+  "worker": "settler:innkeeper"
+}

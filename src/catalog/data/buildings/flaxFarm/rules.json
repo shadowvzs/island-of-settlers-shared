@@ -1,0 +1,55 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 1,
+    "mechanism": "none",
+    "props": [],
+    "roof": "thatch",
+    "style": "cottage"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [],
+    "job": "settler:flaxGrower",
+    "outdoor": "field",
+    "outputs": [
+      "flax"
+    ],
+    "seconds": 12
+  },
+  "progressionTier": "small",
+  "role": {
+    "en": "Grows and hand-pulls flax on nearby fields for weaving",
+    "key": "content.building.flaxFarm.role"
+  },
+  "structureHp": 4000,
+  "task": "harvest",
+  "unlockLevel": 5,
+  "worker": "settler:flaxGrower"
+}

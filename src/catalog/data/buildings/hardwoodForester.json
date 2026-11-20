@@ -1,0 +1,70 @@
+{
+  "id": "building:hardwoodForester",
+  "kind": "building",
+  "key": "hardwoodForester",
+  "code": 41,
+  "category": "building.materials",
+  "family": "building.production.forester",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.hardwoodForester",
+      "en": "Hardwood forester"
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.hardwoodForester.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "occupied",
+      "produce",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/hardwoodForester/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/hardwoodForester/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/hardwoodForester/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/hardwoodForester/rules.json"
+    }
+  }
+}

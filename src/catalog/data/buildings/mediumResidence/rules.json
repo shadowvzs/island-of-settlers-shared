@@ -1,0 +1,50 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "none",
+    "props": [],
+    "roof": "red",
+    "style": "hall"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "populationLimit"
+    ],
+    "family": "residence"
+  },
+  "limits": {
+    "colony": "conquered"
+  },
+  "progressionTier": "medium",
+  "residence": {
+    "growthSeconds": 240,
+    "limit": 25
+  },
+  "role": {
+    "en": "Home for settlers: raises the population limit and bears new settlers",
+    "key": "content.building.smallResidence.role"
+  },
+  "structureHp": 6000,
+  "task": "dwell",
+  "unlockLevel": 10,
+  "worker": "settler:residents"
+}

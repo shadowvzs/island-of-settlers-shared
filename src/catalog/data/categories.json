@@ -1,0 +1,651 @@
+[
+  {
+    "id": "nation",
+    "kind": "nation",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "content.category.nation.name",
+        "en": "Nations"
+      }
+    }
+  },
+  {
+    "id": "ware.building",
+    "kind": "ware",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "settlement.trade.categoryBuilding",
+        "en": "Building materials"
+      }
+    }
+  },
+  {
+    "id": "ware.food",
+    "kind": "ware",
+    "order": 1,
+    "text": {
+      "name": {
+        "key": "settlement.trade.categoryFood",
+        "en": "Food"
+      }
+    }
+  },
+  {
+    "id": "ware.drink",
+    "kind": "ware",
+    "order": 2,
+    "text": {
+      "name": {
+        "key": "settlement.trade.categoryDrinks",
+        "en": "Drinks"
+      }
+    }
+  },
+  {
+    "id": "ware.foodChain",
+    "kind": "ware",
+    "order": 3,
+    "text": {
+      "name": {
+        "key": "settlement.trade.categoryFoodChain",
+        "en": "Food-chain ingredients"
+      }
+    }
+  },
+  {
+    "id": "ware.tools",
+    "kind": "ware",
+    "order": 4,
+    "text": {
+      "name": {
+        "key": "settlement.trade.categoryTools",
+        "en": "Tools"
+      }
+    }
+  },
+  {
+    "id": "ware.weapons",
+    "kind": "ware",
+    "order": 5,
+    "text": {
+      "name": {
+        "key": "settlement.trade.categoryWeapons",
+        "en": "Weapons"
+      }
+    }
+  },
+  {
+    "id": "ware.raw",
+    "kind": "ware",
+    "order": 6,
+    "text": {
+      "name": {
+        "key": "settlement.trade.categoryRaw",
+        "en": "Raw materials"
+      }
+    }
+  },
+  {
+    "id": "ware.transport",
+    "kind": "ware",
+    "order": 7,
+    "text": {
+      "name": {
+        "key": "content.category.ware.transport.name",
+        "en": "Transport"
+      }
+    }
+  },
+  {
+    "id": "decoration.arches",
+    "kind": "decoration",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "gemShop.decorationArches",
+        "en": "Arches"
+      }
+    }
+  },
+  {
+    "id": "decoration.plants",
+    "kind": "decoration",
+    "order": 1,
+    "text": {
+      "name": {
+        "key": "gemShop.decorationPlants",
+        "en": "Plants"
+      }
+    }
+  },
+  {
+    "id": "decoration.trees",
+    "kind": "decoration",
+    "order": 2,
+    "text": {
+      "name": {
+        "key": "gemShop.decorationTrees",
+        "en": "Trees"
+      }
+    }
+  },
+  {
+    "id": "decoration.lanterns",
+    "kind": "decoration",
+    "order": 3,
+    "text": {
+      "name": {
+        "key": "gemShop.decorationLanterns",
+        "en": "Lanterns"
+      }
+    }
+  },
+  {
+    "id": "decoration.columns",
+    "kind": "decoration",
+    "order": 4,
+    "text": {
+      "name": {
+        "key": "gemShop.decorationColumns",
+        "en": "Columns"
+      }
+    }
+  },
+  {
+    "id": "item.battle",
+    "kind": "item",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "inventory.tab.battle",
+        "en": "Battle"
+      }
+    }
+  },
+  {
+    "id": "item.misc",
+    "kind": "item",
+    "order": 1,
+    "text": {
+      "name": {
+        "key": "inventory.tab.misc",
+        "en": "Misc"
+      }
+    }
+  },
+  {
+    "id": "offer.resources",
+    "kind": "offer",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "settlement.gemShop.categoryResources",
+        "en": "Resources"
+      }
+    }
+  },
+  {
+    "id": "offer.military",
+    "kind": "offer",
+    "order": 1,
+    "text": {
+      "name": {
+        "key": "settlement.gemShop.categoryMilitary",
+        "en": "Military"
+      }
+    }
+  },
+  {
+    "id": "offer.tools",
+    "kind": "offer",
+    "order": 2,
+    "text": {
+      "name": {
+        "key": "settlement.gemShop.categoryTools",
+        "en": "Tools"
+      }
+    }
+  },
+  {
+    "id": "tree",
+    "kind": "tree",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "mapEditor.sections.trees",
+        "en": "Trees"
+      }
+    }
+  },
+  {
+    "id": "stone",
+    "kind": "stone",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "mapEditor.palette.natural",
+        "en": "Natural"
+      }
+    }
+  },
+  {
+    "id": "plant",
+    "kind": "plant",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "mapEditor.palette.natural",
+        "en": "Natural"
+      }
+    }
+  },
+  {
+    "id": "shell",
+    "kind": "shell",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "mapEditor.palette.natural",
+        "en": "Natural"
+      }
+    }
+  },
+  {
+    "id": "deposit",
+    "kind": "deposit",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "mapEditor.tabs.deposits.label",
+        "en": "Deposits"
+      }
+    }
+  },
+  {
+    "id": "animal",
+    "kind": "animal",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "mapEditor.sections.animals",
+        "en": "Animals"
+      }
+    }
+  },
+  {
+    "id": "critter",
+    "kind": "critter",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "mapEditor.sections.animals",
+        "en": "Animals"
+      }
+    }
+  },
+  {
+    "id": "fish",
+    "kind": "fish",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "mapEditor.sections.animals",
+        "en": "Animals"
+      }
+    }
+  },
+  {
+    "id": "whale",
+    "kind": "whale",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "mapEditor.sections.animals",
+        "en": "Animals"
+      }
+    }
+  },
+  {
+    "id": "bird",
+    "kind": "bird",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "mapEditor.sections.animals",
+        "en": "Animals"
+      }
+    }
+  },
+  {
+    "id": "butterfly",
+    "kind": "butterfly",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "mapEditor.sections.animals",
+        "en": "Animals"
+      }
+    }
+  },
+  {
+    "id": "settler.transport",
+    "kind": "settler",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "content.category.settler.transport.name",
+        "en": "Transport"
+      }
+    }
+  },
+  {
+    "id": "settler.raw",
+    "kind": "settler",
+    "order": 1,
+    "text": {
+      "name": {
+        "key": "content.category.settler.raw.name",
+        "en": "Basic production"
+      }
+    }
+  },
+  {
+    "id": "settler.food",
+    "kind": "settler",
+    "order": 2,
+    "text": {
+      "name": {
+        "key": "content.category.settler.food.name",
+        "en": "Food and farming"
+      }
+    }
+  },
+  {
+    "id": "settler.metal",
+    "kind": "settler",
+    "order": 3,
+    "text": {
+      "name": {
+        "key": "content.category.settler.metal.name",
+        "en": "Metal and crafts"
+      }
+    }
+  },
+  {
+    "id": "settler.specialist",
+    "kind": "settler",
+    "order": 4,
+    "text": {
+      "name": {
+        "key": "content.category.settler.specialist.name",
+        "en": "Specialists"
+      }
+    }
+  },
+  {
+    "id": "settler.other",
+    "kind": "settler",
+    "order": 5,
+    "text": {
+      "name": {
+        "key": "content.category.settler.other.name",
+        "en": "Other"
+      }
+    }
+  },
+  {
+    "id": "settler.military",
+    "kind": "settler",
+    "order": 6,
+    "text": {
+      "name": {
+        "key": "content.category.settler.military.name",
+        "en": "Military"
+      }
+    }
+  },
+  {
+    "id": "soldier",
+    "kind": "soldier",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "content.category.soldier.name",
+        "en": "Troops"
+      }
+    }
+  },
+  {
+    "id": "commander",
+    "kind": "commander",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "settlement.details.commander.heading",
+        "en": "Commander"
+      }
+    }
+  },
+  {
+    "id": "ship",
+    "kind": "ship",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "content.category.ship.name",
+        "en": "Ships"
+      }
+    }
+  },
+  {
+    "id": "boat",
+    "kind": "boat",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "content.category.boat.name",
+        "en": "Boats"
+      }
+    }
+  },
+  {
+    "id": "building.materials",
+    "kind": "building",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "building.category.materials",
+        "en": "Materials"
+      }
+    }
+  },
+  {
+    "id": "building.settlement",
+    "kind": "building",
+    "order": 1,
+    "text": {
+      "name": {
+        "key": "building.category.settlement",
+        "en": "Settlement"
+      }
+    }
+  },
+  {
+    "id": "building.foodDrink",
+    "kind": "building",
+    "order": 2,
+    "text": {
+      "name": {
+        "key": "settlement.trade.categoryFood",
+        "en": "Food"
+      }
+    }
+  },
+  {
+    "id": "building.industry",
+    "kind": "building",
+    "order": 3,
+    "text": {
+      "name": {
+        "key": "building.category.industry",
+        "en": "Industry"
+      }
+    }
+  },
+  {
+    "id": "building.mines",
+    "kind": "building",
+    "order": 4,
+    "text": {
+      "name": {
+        "key": "building.category.mines",
+        "en": "Mines"
+      }
+    }
+  },
+  {
+    "id": "building.military",
+    "kind": "building",
+    "order": 5,
+    "text": {
+      "name": {
+        "key": "building.category.military",
+        "en": "Military"
+      }
+    }
+  },
+  {
+    "id": "bandit",
+    "kind": "bandit",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "domain.bandit.enemyCamp",
+        "en": "Enemy camp"
+      }
+    }
+  },
+  {
+    "id": "music.roman",
+    "kind": "music",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "content.category.music.roman.name",
+        "en": "Roman"
+      }
+    }
+  },
+  {
+    "id": "music.viking",
+    "kind": "music",
+    "order": 1,
+    "text": {
+      "name": {
+        "key": "content.category.music.viking.name",
+        "en": "Viking"
+      }
+    }
+  },
+  {
+    "id": "music.japanese",
+    "kind": "music",
+    "order": 2,
+    "text": {
+      "name": {
+        "key": "content.category.music.japanese.name",
+        "en": "Japanese"
+      }
+    }
+  },
+  {
+    "id": "music.nubian",
+    "kind": "music",
+    "order": 3,
+    "text": {
+      "name": {
+        "key": "content.category.music.nubian.name",
+        "en": "Nubian"
+      }
+    }
+  },
+  {
+    "id": "music.chinese",
+    "kind": "music",
+    "order": 4,
+    "text": {
+      "name": {
+        "key": "content.category.music.chinese.name",
+        "en": "Chinese"
+      }
+    }
+  },
+  {
+    "id": "music.persian",
+    "kind": "music",
+    "order": 5,
+    "text": {
+      "name": {
+        "key": "content.category.music.persian.name",
+        "en": "Persian"
+      }
+    }
+  },
+  {
+    "id": "music.maya",
+    "kind": "music",
+    "order": 6,
+    "text": {
+      "name": {
+        "key": "content.category.music.maya.name",
+        "en": "Maya"
+      }
+    }
+  },
+  {
+    "id": "music.indigenous",
+    "kind": "music",
+    "order": 7,
+    "text": {
+      "name": {
+        "key": "content.category.music.indigenous.name",
+        "en": "Indigenous"
+      }
+    }
+  },
+  {
+    "id": "music.neutral",
+    "kind": "music",
+    "order": 8,
+    "text": {
+      "name": {
+        "key": "content.category.music.neutral.name",
+        "en": "Neutral"
+      }
+    }
+  },
+  {
+    "id": "sound.fanfare",
+    "kind": "sound",
+    "order": 0,
+    "text": {
+      "name": {
+        "key": "content.category.sound.fanfare.name",
+        "en": "Fanfares"
+      }
+    }
+  },
+  {
+    "id": "sound.nature",
+    "kind": "sound",
+    "order": 1,
+    "text": {
+      "name": {
+        "key": "content.category.sound.nature.name",
+        "en": "Nature"
+      }
+    }
+  }
+]

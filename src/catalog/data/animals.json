@@ -1,0 +1,128 @@
+[
+  {
+    "id": "animal:rabbit",
+    "kind": "animal",
+    "key": "rabbit",
+    "code": 0,
+    "category": "animal",
+    "family": "animal.rabbit",
+    "tags": [
+      "huntable"
+    ],
+    "actor": {
+      "capabilities": [
+        "enteredRegion",
+        "hunted",
+        "killed"
+      ],
+      "targetOf": [
+        "kill",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.catalog.animal.rabbit",
+        "en": "Rabbit"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/animal-rabbit.webp"
+    },
+    "life": {
+      "adultMeat": 1,
+      "domain": "sim",
+      "editor": {
+        "order": 2,
+        "tool": "animal"
+      },
+      "growthMinutes": 12
+    }
+  },
+  {
+    "id": "animal:deer",
+    "kind": "animal",
+    "key": "deer",
+    "code": 1,
+    "category": "animal",
+    "family": "animal.deer",
+    "tags": [
+      "huntable"
+    ],
+    "actor": {
+      "capabilities": [
+        "enteredRegion",
+        "hunted",
+        "killed"
+      ],
+      "targetOf": [
+        "kill",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.catalog.animal.deer",
+        "en": "Deer"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/animal-deer.webp"
+    },
+    "life": {
+      "adultMeat": 18,
+      "domain": "sim",
+      "editor": {
+        "order": 0,
+        "tool": "animal"
+      },
+      "growthMinutes": 22
+    }
+  },
+  {
+    "id": "animal:elk",
+    "kind": "animal",
+    "key": "elk",
+    "code": 2,
+    "category": "animal",
+    "family": "animal.deer",
+    "tags": [
+      "huntable"
+    ],
+    "actor": {
+      "capabilities": [
+        "enteredRegion",
+        "hunted",
+        "killed"
+      ],
+      "targetOf": [
+        "kill",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.catalog.animal.elk",
+        "en": "Elk"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/animal-elk.webp"
+    },
+    "life": {
+      "adultMeat": 40,
+      "domain": "sim",
+      "editor": {
+        "order": 1,
+        "tool": "animal"
+      },
+      "growthMinutes": 30
+    }
+  }
+]

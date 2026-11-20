@@ -1,0 +1,118 @@
+[
+  {
+    "id": "butterfly:roseCrimson",
+    "kind": "butterfly",
+    "key": "roseCrimson",
+    "code": 0,
+    "category": "butterfly",
+    "family": "butterfly",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "spawned"
+      ],
+      "targetOf": [
+        "move",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.butterfly.roseCrimson.name",
+        "en": "Rose crimson"
+      }
+    },
+    "life": {
+      "domain": "render"
+    }
+  },
+  {
+    "id": "butterfly:ember",
+    "kind": "butterfly",
+    "key": "ember",
+    "code": 1,
+    "category": "butterfly",
+    "family": "butterfly",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "spawned"
+      ],
+      "targetOf": [
+        "move",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.butterfly.ember.name",
+        "en": "Ember"
+      }
+    },
+    "life": {
+      "domain": "render"
+    }
+  },
+  {
+    "id": "butterfly:skyBlue",
+    "kind": "butterfly",
+    "key": "skyBlue",
+    "code": 2,
+    "category": "butterfly",
+    "family": "butterfly",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "spawned"
+      ],
+      "targetOf": [
+        "move",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.butterfly.skyBlue.name",
+        "en": "Sky blue"
+      }
+    },
+    "life": {
+      "domain": "render"
+    }
+  },
+  {
+    "id": "butterfly:duskViolet",
+    "kind": "butterfly",
+    "key": "duskViolet",
+    "code": 3,
+    "category": "butterfly",
+    "family": "butterfly",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "spawned"
+      ],
+      "targetOf": [
+        "move",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.butterfly.duskViolet.name",
+        "en": "Dusk violet"
+      }
+    },
+    "life": {
+      "domain": "render"
+    }
+  }
+]

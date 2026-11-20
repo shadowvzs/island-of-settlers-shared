@@ -1,0 +1,70 @@
+{
+  "id": "building:bakery",
+  "kind": "building",
+  "key": "bakery",
+  "code": 32,
+  "category": "building.foodDrink",
+  "family": "building.production.bakery",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.bakery",
+      "en": "Bakery"
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.bakery.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "occupied",
+      "produce",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/bakery/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/bakery/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/bakery/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/bakery/rules.json"
+    }
+  }
+}

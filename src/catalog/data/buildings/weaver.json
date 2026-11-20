@@ -1,0 +1,70 @@
+{
+  "id": "building:weaver",
+  "kind": "building",
+  "key": "weaver",
+  "code": 61,
+  "category": "building.materials",
+  "family": "building.production.weaver",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.weaver",
+      "en": "Weaver"
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.weaver.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "occupied",
+      "produce",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/weaver/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/weaver/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/weaver/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/weaver/rules.json"
+    }
+  }
+}

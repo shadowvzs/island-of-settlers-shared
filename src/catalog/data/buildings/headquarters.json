@@ -1,0 +1,70 @@
+{
+  "id": "building:headquarters",
+  "kind": "building",
+  "key": "headquarters",
+  "code": 0,
+  "category": "building.settlement",
+  "family": "building.headquarters",
+  "tags": [
+    "storage"
+  ],
+  "text": {
+    "name": {
+      "key": "domain.building.headquarters",
+      "en": "Headquarters"
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.headquarters.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": false
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/headquarters/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/headquarters/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/headquarters/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/headquarters/rules.json"
+    }
+  }
+}

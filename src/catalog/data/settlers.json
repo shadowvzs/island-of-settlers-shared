@@ -1,0 +1,2449 @@
+[
+  {
+    "id": "settler:carrier",
+    "kind": "settler",
+    "key": "carrier",
+    "category": "settler.transport",
+    "family": "settler.carrier",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.carrier",
+        "en": "Carrier"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "worker-icons/{key}.png"
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Carrier"
+    }
+  },
+  {
+    "id": "settler:builder",
+    "kind": "settler",
+    "key": "builder",
+    "category": "settler.transport",
+    "family": "settler.construction",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.builder",
+        "en": "Builder"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "worker-icons/{key}.png"
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Builder"
+    }
+  },
+  {
+    "id": "settler:woodcutter",
+    "kind": "settler",
+    "key": "woodcutter",
+    "category": "settler.raw",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.woodcutter",
+        "en": "Woodcutter"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "worker-icons/{key}.png"
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "fell",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Woodcutter",
+      "tool": "axe"
+    }
+  },
+  {
+    "id": "settler:forester",
+    "kind": "settler",
+    "key": "forester",
+    "category": "settler.raw",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.forester",
+        "en": "Forester"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "plant",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Forester",
+      "tool": "shovel"
+    }
+  },
+  {
+    "id": "settler:stonemason",
+    "kind": "settler",
+    "key": "stonemason",
+    "category": "settler.raw",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.stonemason",
+        "en": "Stonemason"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Stonemason",
+      "tool": "pickaxe"
+    }
+  },
+  {
+    "id": "settler:fisher",
+    "kind": "settler",
+    "key": "fisher",
+    "category": "settler.raw",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.fisher",
+        "en": "Fisher"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "worker-icons/{key}.png"
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Fisher",
+      "tool": "fishingRod"
+    }
+  },
+  {
+    "id": "settler:hunter",
+    "kind": "settler",
+    "key": "hunter",
+    "category": "settler.raw",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.hunter",
+        "en": "Hunter"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "hunt",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Hunter",
+      "tool": "bow"
+    }
+  },
+  {
+    "id": "settler:carpenter",
+    "kind": "settler",
+    "key": "carpenter",
+    "category": "settler.raw",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.carpenter",
+        "en": "Carpenter"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Carpenter",
+      "tool": "saw"
+    }
+  },
+  {
+    "id": "settler:farmer",
+    "kind": "settler",
+    "key": "farmer",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.farmer",
+        "en": "Farmer"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "worker-icons/{key}.png"
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Farmer",
+      "tool": "scythe"
+    }
+  },
+  {
+    "id": "settler:flaxGrower",
+    "kind": "settler",
+    "key": "flaxGrower",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.flaxGrower",
+        "en": "Flax grower"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Flax grower"
+    }
+  },
+  {
+    "id": "settler:riceFarmer",
+    "kind": "settler",
+    "key": "riceFarmer",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.riceFarmer",
+        "en": "Rice farmer"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Rice farmer",
+      "tool": "scythe"
+    }
+  },
+  {
+    "id": "settler:winegrower",
+    "kind": "settler",
+    "key": "winegrower",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.winegrower",
+        "en": "Winegrower"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Winegrower",
+      "tool": "shovel"
+    }
+  },
+  {
+    "id": "settler:beekeeper",
+    "kind": "settler",
+    "key": "beekeeper",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.beekeeper",
+        "en": "Beekeeper"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Beekeeper"
+    }
+  },
+  {
+    "id": "settler:palmGrower",
+    "kind": "settler",
+    "key": "palmGrower",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.palmGrower",
+        "en": "Palm grower"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Palm grower",
+      "tool": "shovel"
+    }
+  },
+  {
+    "id": "settler:pigBreeder",
+    "kind": "settler",
+    "key": "pigBreeder",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.pigBreeder",
+        "en": "Pig breeder"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Pig breeder"
+    }
+  },
+  {
+    "id": "settler:teaGrower",
+    "kind": "settler",
+    "key": "teaGrower",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.teaGrower",
+        "en": "Tea grower"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Tea grower",
+      "tool": "shovel"
+    }
+  },
+  {
+    "id": "settler:pomegranateGrower",
+    "kind": "settler",
+    "key": "pomegranateGrower",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.pomegranateGrower",
+        "en": "Pomegranate grower"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Pomegranate grower",
+      "tool": "shovel"
+    }
+  },
+  {
+    "id": "settler:cacaoGrower",
+    "kind": "settler",
+    "key": "cacaoGrower",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.cacaoGrower",
+        "en": "Cacao grower"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Cacao grower",
+      "tool": "shovel"
+    }
+  },
+  {
+    "id": "settler:berryGrower",
+    "kind": "settler",
+    "key": "berryGrower",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.berryGrower",
+        "en": "Berry grower"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Berry grower",
+      "tool": "shovel"
+    }
+  },
+  {
+    "id": "settler:miller",
+    "kind": "settler",
+    "key": "miller",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.miller",
+        "en": "Miller"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Miller"
+    }
+  },
+  {
+    "id": "settler:baker",
+    "kind": "settler",
+    "key": "baker",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.baker",
+        "en": "Baker"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Baker",
+      "tool": "rollingPin"
+    }
+  },
+  {
+    "id": "settler:butcher",
+    "kind": "settler",
+    "key": "butcher",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.butcher",
+        "en": "Butcher"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Butcher",
+      "tool": "cleaver"
+    }
+  },
+  {
+    "id": "settler:brewer",
+    "kind": "settler",
+    "key": "brewer",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.brewer",
+        "en": "Brewer"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Brewer"
+    }
+  },
+  {
+    "id": "settler:vintner",
+    "kind": "settler",
+    "key": "vintner",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.vintner",
+        "en": "Vintner"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Vintner"
+    }
+  },
+  {
+    "id": "settler:meadBrewer",
+    "kind": "settler",
+    "key": "meadBrewer",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.meadBrewer",
+        "en": "Mead brewer"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Mead brewer"
+    }
+  },
+  {
+    "id": "settler:sakeBrewer",
+    "kind": "settler",
+    "key": "sakeBrewer",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.sakeBrewer",
+        "en": "Sake brewer"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Sake brewer"
+    }
+  },
+  {
+    "id": "settler:toddyMaker",
+    "kind": "settler",
+    "key": "toddyMaker",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.toddyMaker",
+        "en": "Toddy maker"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Toddy maker"
+    }
+  },
+  {
+    "id": "settler:teaBrewer",
+    "kind": "settler",
+    "key": "teaBrewer",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.teaBrewer",
+        "en": "Tea brewer"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Tea brewer"
+    }
+  },
+  {
+    "id": "settler:pomegranatePresser",
+    "kind": "settler",
+    "key": "pomegranatePresser",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.pomegranatePresser",
+        "en": "Pomegranate presser"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Pomegranate presser"
+    }
+  },
+  {
+    "id": "settler:cacaoBrewer",
+    "kind": "settler",
+    "key": "cacaoBrewer",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.cacaoBrewer",
+        "en": "Cacao brewer"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Cacao brewer"
+    }
+  },
+  {
+    "id": "settler:berryInfuser",
+    "kind": "settler",
+    "key": "berryInfuser",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.berryInfuser",
+        "en": "Berry infuser"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Berry infuser"
+    }
+  },
+  {
+    "id": "settler:weaver",
+    "kind": "settler",
+    "key": "weaver",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.weaver",
+        "en": "Weaver"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Weaver"
+    }
+  },
+  {
+    "id": "settler:wellWorker",
+    "kind": "settler",
+    "key": "wellWorker",
+    "category": "settler.food",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.wellWorker",
+        "en": "Well worker"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Well worker"
+    }
+  },
+  {
+    "id": "settler:miner",
+    "kind": "settler",
+    "key": "miner",
+    "category": "settler.metal",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.miner",
+        "en": "Miner"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Miner",
+      "tool": "pickaxe"
+    }
+  },
+  {
+    "id": "settler:charburner",
+    "kind": "settler",
+    "key": "charburner",
+    "category": "settler.metal",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.charburner",
+        "en": "Charburner"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Charburner",
+      "tool": "shovel"
+    }
+  },
+  {
+    "id": "settler:ironFounder",
+    "kind": "settler",
+    "key": "ironFounder",
+    "category": "settler.metal",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.ironFounder",
+        "en": "Iron founder"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Iron founder",
+      "tool": "crucible"
+    }
+  },
+  {
+    "id": "settler:armorer",
+    "kind": "settler",
+    "key": "armorer",
+    "category": "settler.metal",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.armorer",
+        "en": "Armorer"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Armorer",
+      "tool": "hammer"
+    }
+  },
+  {
+    "id": "settler:minter",
+    "kind": "settler",
+    "key": "minter",
+    "category": "settler.metal",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.minter",
+        "en": "Minter"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Minter",
+      "tool": "crucible"
+    }
+  },
+  {
+    "id": "settler:metalworker",
+    "kind": "settler",
+    "key": "metalworker",
+    "category": "settler.metal",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.metalworker",
+        "en": "Metalworker"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Metalworker",
+      "tool": "tongs"
+    }
+  },
+  {
+    "id": "settler:skinner",
+    "kind": "settler",
+    "key": "skinner",
+    "category": "settler.metal",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.skinner",
+        "en": "Skinner"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Skinner",
+      "tool": "cleaver"
+    }
+  },
+  {
+    "id": "settler:tanner",
+    "kind": "settler",
+    "key": "tanner",
+    "category": "settler.metal",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.tanner",
+        "en": "Tanner"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Tanner",
+      "tool": "saw"
+    }
+  },
+  {
+    "id": "settler:leatherworker",
+    "kind": "settler",
+    "key": "leatherworker",
+    "category": "settler.metal",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.leatherworker",
+        "en": "Leatherworker"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Leatherworker",
+      "tool": "tongs"
+    }
+  },
+  {
+    "id": "settler:shipwright",
+    "kind": "settler",
+    "key": "shipwright",
+    "category": "settler.specialist",
+    "family": "settler.production",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.shipwright",
+        "en": "Shipwright"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Shipwright",
+      "tool": "hammer"
+    }
+  },
+  {
+    "id": "settler:geologist",
+    "kind": "settler",
+    "key": "geologist",
+    "category": "settler.specialist",
+    "family": "settler.service",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.geologist",
+        "en": "Geologist"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "worker-icons/{key}.png"
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Geologist",
+      "tool": "hammer"
+    }
+  },
+  {
+    "id": "settler:scout",
+    "kind": "settler",
+    "key": "scout",
+    "category": "settler.specialist",
+    "family": "settler.service",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.scout",
+        "en": "Scout"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "spyglass",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "spyglass",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Scout",
+      "tool": "spyglass"
+    }
+  },
+  {
+    "id": "settler:innkeeper",
+    "kind": "settler",
+    "key": "innkeeper",
+    "category": "settler.specialist",
+    "family": "settler.service",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.innkeeper",
+        "en": "Innkeeper"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Innkeeper"
+    }
+  },
+  {
+    "id": "settler:lodgeKeeper",
+    "kind": "settler",
+    "key": "lodgeKeeper",
+    "category": "settler.specialist",
+    "family": "settler.service",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.lodgeKeeper",
+        "en": "Lodge keeper"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Lodge keeper"
+    }
+  },
+  {
+    "id": "settler:leveler",
+    "kind": "settler",
+    "key": "leveler",
+    "category": "settler.other",
+    "family": "settler.construction",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.leveler",
+        "en": "Leveler"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Leveler"
+    }
+  },
+  {
+    "id": "settler:mount",
+    "kind": "settler",
+    "key": "mount",
+    "category": "settler.other",
+    "family": "settler.carrier",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.mount",
+        "en": "Mount"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "ware-icons/horse.png"
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Mount"
+    }
+  },
+  {
+    "id": "settler:recruit",
+    "kind": "settler",
+    "key": "recruit",
+    "category": "settler.other",
+    "family": "settler.military",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.recruit",
+        "en": "Recruit"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Recruit"
+    }
+  },
+  {
+    "id": "settler:residents",
+    "kind": "settler",
+    "key": "residents",
+    "category": "settler.other",
+    "family": "settler.idle",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.residents",
+        "en": "Residents"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Residents"
+    }
+  },
+  {
+    "id": "settler:settler",
+    "kind": "settler",
+    "key": "settler",
+    "category": "settler.other",
+    "family": "settler.idle",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.settler",
+        "en": "Settler"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Settler"
+    }
+  },
+  {
+    "id": "settler:soldier",
+    "kind": "settler",
+    "key": "soldier",
+    "category": "settler.military",
+    "family": "settler.military",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "domain.job.soldier",
+        "en": "Soldier"
+      }
+    },
+    "actor": {
+      "capabilities": [
+        "board",
+        "born",
+        "carry",
+        "clicked",
+        "damaged",
+        "enterBuilding",
+        "enteredRegion",
+        "killed",
+        "toolReceived"
+      ],
+      "targetOf": [
+        "board",
+        "carry",
+        "cutTree",
+        "damage",
+        "enterBuilding",
+        "face",
+        "invulnerable",
+        "kill",
+        "move",
+        "playClip",
+        "setOwner",
+        "spawn",
+        "teleport"
+      ]
+    },
+    "settler": {
+      "job": "Soldier",
+      "tool": "sword"
+    }
+  }
+]

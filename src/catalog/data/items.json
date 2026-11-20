@@ -1,0 +1,48 @@
+[
+  {
+    "id": "item:chooseNation",
+    "kind": "item",
+    "key": "chooseNation",
+    "category": "item.misc",
+    "family": "item",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "inventory.chooseNation",
+        "en": "Choose nation"
+      },
+      "description": {
+        "key": "inventory.chooseNation.description",
+        "en": "Change your nation once. You can hold one of these items."
+      }
+    },
+    "item": {
+      "maxHeld": 1,
+      "offerKey": "choose-nation",
+      "price": 100
+    }
+  },
+  {
+    "id": "item:commanderRecovery",
+    "kind": "item",
+    "key": "commanderRecovery",
+    "category": "item.battle",
+    "family": "item",
+    "tags": [],
+    "text": {
+      "name": {
+        "key": "inventory.commanderRecovery.name",
+        "en": "Commander recovery"
+      },
+      "description": {
+        "key": "inventory.commanderRecovery.description",
+        "en": "Fully recover a defeated or recovering commander at their home lodge. Cannot heal a commander in combat."
+      }
+    },
+    "item": {
+      "maxHeld": 1,
+      "offerKey": "commander-recovery",
+      "price": 50
+    }
+  }
+]

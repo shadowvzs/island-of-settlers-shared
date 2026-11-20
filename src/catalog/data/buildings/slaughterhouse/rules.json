@@ -1,0 +1,62 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "none",
+    "props": [
+      "barrels",
+      "rack"
+    ],
+    "roof": "red",
+    "style": "hall"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "limits": {
+    "colony": "conquered"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [
+      "pig"
+    ],
+    "job": "settler:butcher",
+    "outputs": [
+      "meat"
+    ],
+    "seconds": 12
+  },
+  "progressionTier": "medium",
+  "role": {
+    "en": "Processes pigs into meat",
+    "key": "content.building.slaughterhouse.role"
+  },
+  "structureHp": 6000,
+  "task": "butcher",
+  "unlockLevel": 8,
+  "worker": "settler:butcher"
+}

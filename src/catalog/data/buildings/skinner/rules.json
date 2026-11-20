@@ -1,0 +1,59 @@
+{
+  "art": {
+    "extension": true,
+    "footprint": 2,
+    "mechanism": "none",
+    "props": [
+      "hides",
+      "rack"
+    ],
+    "roof": "thatch",
+    "style": "cottage"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [
+      "pig"
+    ],
+    "job": "settler:skinner",
+    "outputs": [
+      "hides"
+    ],
+    "seconds": 10
+  },
+  "progressionTier": "medium",
+  "role": {
+    "en": "Collects hides from carcasses or pigs",
+    "key": "content.building.skinner.role"
+  },
+  "structureHp": 6000,
+  "task": "skin",
+  "unlockLevel": 8,
+  "worker": "settler:skinner"
+}

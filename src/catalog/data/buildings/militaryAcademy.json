@@ -1,0 +1,68 @@
+{
+  "id": "building:militaryAcademy",
+  "kind": "building",
+  "key": "militaryAcademy",
+  "code": 40,
+  "category": "building.military",
+  "family": "building.service",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.tavern",
+      "en": "Military Academy"
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.militaryAcademy.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/militaryAcademy/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/militaryAcademy/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/militaryAcademy/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/militaryAcademy/rules.json"
+    }
+  }
+}

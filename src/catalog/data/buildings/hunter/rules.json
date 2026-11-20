@@ -1,0 +1,61 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "none",
+    "props": [
+      "hides",
+      "rack"
+    ],
+    "roof": "thatch",
+    "style": "cottage"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "limits": {
+    "colony": "conquered"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [],
+    "job": "settler:hunter",
+    "outdoor": "wildlife",
+    "outputs": [
+      "meat"
+    ],
+    "seconds": 12
+  },
+  "progressionTier": "small",
+  "role": {
+    "en": "Hunts wild animals for meat",
+    "key": "content.building.hunter.role"
+  },
+  "structureHp": 6000,
+  "task": "hunt",
+  "unlockLevel": 4,
+  "worker": "settler:hunter"
+}

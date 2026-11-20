@@ -1,0 +1,60 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "pump",
+    "props": [
+      "barrels",
+      "vats"
+    ],
+    "roof": "green",
+    "style": "hall"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [
+      "grain",
+      "water"
+    ],
+    "job": "settler:brewer",
+    "outputs": [
+      "beer"
+    ],
+    "seconds": 18
+  },
+  "progressionTier": "medium",
+  "role": {
+    "en": "Brews beer from grain and water",
+    "key": "content.building.brewery.role"
+  },
+  "structureHp": 6000,
+  "task": "brew",
+  "unlockLevel": 11,
+  "worker": "settler:brewer"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "building:farm",
+  "kind": "building",
+  "key": "farm",
+  "code": 37,
+  "category": "building.foodDrink",
+  "family": "building.production.farm",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.farm",
+      "en": "Farm"
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.farm.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "occupied",
+      "produce",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/farm/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/farm/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/farm/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/farm/rules.json"
+    }
+  }
+}

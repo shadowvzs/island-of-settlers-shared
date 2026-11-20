@@ -1,0 +1,55 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 1,
+    "mechanism": "none",
+    "props": [
+      "banner"
+    ],
+    "roof": "green",
+    "style": "tower"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "sight"
+    ],
+    "family": "lookout"
+  },
+  "limits": {
+    "colony": "always"
+  },
+  "production": {
+    "inputs": [],
+    "job": "settler:scout",
+    "outputs": [],
+    "seconds": 10,
+    "service": true
+  },
+  "progressionTier": "small",
+  "role": {
+    "en": "Explores surrounding territory",
+    "key": "content.building.lookoutTower.role"
+  },
+  "structureHp": 4000,
+  "task": "look",
+  "unlockLevel": 17,
+  "worker": "settler:scout"
+}

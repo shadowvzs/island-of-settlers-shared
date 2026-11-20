@@ -1,0 +1,19 @@
+{
+  "id": "building:walnutSawmill",
+  "kind": "building",
+  "key": "walnutSawmill",
+  "code": 52,
+  "category": "building.materials",
+  "family": "building.production.sawmill",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.walnutSawmill",
+      "en": "Walnut sawmill"
+    }
+  },
+  "retired": true,
+  "building": {
+    "placeable": false
+  }
+}

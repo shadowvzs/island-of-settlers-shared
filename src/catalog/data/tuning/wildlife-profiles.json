@@ -1,0 +1,155 @@
+{
+  "rabbit": {
+    "alertRadius": 5,
+    "body": {
+      "back": 0.15,
+      "front": 0.22,
+      "height": 0.28
+    },
+    "calm": {
+      "graze": 0.4,
+      "idle": 0.2,
+      "look": 0.14,
+      "rest": 0.07,
+      "walk": 0.16
+    },
+    "clearance": 0.09,
+    "cliffMargin": 0,
+    "durations": {
+      "alert": [0.8, 2.4],
+      "graze": [2.5, 7],
+      "idle": [1.5, 5],
+      "look": [0.8, 2.2],
+      "recover": [2, 5],
+      "rest": [8, 40]
+    },
+    "fleeRadius": 2.2,
+    "group": [1, 3],
+    "length": 0.26,
+    "lieDown": 0.5,
+    "maxForestDepth": null,
+    "maxSlopeDegrees": 33,
+    "minRegionArea": 12,
+    "personalSpace": 0.7,
+    "reaction": [0.05, 0.25],
+    "run": {
+      "speed": 3.6,
+      "stride": 0.9
+    },
+    "safeDistance": 7,
+    "sizeJitter": 0.08,
+    "standRadius": 0.17,
+    "trot": {
+      "speed": 1.2,
+      "stride": 0.42
+    },
+    "turnRate": 4.2,
+    "walk": {
+      "speed": 0.42,
+      "stride": 0.2
+    },
+    "wanderDistance": [0.8, 2.6]
+  },
+  "deer": {
+    "alertRadius": 8,
+    "body": {
+      "back": 0.32,
+      "front": 0.52,
+      "height": 0.79
+    },
+    "calm": {
+      "graze": 0.38,
+      "idle": 0.18,
+      "look": 0.14,
+      "rest": 0.07,
+      "walk": 0.18
+    },
+    "clearance": 0.13,
+    "cliffMargin": 1,
+    "durations": {
+      "alert": [1.2, 3.2],
+      "graze": [4, 11],
+      "idle": [2, 6],
+      "look": [1, 3],
+      "recover": [3, 7],
+      "rest": [15, 90]
+    },
+    "fleeRadius": 3.5,
+    "group": [1, 4],
+    "length": 0.7,
+    "lieDown": 2.2,
+    "maxForestDepth": null,
+    "maxSlopeDegrees": 29,
+    "minRegionArea": 40,
+    "personalSpace": 1.1,
+    "reaction": [0.15, 0.45],
+    "run": {
+      "speed": 4.6,
+      "stride": 1.75
+    },
+    "safeDistance": 12,
+    "sizeJitter": 0.07,
+    "standRadius": 0.4,
+    "trot": {
+      "speed": 1.5,
+      "stride": 0.8
+    },
+    "turnRate": 2.4,
+    "walk": {
+      "speed": 0.55,
+      "stride": 0.55
+    },
+    "wanderDistance": [1.6, 5]
+  },
+  "elk": {
+    "alertRadius": 9,
+    "body": {
+      "back": 0.46,
+      "front": 0.73,
+      "height": 1.35
+    },
+    "calm": {
+      "graze": 0.42,
+      "idle": 0.18,
+      "look": 0.11,
+      "rest": 0.09,
+      "walk": 0.15
+    },
+    "clearance": 0.24,
+    "cliffMargin": 1,
+    "durations": {
+      "alert": [1.5, 3.8],
+      "graze": [5, 13],
+      "idle": [2.5, 7],
+      "look": [1.2, 3.4],
+      "recover": [4, 8],
+      "rest": [15, 90]
+    },
+    "fleeRadius": 3.8,
+    "group": [2, 5],
+    "length": 0.95,
+    "lieDown": 3.2,
+    "maxForestDepth": 3,
+    "maxSlopeDegrees": 27,
+    "minRegionArea": 70,
+    "personalSpace": 1.5,
+    "reaction": [0.25, 0.6],
+    "run": {
+      "speed": 4.1,
+      "stride": 2.1
+    },
+    "safeDistance": 13,
+    "sizeJitter": 0.06,
+    "standRadius": 0.55,
+    "trot": {
+      "speed": 1.55,
+      "stride": 1.05
+    },
+    "turnRate": 1.8,
+    "walk": {
+      "speed": 0.5,
+      "stride": 0.65
+    },
+    "wanderDistance": [2, 6]
+  }
+}

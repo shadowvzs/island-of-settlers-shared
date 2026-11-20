@@ -1,0 +1,61 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "wheel",
+    "props": [
+      "grain"
+    ],
+    "roof": "thatch",
+    "style": "mill"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "limits": {
+    "colony": "conquered"
+  },
+  "output": {
+    "capacity": 6
+  },
+  "production": {
+    "inputs": [
+      "grain"
+    ],
+    "job": "settler:miller",
+    "outputs": [
+      "flour"
+    ],
+    "seconds": 12
+  },
+  "progressionTier": "medium",
+  "role": {
+    "en": "Grinds grain into flour",
+    "key": "content.building.mill.role"
+  },
+  "structureHp": 6000,
+  "task": "mill",
+  "unlockLevel": 5,
+  "worker": "settler:miller"
+}

@@ -1,0 +1,100 @@
+{
+  "id": "building:vineyard",
+  "kind": "building",
+  "key": "vineyard",
+  "code": 5,
+  "category": "building.foodDrink",
+  "family": "building.production.vineyard",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.vineyard",
+      "en": "Vineyard"
+    },
+    "variants": {
+      "chinese": {
+        "key": "domain.building.chinese.teaGarden",
+        "en": "Tea garden"
+      },
+      "persian": {
+        "key": "domain.building.persian.pomegranateOrchard",
+        "en": "Pomegranate orchard"
+      },
+      "maya": {
+        "key": "domain.building.maya.cacaoGrove",
+        "en": "Cacao grove"
+      },
+      "indigenous": {
+        "key": "domain.building.indigenous.berryGarden",
+        "en": "Berry garden"
+      },
+      "japanese": {
+        "key": "domain.building.japanese.riceFarm",
+        "en": "Rice farm"
+      },
+      "nubian": {
+        "key": "domain.building.nubian.palmGrove",
+        "en": "Palm grove"
+      },
+      "viking": {
+        "key": "domain.building.viking.apiary",
+        "en": "Apiary"
+      }
+    }
+  },
+  "variants": {
+    "level": {
+      "max": 5,
+      "min": 1
+    },
+    "nation": "all"
+  },
+  "icon": {
+    "root": "clientAssets",
+    "path": "building-icons/{nation}-{code}.png"
+  },
+  "model": {
+    "kind": "recipe",
+    "recipe": "recipe:building.vineyard.{nation}.level{level}"
+  },
+  "actor": {
+    "capabilities": [
+      "clicked",
+      "construct",
+      "damaged",
+      "destroyed",
+      "occupied",
+      "produce",
+      "upgrade"
+    ],
+    "targetOf": [
+      "attackTarget",
+      "construct",
+      "damage",
+      "door",
+      "enter",
+      "invulnerable",
+      "kill",
+      "setOwner",
+      "spawn",
+      "stock"
+    ]
+  },
+  "building": {
+    "placeable": true
+  },
+  "sidecars": {
+    "construction": {
+      "path": "buildings/vineyard/construction.json"
+    },
+    "geometry": {
+      "path": "buildings/vineyard/geometry.json"
+    },
+    "navigation": {
+      "path": "buildings/vineyard/navigation/{nation}.json"
+    },
+    "rules": {
+      "path": "buildings/vineyard/rules.json"
+    }
+  }
+}

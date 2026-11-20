@@ -1,0 +1,19 @@
+{
+  "id": "building:mahoganySawmill",
+  "kind": "building",
+  "key": "mahoganySawmill",
+  "code": 56,
+  "category": "building.materials",
+  "family": "building.production.sawmill",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.mahoganySawmill",
+      "en": "Mahogany sawmill"
+    }
+  },
+  "retired": true,
+  "building": {
+    "placeable": false
+  }
+}

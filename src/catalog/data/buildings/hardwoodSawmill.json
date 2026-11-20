@@ -1,0 +1,19 @@
+{
+  "id": "building:hardwoodSawmill",
+  "kind": "building",
+  "key": "hardwoodSawmill",
+  "code": 44,
+  "category": "building.materials",
+  "family": "building.production.sawmill",
+  "tags": [],
+  "text": {
+    "name": {
+      "key": "domain.building.hardwoodSawmill",
+      "en": "Hardwood sawmill"
+    }
+  },
+  "retired": true,
+  "building": {
+    "placeable": false
+  }
+}

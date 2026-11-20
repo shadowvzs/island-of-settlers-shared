@@ -1,0 +1,412 @@
+[
+  {
+    "id": "tree:broadleafTree",
+    "kind": "tree",
+    "key": "broadleafTree",
+    "code": 0,
+    "category": "tree",
+    "family": "tree",
+    "tags": [
+      "foresterPlanted"
+    ],
+    "actor": {
+      "capabilities": [
+        "cut",
+        "growthStage",
+        "planted"
+      ],
+      "targetOf": [
+        "cut",
+        "kill",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.catalog.tree.oak",
+        "en": "Oak"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/tree-oak.webp"
+    },
+    "prop": {
+      "editor": {
+        "order": 4,
+        "tool": "tree"
+      },
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "tree:coniferTree",
+    "kind": "tree",
+    "key": "coniferTree",
+    "code": 1,
+    "category": "tree",
+    "family": "tree",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "cut",
+        "growthStage"
+      ],
+      "targetOf": [
+        "cut",
+        "kill",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.catalog.tree.conifer",
+        "en": "Conifer"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/tree-conifer.webp"
+    },
+    "prop": {
+      "editor": {
+        "order": 5,
+        "tool": "tree"
+      },
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "tree:palmTree",
+    "kind": "tree",
+    "key": "palmTree",
+    "code": 2,
+    "category": "tree",
+    "family": "tree",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "cut",
+        "growthStage"
+      ],
+      "targetOf": [
+        "cut",
+        "kill",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.catalog.tree.palm",
+        "en": "Palm"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/tree-palm.webp"
+    },
+    "prop": {
+      "editor": {
+        "order": 7,
+        "tool": "tree"
+      },
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "tree:sapling",
+    "kind": "tree",
+    "key": "sapling",
+    "code": 15,
+    "category": "tree",
+    "family": "tree",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "cut",
+        "growthStage"
+      ],
+      "targetOf": [
+        "cut",
+        "kill",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.catalog.tree.sapling",
+        "en": "Sapling"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/tree-sapling.webp"
+    },
+    "prop": {
+      "editor": {
+        "order": 8,
+        "tool": "tree"
+      },
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "tree:birchTree",
+    "kind": "tree",
+    "key": "birchTree",
+    "code": 18,
+    "category": "tree",
+    "family": "tree",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "cut",
+        "growthStage"
+      ],
+      "targetOf": [
+        "cut",
+        "kill",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.catalog.tree.birch",
+        "en": "Birch"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/tree-birch.webp"
+    },
+    "prop": {
+      "editor": {
+        "order": 6,
+        "tool": "tree"
+      },
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "tree:hardwoodTree",
+    "kind": "tree",
+    "key": "hardwoodTree",
+    "code": 21,
+    "category": "tree",
+    "family": "tree",
+    "tags": [
+      "foresterPlanted"
+    ],
+    "actor": {
+      "capabilities": [
+        "cut",
+        "growthStage",
+        "planted"
+      ],
+      "targetOf": [
+        "cut",
+        "kill",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.catalog.tree.hardwood",
+        "en": "Hardwood"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/tree-hardwood.webp"
+    },
+    "prop": {
+      "editor": {
+        "order": 0,
+        "tool": "tree"
+      },
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "tree:cedarTree",
+    "kind": "tree",
+    "key": "cedarTree",
+    "code": 22,
+    "category": "tree",
+    "family": "tree",
+    "tags": [
+      "foresterPlanted"
+    ],
+    "actor": {
+      "capabilities": [
+        "cut",
+        "growthStage",
+        "planted"
+      ],
+      "targetOf": [
+        "cut",
+        "kill",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.catalog.tree.cedar",
+        "en": "Cedar"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/tree-cedar.webp"
+    },
+    "prop": {
+      "editor": {
+        "order": 1,
+        "tool": "tree"
+      },
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "tree:walnutTree",
+    "kind": "tree",
+    "key": "walnutTree",
+    "code": 23,
+    "category": "tree",
+    "family": "tree",
+    "tags": [
+      "foresterPlanted"
+    ],
+    "actor": {
+      "capabilities": [
+        "cut",
+        "growthStage",
+        "planted"
+      ],
+      "targetOf": [
+        "cut",
+        "kill",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.catalog.tree.walnut",
+        "en": "Walnut"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/tree-walnut.webp"
+    },
+    "prop": {
+      "editor": {
+        "order": 2,
+        "tool": "tree"
+      },
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "tree:mahoganyTree",
+    "kind": "tree",
+    "key": "mahoganyTree",
+    "code": 24,
+    "category": "tree",
+    "family": "tree",
+    "tags": [
+      "foresterPlanted"
+    ],
+    "actor": {
+      "capabilities": [
+        "cut",
+        "growthStage",
+        "planted"
+      ],
+      "targetOf": [
+        "cut",
+        "kill",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "mapEditor.catalog.tree.mahogany",
+        "en": "Mahogany"
+      }
+    },
+    "icon": {
+      "root": "clientAssets",
+      "path": "editor-icons/tree-mahogany.webp"
+    },
+    "prop": {
+      "editor": {
+        "order": 3,
+        "tool": "tree"
+      },
+      "layer": "worldProp"
+    }
+  },
+  {
+    "id": "tree:sparseOak",
+    "kind": "tree",
+    "key": "sparseOak",
+    "code": 39,
+    "category": "tree",
+    "family": "tree",
+    "tags": [
+      "adventure"
+    ],
+    "actor": {
+      "capabilities": [
+        "cut",
+        "growthStage"
+      ],
+      "targetOf": [
+        "cut",
+        "kill",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.tree.sparseOak.name",
+        "en": "Sparse oak"
+      }
+    },
+    "prop": {
+      "layer": "adventure"
+    }
+  },
+  {
+    "id": "tree:sparseBirch",
+    "kind": "tree",
+    "key": "sparseBirch",
+    "code": 40,
+    "category": "tree",
+    "family": "tree",
+    "tags": [
+      "adventure"
+    ],
+    "actor": {
+      "capabilities": [
+        "cut",
+        "growthStage"
+      ],
+      "targetOf": [
+        "cut",
+        "kill",
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.tree.sparseBirch.name",
+        "en": "Sparse birch"
+      }
+    },
+    "prop": {
+      "layer": "adventure"
+    }
+  }
+]

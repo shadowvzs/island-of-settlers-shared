@@ -1,0 +1,56 @@
+{
+  "art": {
+    "extension": false,
+    "footprint": 2,
+    "mechanism": "none",
+    "props": [
+      "saplings",
+      "rack"
+    ],
+    "roof": "green",
+    "style": "cottage"
+  },
+  "levels": {
+    "costs": [
+      {
+        "hardwoodPlanks": 4,
+        "marble": 2
+      },
+      {
+        "cedarPlanks": 5,
+        "limestone": 3
+      },
+      {
+        "walnutPlanks": 6,
+        "basalt": 4
+      },
+      {
+        "mahoganyPlanks": 7,
+        "granite": 5
+      }
+    ],
+    "effects": [
+      "workSpeed"
+    ],
+    "family": "producer"
+  },
+  "limits": {
+    "colony": "conquered"
+  },
+  "production": {
+    "inputs": [],
+    "job": "settler:forester",
+    "outdoor": "plant",
+    "outputs": [],
+    "seconds": 8
+  },
+  "progressionTier": "small",
+  "role": {
+    "en": "Plants hardwood trees on colonies",
+    "key": "content.building.hardwoodForester.role"
+  },
+  "structureHp": 6000,
+  "task": "plant",
+  "unlockLevel": 18,
+  "worker": "settler:forester"
+}

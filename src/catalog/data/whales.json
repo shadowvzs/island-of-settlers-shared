@@ -1,0 +1,60 @@
+[
+  {
+    "id": "whale:humpback",
+    "kind": "whale",
+    "key": "humpback",
+    "code": 0,
+    "category": "whale",
+    "family": "whale",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.whale.humpback.name",
+        "en": "Humpback whale"
+      }
+    },
+    "life": {
+      "domain": "render"
+    }
+  },
+  {
+    "id": "whale:orca",
+    "kind": "whale",
+    "key": "orca",
+    "code": 1,
+    "category": "whale",
+    "family": "whale",
+    "tags": [],
+    "actor": {
+      "capabilities": [
+        "clipDone",
+        "despawned",
+        "seen",
+        "spawned"
+      ],
+      "targetOf": [
+        "spawn"
+      ]
+    },
+    "text": {
+      "name": {
+        "key": "content.whale.orca.name",
+        "en": "Orca"
+      }
+    },
+    "life": {
+      "domain": "render"
+    }
+  }
+]

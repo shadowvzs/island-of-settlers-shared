@@ -1,0 +1,1622 @@
+[
+  {
+    "id": "ware:logs",
+    "kind": "ware",
+    "key": "logs",
+    "text": {
+      "name": {
+        "key": "domain.ware.logs",
+        "en": "Softwood logs"
+      }
+    },
+    "category": "ware.building",
+    "family": "ware.building",
+    "tags": [],
+    "ware": {
+      "aliases": [
+        "timberlog",
+        "wood",
+        "log",
+        "timber"
+      ],
+      "boxSize": 3,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:planks",
+    "kind": "ware",
+    "key": "planks",
+    "text": {
+      "name": {
+        "key": "domain.ware.planks",
+        "en": "Softwood planks"
+      }
+    },
+    "category": "ware.building",
+    "family": "ware.building",
+    "tags": [],
+    "ware": {
+      "aliases": [
+        "boards",
+        "plank"
+      ],
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:stone",
+    "kind": "ware",
+    "key": "stone",
+    "text": {
+      "name": {
+        "key": "domain.ware.stone",
+        "en": "Stone"
+      }
+    },
+    "category": "ware.building",
+    "family": "ware.building",
+    "tags": [],
+    "ware": {
+      "aliases": [
+        "stones"
+      ],
+      "boxSize": 4,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:hardwoodLogs",
+    "kind": "ware",
+    "key": "hardwoodLogs",
+    "text": {
+      "name": {
+        "key": "domain.ware.hardwoodLogs",
+        "en": "Hardwood logs"
+      }
+    },
+    "category": "ware.building",
+    "family": "ware.building",
+    "tags": [],
+    "ware": {
+      "boxSize": 3,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:hardwoodPlanks",
+    "kind": "ware",
+    "key": "hardwoodPlanks",
+    "text": {
+      "name": {
+        "key": "domain.ware.hardwoodPlanks",
+        "en": "Hardwood planks"
+      }
+    },
+    "category": "ware.building",
+    "family": "ware.building",
+    "tags": [],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:marble",
+    "kind": "ware",
+    "key": "marble",
+    "text": {
+      "name": {
+        "key": "domain.ware.marble",
+        "en": "Marble"
+      }
+    },
+    "category": "ware.building",
+    "family": "ware.building",
+    "tags": [],
+    "ware": {
+      "boxSize": 4,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:cedarLogs",
+    "kind": "ware",
+    "key": "cedarLogs",
+    "text": {
+      "name": {
+        "key": "domain.ware.cedarLogs",
+        "en": "Cedar logs"
+      }
+    },
+    "category": "ware.building",
+    "family": "ware.building",
+    "tags": [],
+    "ware": {
+      "boxSize": 3,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:cedarPlanks",
+    "kind": "ware",
+    "key": "cedarPlanks",
+    "text": {
+      "name": {
+        "key": "domain.ware.cedarPlanks",
+        "en": "Cedar planks"
+      }
+    },
+    "category": "ware.building",
+    "family": "ware.building",
+    "tags": [],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:walnutLogs",
+    "kind": "ware",
+    "key": "walnutLogs",
+    "text": {
+      "name": {
+        "key": "domain.ware.walnutLogs",
+        "en": "Walnut logs"
+      }
+    },
+    "category": "ware.building",
+    "family": "ware.building",
+    "tags": [],
+    "ware": {
+      "boxSize": 3,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:walnutPlanks",
+    "kind": "ware",
+    "key": "walnutPlanks",
+    "text": {
+      "name": {
+        "key": "domain.ware.walnutPlanks",
+        "en": "Walnut planks"
+      }
+    },
+    "category": "ware.building",
+    "family": "ware.building",
+    "tags": [],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:mahoganyLogs",
+    "kind": "ware",
+    "key": "mahoganyLogs",
+    "text": {
+      "name": {
+        "key": "domain.ware.mahoganyLogs",
+        "en": "Mahogany logs"
+      }
+    },
+    "category": "ware.building",
+    "family": "ware.building",
+    "tags": [],
+    "ware": {
+      "boxSize": 3,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:mahoganyPlanks",
+    "kind": "ware",
+    "key": "mahoganyPlanks",
+    "text": {
+      "name": {
+        "key": "domain.ware.mahoganyPlanks",
+        "en": "Mahogany planks"
+      }
+    },
+    "category": "ware.building",
+    "family": "ware.building",
+    "tags": [],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:limestone",
+    "kind": "ware",
+    "key": "limestone",
+    "text": {
+      "name": {
+        "key": "domain.ware.limestone",
+        "en": "Limestone"
+      }
+    },
+    "category": "ware.building",
+    "family": "ware.building",
+    "tags": [],
+    "ware": {
+      "boxSize": 4,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:basalt",
+    "kind": "ware",
+    "key": "basalt",
+    "text": {
+      "name": {
+        "key": "domain.ware.basalt",
+        "en": "Basalt"
+      }
+    },
+    "category": "ware.building",
+    "family": "ware.building",
+    "tags": [],
+    "ware": {
+      "boxSize": 4,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:granite",
+    "kind": "ware",
+    "key": "granite",
+    "text": {
+      "name": {
+        "key": "domain.ware.granite",
+        "en": "Granite"
+      }
+    },
+    "category": "ware.building",
+    "family": "ware.building",
+    "tags": [],
+    "ware": {
+      "boxSize": 4,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:fish",
+    "kind": "ware",
+    "key": "fish",
+    "text": {
+      "name": {
+        "key": "domain.ware.fish",
+        "en": "Fish"
+      }
+    },
+    "category": "ware.food",
+    "family": "ware.food",
+    "tags": [],
+    "ware": {
+      "boxSize": 10,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:meat",
+    "kind": "ware",
+    "key": "meat",
+    "text": {
+      "name": {
+        "key": "domain.ware.meat",
+        "en": "Meat"
+      }
+    },
+    "category": "ware.food",
+    "family": "ware.food",
+    "tags": [],
+    "ware": {
+      "boxSize": 8,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:grain",
+    "kind": "ware",
+    "key": "grain",
+    "text": {
+      "name": {
+        "key": "domain.ware.grain",
+        "en": "Wheat"
+      }
+    },
+    "category": "ware.foodChain",
+    "family": "ware.foodChain",
+    "tags": [],
+    "ware": {
+      "aliases": [
+        "wheat"
+      ],
+      "boxSize": 12,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      },
+      "handCarried": true
+    }
+  },
+  {
+    "id": "ware:flax",
+    "kind": "ware",
+    "key": "flax",
+    "text": {
+      "name": {
+        "key": "domain.ware.flax",
+        "en": "Flax"
+      },
+      "description": {
+        "key": "content.ware.flax.description",
+        "en": "Hand-pulled flax fibre, dried and bundled for the loom."
+      }
+    },
+    "category": "ware.raw",
+    "family": "ware.raw",
+    "tags": [],
+    "ware": {
+      "boxSize": 12,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      },
+      "handCarried": true
+    }
+  },
+  {
+    "id": "ware:flour",
+    "kind": "ware",
+    "key": "flour",
+    "text": {
+      "name": {
+        "key": "domain.ware.flour",
+        "en": "Flour"
+      }
+    },
+    "category": "ware.foodChain",
+    "family": "ware.foodChain",
+    "tags": [],
+    "ware": {
+      "aliases": [
+        "flourbag"
+      ],
+      "boxSize": 10,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:coal",
+    "kind": "ware",
+    "key": "coal",
+    "text": {
+      "name": {
+        "key": "domain.ware.coal",
+        "en": "Coal"
+      }
+    },
+    "category": "ware.raw",
+    "family": "ware.raw",
+    "tags": [],
+    "ware": {
+      "boxSize": 12,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:ironOre",
+    "kind": "ware",
+    "key": "ironOre",
+    "text": {
+      "name": {
+        "key": "domain.ware.ironOre",
+        "en": "Iron ore"
+      }
+    },
+    "category": "ware.raw",
+    "family": "ware.raw",
+    "tags": [],
+    "ware": {
+      "aliases": [
+        "ore"
+      ],
+      "boxSize": 16,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:goldOre",
+    "kind": "ware",
+    "key": "goldOre",
+    "text": {
+      "name": {
+        "key": "domain.ware.goldOre",
+        "en": "Gold ore"
+      }
+    },
+    "category": "ware.raw",
+    "family": "ware.raw",
+    "tags": [],
+    "ware": {
+      "aliases": [
+        "gold"
+      ],
+      "boxSize": 16,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:iron",
+    "kind": "ware",
+    "key": "iron",
+    "text": {
+      "name": {
+        "key": "domain.ware.iron",
+        "en": "Iron"
+      }
+    },
+    "category": "ware.raw",
+    "family": "ware.raw",
+    "tags": [],
+    "ware": {
+      "aliases": [
+        "ironbar",
+        "ironbars"
+      ],
+      "boxSize": 8,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:coins",
+    "kind": "ware",
+    "key": "coins",
+    "text": {
+      "name": {
+        "key": "domain.ware.coins",
+        "en": "Gold coins"
+      }
+    },
+    "category": "ware.raw",
+    "family": "ware.raw",
+    "tags": [
+      "money"
+    ],
+    "ware": {
+      "aliases": [
+        "coin"
+      ],
+      "boxSize": 50,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:bread",
+    "kind": "ware",
+    "key": "bread",
+    "text": {
+      "name": {
+        "key": "domain.ware.bread",
+        "en": "Bread"
+      }
+    },
+    "category": "ware.food",
+    "family": "ware.food",
+    "tags": [],
+    "ware": {
+      "boxSize": 12,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:water",
+    "kind": "ware",
+    "key": "water",
+    "text": {
+      "name": {
+        "key": "domain.ware.water",
+        "en": "Water"
+      }
+    },
+    "category": "ware.foodChain",
+    "family": "ware.foodChain",
+    "tags": [],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:beer",
+    "kind": "ware",
+    "key": "beer",
+    "text": {
+      "name": {
+        "key": "domain.ware.beer",
+        "en": "Beer"
+      }
+    },
+    "category": "ware.drink",
+    "family": "ware.drink",
+    "tags": [],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:wine",
+    "kind": "ware",
+    "key": "wine",
+    "text": {
+      "name": {
+        "key": "domain.ware.wine",
+        "en": "Wine"
+      }
+    },
+    "category": "ware.drink",
+    "family": "ware.drink",
+    "tags": [],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:cloth",
+    "kind": "ware",
+    "key": "cloth",
+    "text": {
+      "name": {
+        "key": "domain.ware.cloth",
+        "en": "Cloth"
+      },
+      "description": {
+        "key": "content.ware.cloth.description",
+        "en": "Woven linen cloth, ready for sails and other textile work."
+      }
+    },
+    "category": "ware.raw",
+    "family": "ware.raw",
+    "tags": [],
+    "ware": {
+      "boxSize": 10,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:grapes",
+    "kind": "ware",
+    "key": "grapes",
+    "text": {
+      "name": {
+        "key": "domain.ware.grapes",
+        "en": "Grapes"
+      }
+    },
+    "category": "ware.foodChain",
+    "family": "ware.foodChain",
+    "tags": [],
+    "ware": {
+      "boxSize": 12,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      },
+      "handCarried": true
+    }
+  },
+  {
+    "id": "ware:honey",
+    "kind": "ware",
+    "key": "honey",
+    "text": {
+      "name": {
+        "key": "domain.ware.honey",
+        "en": "Honey"
+      }
+    },
+    "category": "ware.foodChain",
+    "family": "ware.foodChain",
+    "tags": [],
+    "ware": {
+      "boxSize": 10,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      },
+      "handCarried": true
+    }
+  },
+  {
+    "id": "ware:mead",
+    "kind": "ware",
+    "key": "mead",
+    "text": {
+      "name": {
+        "key": "domain.ware.mead",
+        "en": "Mead"
+      }
+    },
+    "category": "ware.drink",
+    "family": "ware.drink",
+    "tags": [],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:rice",
+    "kind": "ware",
+    "key": "rice",
+    "text": {
+      "name": {
+        "key": "domain.ware.rice",
+        "en": "Rice"
+      }
+    },
+    "category": "ware.foodChain",
+    "family": "ware.foodChain",
+    "tags": [],
+    "ware": {
+      "boxSize": 12,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      },
+      "handCarried": true
+    }
+  },
+  {
+    "id": "ware:sake",
+    "kind": "ware",
+    "key": "sake",
+    "text": {
+      "name": {
+        "key": "domain.ware.sake",
+        "en": "Sake"
+      }
+    },
+    "category": "ware.drink",
+    "family": "ware.drink",
+    "tags": [],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:coconut",
+    "kind": "ware",
+    "key": "coconut",
+    "text": {
+      "name": {
+        "key": "domain.ware.coconut",
+        "en": "Coconut"
+      },
+      "plural": {
+        "key": "domain.wareCount.coconut",
+        "en": "{count, plural, one {Coconut} other {Coconuts}}"
+      }
+    },
+    "category": "ware.foodChain",
+    "family": "ware.foodChain",
+    "tags": [],
+    "ware": {
+      "boxSize": 8,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      },
+      "handCarried": true
+    }
+  },
+  {
+    "id": "ware:toddy",
+    "kind": "ware",
+    "key": "toddy",
+    "text": {
+      "name": {
+        "key": "domain.ware.toddy",
+        "en": "Toddy"
+      }
+    },
+    "category": "ware.drink",
+    "family": "ware.drink",
+    "tags": [],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:teaLeaves",
+    "kind": "ware",
+    "key": "teaLeaves",
+    "text": {
+      "name": {
+        "key": "domain.ware.teaLeaves",
+        "en": "Tea leaves"
+      }
+    },
+    "category": "ware.foodChain",
+    "family": "ware.foodChain",
+    "tags": [],
+    "ware": {
+      "boxSize": 12,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      },
+      "handCarried": true
+    }
+  },
+  {
+    "id": "ware:tea",
+    "kind": "ware",
+    "key": "tea",
+    "text": {
+      "name": {
+        "key": "domain.ware.tea",
+        "en": "Tea"
+      }
+    },
+    "category": "ware.drink",
+    "family": "ware.drink",
+    "tags": [],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:pomegranate",
+    "kind": "ware",
+    "key": "pomegranate",
+    "text": {
+      "name": {
+        "key": "domain.ware.pomegranate",
+        "en": "Pomegranate"
+      },
+      "plural": {
+        "key": "domain.wareCount.pomegranate",
+        "en": "{count, plural, one {Pomegranate} other {Pomegranates}}"
+      }
+    },
+    "category": "ware.foodChain",
+    "family": "ware.foodChain",
+    "tags": [],
+    "ware": {
+      "boxSize": 12,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      },
+      "handCarried": true
+    }
+  },
+  {
+    "id": "ware:pomegranateJuice",
+    "kind": "ware",
+    "key": "pomegranateJuice",
+    "text": {
+      "name": {
+        "key": "domain.ware.pomegranateJuice",
+        "en": "Pomegranate juice"
+      }
+    },
+    "category": "ware.drink",
+    "family": "ware.drink",
+    "tags": [],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:cacaoBeans",
+    "kind": "ware",
+    "key": "cacaoBeans",
+    "text": {
+      "name": {
+        "key": "domain.ware.cacaoBeans",
+        "en": "Cacao beans"
+      }
+    },
+    "category": "ware.foodChain",
+    "family": "ware.foodChain",
+    "tags": [],
+    "ware": {
+      "boxSize": 12,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      },
+      "handCarried": true
+    }
+  },
+  {
+    "id": "ware:cacaoDrink",
+    "kind": "ware",
+    "key": "cacaoDrink",
+    "text": {
+      "name": {
+        "key": "domain.ware.cacaoDrink",
+        "en": "Cacao drink"
+      }
+    },
+    "category": "ware.drink",
+    "family": "ware.drink",
+    "tags": [],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:berries",
+    "kind": "ware",
+    "key": "berries",
+    "text": {
+      "name": {
+        "key": "domain.ware.berries",
+        "en": "Berries"
+      }
+    },
+    "category": "ware.foodChain",
+    "family": "ware.foodChain",
+    "tags": [],
+    "ware": {
+      "boxSize": 12,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      },
+      "handCarried": true
+    }
+  },
+  {
+    "id": "ware:berryDrink",
+    "kind": "ware",
+    "key": "berryDrink",
+    "text": {
+      "name": {
+        "key": "domain.ware.berryDrink",
+        "en": "Berry infusion"
+      }
+    },
+    "category": "ware.drink",
+    "family": "ware.drink",
+    "tags": [],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:pig",
+    "kind": "ware",
+    "key": "pig",
+    "text": {
+      "name": {
+        "key": "domain.ware.pig",
+        "en": "Pig"
+      },
+      "plural": {
+        "key": "domain.wareCount.pig",
+        "en": "{count, plural, one {Pig} other {Pigs}}"
+      }
+    },
+    "category": "ware.foodChain",
+    "family": "ware.foodChain",
+    "tags": [],
+    "ware": {
+      "boxSize": 2,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:hides",
+    "kind": "ware",
+    "key": "hides",
+    "text": {
+      "name": {
+        "key": "domain.ware.hides",
+        "en": "Hides"
+      }
+    },
+    "category": "ware.raw",
+    "family": "ware.raw",
+    "tags": [],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:leather",
+    "kind": "ware",
+    "key": "leather",
+    "text": {
+      "name": {
+        "key": "domain.ware.leather",
+        "en": "Leather"
+      }
+    },
+    "category": "ware.raw",
+    "family": "ware.raw",
+    "tags": [],
+    "ware": {
+      "boxSize": 10,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:armor",
+    "kind": "ware",
+    "key": "armor",
+    "text": {
+      "name": {
+        "key": "domain.ware.armor",
+        "en": "Armor"
+      },
+      "plural": {
+        "key": "domain.wareCount.armor",
+        "en": "{count, plural, one {Armor set} other {Armor sets}}"
+      }
+    },
+    "category": "ware.weapons",
+    "family": "ware.weapons",
+    "tags": [],
+    "ware": {
+      "boxSize": 4,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:boat",
+    "kind": "ware",
+    "key": "boat",
+    "text": {
+      "name": {
+        "key": "domain.ware.boat",
+        "en": "Boat"
+      },
+      "plural": {
+        "key": "domain.wareCount.boat",
+        "en": "{count, plural, one {Boat} other {Boats}}"
+      }
+    },
+    "category": "ware.transport",
+    "family": "ware.transport",
+    "tags": [],
+    "ware": {
+      "boxSize": 1,
+      "economy": {
+        "ledger": true,
+        "stock": false,
+        "trade": false
+      }
+    }
+  },
+  {
+    "id": "ware:axe",
+    "kind": "ware",
+    "key": "axe",
+    "text": {
+      "name": {
+        "key": "domain.ware.axe",
+        "en": "Axe"
+      },
+      "plural": {
+        "key": "domain.wareCount.axe",
+        "en": "{count, plural, one {Axe} other {Axes}}"
+      }
+    },
+    "category": "ware.tools",
+    "family": "ware.tools",
+    "tags": [
+      "tool",
+      "weapon"
+    ],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:saw",
+    "kind": "ware",
+    "key": "saw",
+    "text": {
+      "name": {
+        "key": "domain.ware.saw",
+        "en": "Saw"
+      },
+      "plural": {
+        "key": "domain.wareCount.saw",
+        "en": "{count, plural, one {Saw} other {Saws}}"
+      }
+    },
+    "category": "ware.tools",
+    "family": "ware.tools",
+    "tags": [
+      "tool"
+    ],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:pickaxe",
+    "kind": "ware",
+    "key": "pickaxe",
+    "text": {
+      "name": {
+        "key": "domain.ware.pickaxe",
+        "en": "Pickaxe"
+      },
+      "plural": {
+        "key": "domain.wareCount.pickaxe",
+        "en": "{count, plural, one {Pickaxe} other {Pickaxes}}"
+      }
+    },
+    "category": "ware.tools",
+    "family": "ware.tools",
+    "tags": [
+      "tool"
+    ],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:shovel",
+    "kind": "ware",
+    "key": "shovel",
+    "text": {
+      "name": {
+        "key": "domain.ware.shovel",
+        "en": "Shovel"
+      },
+      "plural": {
+        "key": "domain.wareCount.shovel",
+        "en": "{count, plural, one {Shovel} other {Shovels}}"
+      }
+    },
+    "category": "ware.tools",
+    "family": "ware.tools",
+    "tags": [
+      "tool"
+    ],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:hammer",
+    "kind": "ware",
+    "key": "hammer",
+    "text": {
+      "name": {
+        "key": "domain.ware.hammer",
+        "en": "Hammer"
+      },
+      "plural": {
+        "key": "domain.wareCount.hammer",
+        "en": "{count, plural, one {Hammer} other {Hammers}}"
+      }
+    },
+    "category": "ware.tools",
+    "family": "ware.tools",
+    "tags": [
+      "tool"
+    ],
+    "ware": {
+      "boxSize": 8,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:fishingRod",
+    "kind": "ware",
+    "key": "fishingRod",
+    "text": {
+      "name": {
+        "key": "domain.ware.fishingRod",
+        "en": "Fishing rod"
+      },
+      "plural": {
+        "key": "domain.wareCount.fishingRod",
+        "en": "{count, plural, one {Fishing rod} other {Fishing rods}}"
+      }
+    },
+    "category": "ware.tools",
+    "family": "ware.tools",
+    "tags": [
+      "tool"
+    ],
+    "ware": {
+      "boxSize": 8,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:scythe",
+    "kind": "ware",
+    "key": "scythe",
+    "text": {
+      "name": {
+        "key": "domain.ware.scythe",
+        "en": "Scythe"
+      },
+      "plural": {
+        "key": "domain.wareCount.scythe",
+        "en": "{count, plural, one {Scythe} other {Scythes}}"
+      }
+    },
+    "category": "ware.tools",
+    "family": "ware.tools",
+    "tags": [
+      "tool"
+    ],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:bow",
+    "kind": "ware",
+    "key": "bow",
+    "text": {
+      "name": {
+        "key": "domain.ware.bow",
+        "en": "Bow"
+      },
+      "plural": {
+        "key": "domain.wareCount.bow",
+        "en": "{count, plural, one {Bow} other {Bows}}"
+      }
+    },
+    "category": "ware.tools",
+    "family": "ware.tools",
+    "tags": [
+      "tool",
+      "weapon"
+    ],
+    "ware": {
+      "boxSize": 8,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:crucible",
+    "kind": "ware",
+    "key": "crucible",
+    "text": {
+      "name": {
+        "key": "domain.ware.crucible",
+        "en": "Crucible"
+      },
+      "plural": {
+        "key": "domain.wareCount.crucible",
+        "en": "{count, plural, one {Crucible} other {Crucibles}}"
+      }
+    },
+    "category": "ware.tools",
+    "family": "ware.tools",
+    "tags": [
+      "tool"
+    ],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:tongs",
+    "kind": "ware",
+    "key": "tongs",
+    "text": {
+      "name": {
+        "key": "domain.ware.tongs",
+        "en": "Tongs"
+      }
+    },
+    "category": "ware.tools",
+    "family": "ware.tools",
+    "tags": [
+      "tool"
+    ],
+    "ware": {
+      "boxSize": 8,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:rollingPin",
+    "kind": "ware",
+    "key": "rollingPin",
+    "text": {
+      "name": {
+        "key": "domain.ware.rollingPin",
+        "en": "Rolling pin"
+      },
+      "plural": {
+        "key": "domain.wareCount.rollingPin",
+        "en": "{count, plural, one {Rolling pin} other {Rolling pins}}"
+      }
+    },
+    "category": "ware.tools",
+    "family": "ware.tools",
+    "tags": [
+      "tool"
+    ],
+    "ware": {
+      "boxSize": 10,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:cleaver",
+    "kind": "ware",
+    "key": "cleaver",
+    "text": {
+      "name": {
+        "key": "domain.ware.cleaver",
+        "en": "Cleaver"
+      },
+      "plural": {
+        "key": "domain.wareCount.cleaver",
+        "en": "{count, plural, one {Cleaver} other {Cleavers}}"
+      }
+    },
+    "category": "ware.tools",
+    "family": "ware.tools",
+    "tags": [
+      "tool"
+    ],
+    "ware": {
+      "boxSize": 8,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:sword",
+    "kind": "ware",
+    "key": "sword",
+    "text": {
+      "name": {
+        "key": "domain.ware.sword",
+        "en": "Sword"
+      },
+      "plural": {
+        "key": "domain.wareCount.sword",
+        "en": "{count, plural, one {Sword} other {Swords}}"
+      }
+    },
+    "category": "ware.weapons",
+    "family": "ware.weapons",
+    "tags": [
+      "tool",
+      "weapon"
+    ],
+    "ware": {
+      "boxSize": 6,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:shield",
+    "kind": "ware",
+    "key": "shield",
+    "text": {
+      "name": {
+        "key": "domain.ware.shield",
+        "en": "Shield"
+      },
+      "plural": {
+        "key": "domain.wareCount.shield",
+        "en": "{count, plural, one {Shield} other {Shields}}"
+      }
+    },
+    "category": "ware.weapons",
+    "family": "ware.weapons",
+    "tags": [
+      "tool",
+      "weapon"
+    ],
+    "ware": {
+      "boxSize": 4,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:spyglass",
+    "kind": "ware",
+    "key": "spyglass",
+    "text": {
+      "name": {
+        "key": "domain.ware.spyglass",
+        "en": "Spyglass"
+      },
+      "plural": {
+        "key": "domain.wareCount.spyglass",
+        "en": "{count, plural, one {Spyglass} other {Spyglasses}}"
+      }
+    },
+    "category": "ware.tools",
+    "family": "ware.tools",
+    "tags": [
+      "tool"
+    ],
+    "ware": {
+      "boxSize": 8,
+      "economy": {
+        "ledger": true,
+        "stock": true,
+        "trade": true
+      }
+    }
+  },
+  {
+    "id": "ware:handcart",
+    "kind": "ware",
+    "key": "handcart",
+    "text": {
+      "name": {
+        "key": "domain.ware.handcart",
+        "en": "Hand cart"
+      },
+      "plural": {
+        "key": "domain.wareCount.handcart",
+        "en": "{count, plural, one {Hand cart} other {Hand carts}}"
+      }
+    },
+    "category": "ware.transport",
+    "family": "ware.transport",
+    "tags": [
+      "notCarried"
+    ],
+    "ware": {
+      "boxSize": 5,
+      "economy": {
+        "ledger": true,
+        "stock": false,
+        "trade": false
+      }
+    }
+  }
+]

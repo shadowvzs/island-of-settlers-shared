@@ -1,0 +1,398 @@
+{
+  "levels": {
+    "baseSteps": [
+      0, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 200, 400, 900, 1000, 1100, 1200,
+      1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 2000, 8100, 11000, 12000, 15000, 22000, 30000, 40000, 78000,
+      78000, 98000, 123000, 155000, 195000, 246000, 310000, 390000, 490000, 620000, 805000, 951000, 1192000, 1494000,
+      1874000, 2353000, 2940000, 3690000, 4630000, 5810000, 7280000
+    ],
+    "lateGrowthFrom": 61,
+    "lateStepGrowth": 1.1,
+    "lastLevel": 80,
+    "gemRewardLevel": 10
+  },
+  "materials": {
+    "tiers": [
+      {
+        "tier": 0, "wood": "softwood", "stone": "stone", "logs": "logs", "planks": "planks", "minimumLevel": 1
+      },
+      {
+        "tier": 1, "wood": "hardwood", "stone": "marble", "logs": "hardwoodLogs", "planks": "hardwoodPlanks",
+        "minimumLevel": 18
+      },
+      {
+        "tier": 2, "wood": "cedar", "stone": "limestone", "logs": "cedarLogs", "planks": "cedarPlanks",
+        "minimumLevel": 22
+      },
+      {
+        "tier": 3, "wood": "walnut", "stone": "basalt", "logs": "walnutLogs", "planks": "walnutPlanks",
+        "minimumLevel": 26
+      },
+      {
+        "tier": 4, "wood": "mahogany", "stone": "granite", "logs": "mahoganyLogs", "planks": "mahoganyPlanks",
+        "minimumLevel": 28
+      }
+    ]
+  },
+  "quests": {
+    "dailyCount": 1,
+    "rewardCoinsBase": 10,
+    "rewardCoinsPerLevel": 2,
+    "rewardMaterialBase": 2,
+    "rewardMaterialLevels": 10,
+    "mediumLevel": 10,
+    "bigLevel": 20,
+    "wareBatch": {
+      "tea": 0.5, "pomegranateJuice": 0.5, "cacaoDrink": 0.5, "berryDrink": 0.5, "armor": 0.3, "axe": 0.3,
+      "bow": 0.3, "coins": 0.3, "pig": 0.3, "shield": 0.3, "sword": 0.3, "wine": 0.5, "beer": 0.5, "iron": 0.5,
+      "goldOre": 0.6, "leather": 0.5, "flour": 0.7, "bread": 0.7, "planks": 0.8
+    },
+    "toolBatch": 0.3,
+    "experienceShare": 0.3,
+    "minimumExperience": 20,
+    "stoneMaterialWares": [
+      "coal", "goldOre", "granite", "iron", "ironOre", "limestone", "marble", "basalt", "stone"
+    ],
+    "excludedWares": ["boat"],
+    "excludedDonations": ["axe", "bow", "sword", "shield", "armor", "coins"],
+    "tutorialReserveWares": [
+      "logs", "planks", "water", "grain", "flax", "cloth", "pig", "hides", "leather", "grapes", "wine", "bread",
+      "planks", "water", "cloth", "beer", "bread", "planks", "wine", "cloth", "beer", "planks", "wine", "stone",
+      "cloth", "planks", "bread", "stone", "planks", "stone"
+    ]
+  },
+  "adventures": {
+    "difficulties": {
+      "easy": {
+        "camps": [5, 5, 5],
+        "ranks": [0]
+      },
+      "medium": {
+        "camps": [7, 6, 6, 6, 5],
+        "ranks": [0, 1]
+      },
+      "hard": {
+        "camps": [6, 10, 9, 9, 9, 8],
+        "ranks": [1, 2]
+      }
+    },
+    "offers": 4,
+    "limit": 1,
+    "rankWeights": [1, 1.25, 1.5],
+    "pointsPerLevel": [[20, 250], [30, 350], [50, 1560], [70, 6990]],
+    "coinsPerPoint": 2,
+    "waresPerPoint": {"coal": 0.3, "goldOre": 0.1, "ironOre": 0.3, "planks": 0.8, "stone": 0.6},
+    "colonyConquestExperienceShare": 0.5
+  },
+  "colonies": {"lifetimeDays": 14},
+  "monument": {"experienceBonusPercent": 25, "startDefenders": 3, "defenderRank": 2},
+  "talents": {
+    "maxRank": 5,
+    "pointsPerLevel": 1,
+    "tierGatePoints": 4,
+    "capstoneBranchPoints": 20,
+    "resetGems": 100,
+    "colonySettlerCap": 50,
+    "branches": ["economy", "logistics", "military"],
+    "list": [
+      {
+        "id": "productionSpeed",
+        "branch": "economy",
+        "tier": 1,
+        "requiredLevel": 1,
+        "effects": [
+          {"modifier": "productionSpeed", "perRank": 0.02}
+        ],
+        "affects": ["productionBuildings"]
+      },
+      {
+        "id": "storageCapacity",
+        "branch": "economy",
+        "tier": 1,
+        "requiredLevel": 1,
+        "effects": [
+          {"modifier": "storageCapacity", "perRank": 0.05}
+        ],
+        "affects": [0, 29, 39]
+      },
+      {
+        "id": "hunterFisherSpeed",
+        "branch": "economy",
+        "tier": 1,
+        "requiredLevel": 1,
+        "effects": [
+          {"modifier": "hunterFisherSpeed", "perRank": 0.05}
+        ],
+        "affects": [18, 22]
+      },
+      {
+        "id": "constructionSpeed",
+        "branch": "economy",
+        "tier": 2,
+        "requiredLevel": 5,
+        "effects": [
+          {"modifier": "constructionSpeed", "perRank": 0.03}
+        ],
+        "affects": ["builders"]
+      },
+      {
+        "id": "treeGrowth",
+        "branch": "economy",
+        "tier": 2,
+        "requiredLevel": 7,
+        "effects": [
+          {"modifier": "treeGrowthSpeed", "perRank": 0.05}
+        ],
+        "affects": ["trees"]
+      },
+      {
+        "id": "fieldGrowth",
+        "branch": "economy",
+        "tier": 3,
+        "requiredLevel": 12,
+        "effects": [
+          {"modifier": "fieldGrowthSpeed", "perRank": 0.05}
+        ],
+        "affects": [37, 5]
+      },
+      {
+        "id": "questRewards",
+        "branch": "economy",
+        "tier": 3,
+        "requiredLevel": 16,
+        "effects": [
+          {"modifier": "questRewards", "perRank": 0.05}
+        ],
+        "affects": ["dailyQuests"]
+      },
+      {
+        "id": "colonyProduction",
+        "branch": "economy",
+        "tier": 4,
+        "requiredLevel": 40,
+        "capstone": true,
+        "effects": [
+          {"modifier": "colonyProductionSpeed", "perRank": 0.05}
+        ],
+        "affects": ["colonies"]
+      },
+      {
+        "id": "populationLimit",
+        "branch": "logistics",
+        "tier": 1,
+        "requiredLevel": 1,
+        "effects": [
+          {"modifier": "populationLimit", "perRank": 0.03}
+        ],
+        "affects": [0, 57, 58, 59]
+      },
+      {
+        "id": "settlerGrowth",
+        "branch": "logistics",
+        "tier": 1,
+        "requiredLevel": 1,
+        "effects": [
+          {"modifier": "settlerGrowthSpeed", "perRank": 0.05}
+        ],
+        "affects": [0, 57, 58, 59]
+      },
+      {
+        "id": "carrierSpeed",
+        "branch": "logistics",
+        "tier": 1,
+        "requiredLevel": 1,
+        "effects": [
+          {"modifier": "carrierSpeed", "perRank": 0.03}
+        ],
+        "affects": ["carriers"]
+      },
+      {
+        "id": "handcartCapacity",
+        "branch": "logistics",
+        "tier": 2,
+        "requiredLevel": 5,
+        "effects": [
+          {"modifier": "handcartCapacity", "perRank": 0.1}
+        ],
+        "affects": ["handcarts"]
+      },
+      {
+        "id": "shipping",
+        "branch": "logistics",
+        "tier": 2,
+        "requiredLevel": 18,
+        "effects": [
+          {"modifier": "shippingTimeReduction", "perRank": 0.05},
+          {"modifier": "dockPorterSpeed", "perRank": 0.05}
+        ],
+        "affects": ["ships", "dockPorters"]
+      },
+      {
+        "id": "colonyStartSettlers",
+        "branch": "logistics",
+        "tier": 3,
+        "requiredLevel": 19,
+        "effects": [
+          {"modifier": "colonyStartSettlers", "perRank": 2}
+        ],
+        "affects": ["colonies"]
+      },
+      {
+        "id": "colonyShipInterval",
+        "branch": "logistics",
+        "tier": 3,
+        "requiredLevel": 20,
+        "effects": [
+          {"modifier": "colonyShipIntervalReduction", "perRank": 0.05}
+        ],
+        "affects": ["colonyShips"]
+      },
+      {
+        "id": "tradeOfferSlot",
+        "branch": "logistics",
+        "tier": 4,
+        "requiredLevel": 45,
+        "capstone": true,
+        "effects": [
+          {"modifier": "tradeOfferSlots", "perRank": 1}
+        ],
+        "affects": ["tradeOffice"]
+      },
+      {
+        "id": "recruitTraining",
+        "branch": "military",
+        "tier": 1,
+        "requiredLevel": 1,
+        "effects": [
+          {"modifier": "recruitTrainingSpeed", "perRank": 0.05}
+        ],
+        "affects": [40]
+      },
+      {
+        "id": "doorStrength",
+        "branch": "military",
+        "tier": 1,
+        "requiredLevel": 1,
+        "effects": [
+          {"modifier": "doorStrength", "perRank": 0.05}
+        ],
+        "affects": [1, 2, 4, 9]
+      },
+      {
+        "id": "towerArcherDamage",
+        "branch": "military",
+        "tier": 1,
+        "requiredLevel": 1,
+        "effects": [
+          {"modifier": "towerArcherDamage", "perRank": 0.05}
+        ],
+        "affects": ["towerArchers"]
+      },
+      {
+        "id": "adventureExperience",
+        "branch": "military",
+        "tier": 2,
+        "requiredLevel": 9,
+        "effects": [
+          {"modifier": "adventureExperience", "perRank": 0.05}
+        ],
+        "affects": ["adventures"]
+      },
+      {
+        "id": "adventureLoot",
+        "branch": "military",
+        "tier": 2,
+        "requiredLevel": 10,
+        "effects": [
+          {"modifier": "adventureLoot", "perRank": 0.05}
+        ],
+        "affects": ["adventures"]
+      },
+      {
+        "id": "siegeDamage",
+        "branch": "military",
+        "tier": 3,
+        "requiredLevel": 12,
+        "effects": [
+          {"modifier": "siegeDamage", "perRank": 0.05}
+        ],
+        "affects": ["soldiers"]
+      },
+      {
+        "id": "adventureSailing",
+        "branch": "military",
+        "tier": 3,
+        "requiredLevel": 15,
+        "effects": [
+          {"modifier": "adventureSailingReduction", "perRank": 0.05}
+        ],
+        "affects": ["adventureShips"]
+      },
+      {
+        "id": "soldierStrength",
+        "branch": "military",
+        "tier": 4,
+        "requiredLevel": 50,
+        "capstone": true,
+        "effects": [
+          {"modifier": "soldierHealth", "perRank": 0.03},
+          {"modifier": "soldierDamage", "perRank": 0.03}
+        ],
+        "affects": ["soldiers"]
+      }
+    ]
+  },
+  "trade": {
+    "wareValues": {
+      "logs": 10, "planks": 15, "stone": 15, "hardwoodLogs": 20, "hardwoodPlanks": 30, "marble": 30, "cedarLogs": 40,
+      "cedarPlanks": 60, "limestone": 60, "walnutLogs": 80, "walnutPlanks": 120, "basalt": 120, "mahoganyLogs": 160,
+      "mahoganyPlanks": 240, "granite": 240, "fish": 20, "meat": 20, "bread": 25, "water": 3, "grain": 10,
+      "flax": 10, "flour": 16, "pig": 30, "cloth": 25, "beer": 40, "wine": 30, "mead": 30, "sake": 30, "toddy": 30,
+      "grapes": 10, "honey": 10, "rice": 10, "coconut": 10, "tea": 30, "pomegranateJuice": 30, "cacaoDrink": 30,
+      "berryDrink": 30, "teaLeaves": 10, "pomegranate": 10, "cacaoBeans": 10, "berries": 10, "coal": 12,
+      "ironOre": 15, "goldOre": 18, "iron": 40, "hides": 25, "leather": 50, "coins": 20, "axe": 150, "saw": 150,
+      "pickaxe": 150, "shovel": 150, "hammer": 150, "fishingRod": 150, "scythe": 150, "crucible": 150, "tongs": 150,
+      "rollingPin": 150, "cleaver": 150, "bow": 150, "spyglass": 150, "sword": 150, "shield": 150, "armor": 150
+    },
+    "marketDaySeconds": 1440,
+    "merchantOfferCount": 12,
+    "merchantLotValue": {"max": 2400, "min": 300},
+    "merchantAskBand": {"max": 1.2, "min": 1.05},
+    "npcBidFactor": 0.65,
+    "fairnessThresholds": {"fair": 1, "generous": 0.85, "never": 1.5},
+    "npcBuyerDelaySeconds": {
+      "fair": {"max": 300, "min": 120},
+      "generous": {"max": 120, "min": 30},
+      "greedyMax": 3600
+    },
+    "maxActiveOffers": 5,
+    "offerLifetimeHours": 12,
+    "historyLimit": 200,
+    "maxLotAmount": 5000,
+    "protectedFloors": {
+      "fish": 10, "meat": 10, "bread": 10, "axe": 2, "saw": 2, "pickaxe": 2, "shovel": 2, "hammer": 2,
+      "fishingRod": 2, "scythe": 2, "crucible": 2, "tongs": 2, "rollingPin": 2, "cleaver": 2, "bow": 2,
+      "spyglass": 2
+    },
+    "shipVoyageSeconds": 30,
+    "shipsPerHarbour": 4
+  },
+  "market": {
+    "wares": [
+      "logs", "planks", "stone", "grain", "fish", "meat", "coal", "ironOre", "goldOre", "bow", "pickaxe", "hammer"
+    ],
+    "offerTtlSeconds": [3600, 21600, 43200],
+    "maxOpenOffers": 20
+  },
+  "economy": {
+    "starterStock": {
+      "logs": 24, "planks": 48, "stone": 48, "fish": 12, "bread": 12, "grain": 12, "water": 12, "coal": 20,
+      "ironOre": 20, "axe": 3, "saw": 3, "pickaxe": 4, "shovel": 4, "hammer": 6, "fishingRod": 3, "bow": 3,
+      "spyglass": 3, "scythe": 3, "crucible": 3, "tongs": 3, "rollingPin": 3, "cleaver": 3, "sword": 4, "shield": 4
+    },
+    "nationStarterStock": {"indigenous": {"cloth": 48}},
+    "roadSpeed": {
+      "dirt": 1, "stone": 1.1, "marble": 1.2, "limestone": 1.3, "basalt": 1.4, "granite": 1.5
+    }
+  }
+}
